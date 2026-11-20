@@ -1,0 +1,2391 @@
+<DOCUMENT_METADATA>
+  <SECTION_ID>SECTION_01_MINISTRIES_AND_SECTORS</SECTION_ID>
+  <SECTION_NAME>الوزارات والقطاعات الحكومية والعمومية</SECTION_NAME>
+  <TOTAL_PAGES>67</TOTAL_PAGES>
+  <INDEX>
+    1. [sectors/aadl.html] - وكالة عدل للسكن وتطويره | البوابة الجزائرية للخدمات الرقمية
+    2. [sectors/aapi.html] - الوكالة الوطنية للإستثمار | البوابة الجزائرية للخدمات الرقمية
+    3. [sectors/ade.html] - الجزائرية للمياه ADE | البوابة الجزائرية للخدمات الرقمية
+    4. [sectors/algerietelecom.html] - إتصالات الجزائر | البوابة الجزائرية للخدمات الرقمية
+    5. [sectors/anae.html] - الوكالة الوطنية للمقاول الذاتي | البوابة الجزائرية للخدمات الرقمية
+    6. [sectors/anem.html] - الوكالة الوطنية للتشغيل | البوابة الجزائرية للخدمات الرقمية
+    7. [sectors/anpdp.html] - حماية البيانات الشخصية في الجزائر
+    8. [sectors/arpce.html] - ARPCE | البوابة الجزائرية للخدمات الرقمية
+    9. [sectors/assurance.html] - وكالات التأمين على الممتلكات | البوابة الجزائرية للخدمات الرقمية
+    10. [sectors/awlyaa-education.html] - فضاء الأولياء 2026 | النتائج والتسجيل ومتابعة التلاميذ
+    11. [sectors/bank.html] - بنوك | البوابة الجزائرية للخدمات الرقمية
+    12. [sectors/campuce.jobs.html] - منصة توظيف مخصصة للطلبة الجزائريين | البوابة الجزائرية للخدمات الرقمية
+    13. [sectors/casnos.html] - CASNOS الجزائر | الضمان الاجتماعي للعمال غير الأجراء
+    14. [sectors/cnas.html] - CNAS الجزائر | الضمان الاجتماعي للعمال الأجراء
+    15. [sectors/cnr.html] - CNR الجزائر | خدمات التقاعد والضمان الاجتماعي
+    16. [sectors/commerce.html] - وزارة التجارة والجمارك | البوابة الجزائرية للخدمات الرقمية
+    17. [sectors/creg.gov.html] - لجنة ضبط الكهرباء والغاز CREG الجزائر | الخدمات الرقمية
+    18. [sectors/dgfp.gov.html] - الوظيفة العمومية والإصلاح الإداري في الجزائر
+    19. [sectors/dgsn.html] - الشرطة الجزائرية | البوابة الجزائرية للخدمات الرقمية
+    20. [sectors/djezzy.html] - خدمات الهاتف - جازي | البوابة الجزائرية للخدمات الرقمية
+    21. [sectors/douane.html] - الجمارك الجزائرية الإلكترونية | البوابة الجزائرية
+    22. [sectors/dronet.mdn.html] - المركز الوطني لمنظومات الطائرات بدون طيار على المتن
+    23. [sectors/emergency.html] - أرقام الطوارئ والنجدة | البوابة الجزائرية للخدمات الرقمية
+    24. [sectors/enpi.html] - المؤسسة الوطنية للترقية العقارية | البوابة الجزائرية للخدمات الرقمية
+    25. [sectors/facteur.html] - فاتورة الماء والكهرباء| البوابة الجزائرية للخدمات الرقمية
+    26. [sectors/facture_loyer.html] - فواتير استئجار السكن| البوابة الجزائرية للخدمات الرقمية
+    27. [sectors/fadaeldjazair.html] - الأملاك الوطنية - فضاء الجزائر | البوابة الجزائرية للخدمات الرقمية
+    28. [sectors/hatplc.html] - hatplc DZ | البوابة الجزائرية للخدمات الرقمية
+    29. [sectors/hcn.html] - المحافظة السامية للرقمنة | البوابة الجزائرية للخدمات الرقمية
+    30. [sectors/ina-elections.html] - السلطة الوطنية المستقلة للانتخابات
+    31. [sectors/interieur.html] - وزارة الداخلية | البوابة الجزائرية للخدمات الرقمية
+    32. [sectors/madr.html] - وزارة الفلاحة |البوابة الجزائرية للخدمات الرقمية
+    33. [sectors/markabatidz.html] - منصة فحص المركبات - مركبتي DZ | البوابة الجزائرية للخدمات الرقمية
+    34. [sectors/mdn.html] - وزارة الدفاع الوطني | البوابة الجزائرية للخدمات الرقمية
+    35. [sectors/me.gov.html] - وزارة البيئة وجودة الحياة الجزائرية
+    36. [sectors/medjedel.html] - Medjedel | البوابة الجزائرية للخدمات الرقمية
+    37. [sectors/mesrs.dz.html] - وزارة التعليم العالي والبحث العلمي | البوابة الجزائرية
+    38. [sectors/mf.gov.html] - المالية - الجباية | البوابة الجزائرية للخدمات الرقمية
+    39. [sectors/mfa.html] - الشؤون الخارجية والجالية الجزائرية
+    40. [sectors/mfp.gov.html] - التكوين المهني 2026 | البوابة الجزائرية
+    41. [sectors/mhuv.gov.html] - السكن، المدينة والعقار | البوابة الجزائرية للخدمات الرقمية
+    42. [sectors/mjeunesse.gov.html] - وزارة الشباب | البوابة الجزائرية للخدمات الرقمية
+    43. [sectors/mjustice.html] - العدالة تيك| البوابة الجزائرية للخدمات الرقمية
+    44. [sectors/mobilis.html] - خدمات الهاتف - موبيليس | البوابة الجزائرية للخدمات الرقمية
+    45. [sectors/msnfcf.gov.html] - التضامن والاسرة وقضايا المرأة | البوابة الجزائرية للخدمات الرقمية
+    46. [sectors/msport.gov.html] - وزارة الرياضة | البوابة الجزائرية للخدمات الرقمية
+    47. [sectors/mtess.html] - العمل، التشغيل والضمان الإجتماعي | البوابة الجزائرية للخدمات الرقمية
+    48. [sectors/mtpib.html] - وزارة الأشغال العمومية والمنشآت القاعدية | البوابة الجزائرية
+    49. [sectors/naftal.html] - نفطال | البوابة الجزائرية للخدمات الرقمية
+    50. [sectors/nifenligne.html] - الترقيم الجبائي | البوابة الجزائرية للخدمات الرقمية
+    51. [sectors/ocrc.html] - الديوان المركزي لقمع الفساد | البوابة الجزائرية للخدمات الرقمية
+    52. [sectors/onpo.html] - الديوان الوطني للحج والعمرة | البوابة الجزائرية
+    53. [sectors/ooredoo.html] - خدمات الهاتف - أوريدو | البوابة الجزائرية للخدمات الرقمية
+    54. [sectors/opgi.html] - ديوان الترقية والتسيير العقاري | البوابة الجزائرية للخدمات الرقمية
+    55. [sectors/ostad-education.html] - فضاء الأستاذ – منصات التوظيف، التقييم، والمسابقات | البوابة الجزائرية
+    56. [sectors/poste.html] - بريد الجزائر 2026 | البطاقة الذهبية وبريدي موب وECCP
+    57. [sectors/progres.mesrs.html] - Progres MESRS DZ 2026 | التسجيل والخدمات الجامعية
+    58. [sectors/qassimatouka.html] - - قسيمتك - قسيمة السيارات| البوابة الجزائرية للخدمات الرقمية
+    59. [sectors/sante.html] - الصحة العمومية | البوابة الجزائرية للخدمات الرقمية
+    60. [sectors/seaal.html] - سيال| البوابة الجزائرية للخدمات الرقمية
+    61. [sectors/seor.html] - للمياه سيور | البوابة الجزائرية للخدمات الرقمية
+    62. [sectors/sonalgaz-bill-guide.html] - كيف تقرأ فاتورة سونلغاز؟ شرح مبسط للكهرباء والغاز | البوابة الجزائرية
+    63. [sectors/sonalgaz.html] - خدمات سونلغاز الجزائر | دفع فاتورة الكهرباء والغاز وE-taqaty
+    64. [sectors/t-onec.html] - بنك الفروض والإختبارات t-onec | البوابة الجزائرية للخدمات الرقمية
+    65. [sectors/tabioucom.html] - طابعكم | البوابة الجزائرية للخدمات الرقمية
+    66. [sectors/telephon.html] - خدمات الهاتف النقال | البوابة الجزائرية للخدمات الرقمية
+    67. [sectors/transport.html] - النقل والمواصلات | البوابة الجزائرية للخدمات الرقمية
+  </INDEX>
+</DOCUMENT_METADATA>
+
+<PAGE id="sectors/aadl.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/aadl.html</ORIGINAL_URL>
+  <PAGE_TITLE>وكالة عدل للسكن وتطويره | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات وكالة عدل AADL الرقمية في الجزائر، تسجيل والدخول إلى منصة عدل 3، دفع فواتير الكراء إلكترونيا، متابعة الملفات السكنية، وخدمة الزبائن والتطبيقات الرسمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات وكالة عدل (AADL)
+    تسجيل الدخول لمنصة وكالة عدل 3
+    مصلحة خدمة الزبائن
+    [عنوان فرعي H3]: خدمات عن بعد
+    تسديد الفاتورة الشهرية للسكن
+    تطبيق AADL Mobile
+    تحميل تطبيق بريدي موب الجزائر
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="الدخول لمنصة وكالة عدل 3 تسجيل الدخول لمنصة وكالة عدل 3">https://aadl.dz/relogin</LINK>
+    <LINK label="فاتورة الكراء تسديد الفاتورة الشهرية للسكن">https://www.aadlgestimmo.dz/epayement/View/index.php</LINK>
+    <LINK label="تطبيق AADL تطبيق AADL Mobile">https://play.google.com/store/apps/details?id=dz.aadl.mobile</LINK>
+    <LINK label="تطبيق بريدي موب تحميل تطبيق بريدي موب الجزائر">https://play.google.com/store/apps/details?id=ru.bpc.mobilebank.bpc</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/aapi.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/aapi.html</ORIGINAL_URL>
+  <PAGE_TITLE>الوكالة الوطنية للإستثمار | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>الوكالة الجزائرية لترقية الاستثمار AAPI، توفر خدمات مرافقة المستثمرين، إنشاء المشاريع والاطلاع على الفرص الاستثمارية والإجراءات القانونية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في الوكالة الجزائرية لترقية الاستثمار
+    التسجيل في الوكالة الجزائرية لترقية الاستثمار
+    التسجيل في بوابة المستثمر
+    حامل مشروع
+    [عنوان فرعي H3]: تواصل مع الوكالة
+    التبليغ عن مخالفة
+    طرح إنشغالات
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://services.aapi.dz/login?Lang=AR</LINK>
+    <LINK label="بوابة المستثمر التسجيل في بوابة المستثمر">https://invest.gov.dz/check/realms/INVEST-REALM/login-actions/registration?execution=9bd07bb8-0d4d-4a3c-b130-2833b94e4fba&client_id=invest-backend&tab_id=D7utuX1rUls</LINK>
+    <LINK label="حامل مشروع حامل مشروع">https://services.aapi.dz/index?service=porteur</LINK>
+    <LINK label="التبليغ عن مخالفة التبليغ عن مخالفة">https://services.aapi.dz/index?service=infraction</LINK>
+    <LINK label="طرح إنشغال طرح إنشغالات">https://services.aapi.dz/index?service=requete</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/ade.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/ade.html</ORIGINAL_URL>
+  <PAGE_TITLE>الجزائرية للمياه ADE | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات الجزائرية للمياه ADE، تشمل دفع فاتورة المياه إلكترونيا وطلبات الاشتراك والتوصيل ومتابعة الاستهلاك والتبليغ عن الأعطال والانقطاعات</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تطبيق الجزائرية للمياه ADE
+    تحميبل تطبيق miyahimob
+    [عنوان فرعي H3]: خدمات الجزائرية للمياه ADE
+    دفع فاتورة المياه
+    محاكاة الفاتورة عبر الانترنات
+    إحصائيات الجزائرية للمياه
+    تسديد فاتورة الماء - الجزائرية للمياه
+    [عنوان فرعي H3]: تطبيقات الجزائرية للمياه ADE
+    تطبيق Miyahi-Mob
+    [عنوان فرعي H3]: التواصل مع الجزائرية للمياه ADE
+    إتصل بمصلحة خدمة الزبائن
+    الوكالة الرقمية - الجزائرية للمياه
+    تواصل مع الجزائرية للمياه
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=com.ade.adese&hl=ar</LINK>
+    <LINK label="دفع فاتورة المياه دفع فاتورة المياه">https://www.ade.dz/e-paiement/</LINK>
+    <LINK label="أحسب فاتورتك محاكاة الفاتورة عبر الانترنات">https://www.ade.dz/simuler-votre-facture</LINK>
+    <LINK label="إحصائيات إحصائيات الجزائرية للمياه">https://www.ade.dz/leau-dans-ma-wilaya</LINK>
+    <LINK label="فضاء الزبون الوكالة الرقمية - الجزائرية للمياه">https://www.ade.dz/login</LINK>
+    <LINK label="تواصل تواصل مع الجزائرية للمياه">https://www.ade.dz/contact</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/algerietelecom.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/algerietelecom.html</ORIGINAL_URL>
+  <PAGE_TITLE>إتصالات الجزائر | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات اتصالات الجزائر الرقمية، يشمل فضاء الزبائن، تحويل خط هاتفي، تعبئة الإنترنت والهاتف، دفع الفواتير، متابعة الاشتراكات والخدمات الإلكترونية المتاحة</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: طلب التحويل إلى خدمة الألياف البصرية
+    الطلبات متوفرة - لا تفوت الفرصة
+    [عنوان فرعي H3]: بطاقات التعبئة
+    تعبئة الانترنت
+    تعبئة IDOOM 4G LTE
+    [عنوان فرعي H3]: الدفع الإلكتروني
+    دفع فاتورة الهاتف الثابت
+    دفع مستحقات الهاتف الثابت
+    تعبئة الانترنت
+    تعبئة حساب IDOOM 4G LTE
+    [عنوان فرعي H3]: فضاء الزبائن
+    تفعيل الإشتراك تركيب مودم ألياف بصرية
+    فضاء الزبون - إنشاء حساب / تسجيل الدخول
+    تقديم طلب إلكتروني
+    الإبلاغ عن عطب
+    طلب التحويل / متابعة إلى خدمة الألياف البصرية
+    طلب تحويل الخط الهاتفي إلى عنوان آخر عبر الموقع الرسمي لاتصالات الجزائر
+    البحث عن وكالتي - إتصالات الجزائر
+    إكتشف رقم هاتفك الثابت FTTH
+    [عنوان فرعي H3]: عروض وتطبيقات
+    WEEK-END Boost
+    تسويق IDOOM Markit
+    تطبيق E-paiement لإتصالات الجزائر
+    تطبيق My IDOOM لإتصالات الجزائر
+    منصة معلم لإتصالات الجزائر
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حولها الآن">https://www.algerietelecom.dz/ar/page/migration-p232</LINK>
+    <LINK label="تعبئة الانترنت تعبئة الانترنت">https://paiement.algerietelecom.dz/AR/index.php?p=voucher_internet&produit=in</LINK>
+    <LINK label="تعبئة IDOOM 4G LTE تعبئة IDOOM 4G LTE">https://paiement.algerietelecom.dz/AR/index.php?p=voucher_internet&produit=4g</LINK>
+    <LINK label="فاتورة الهاتف الثابت دفع فاتورة الهاتف الثابت">https://paiement.algerietelecom.dz/AR/index.php?p=facture_paiement</LINK>
+    <LINK label="مستحقات الهاتف الثابت دفع مستحقات الهاتف الثابت">https://paiement.algerietelecom.dz/AR/index.php?p=dette_paiement</LINK>
+    <LINK label="تعبئة الانترنت تعبئة الانترنت">https://paiement.algerietelecom.dz/AR/index.php?p=internet_recharge&pr=in</LINK>
+    <LINK label="تعبئة IDOOM 4G LTE تعبئة حساب IDOOM 4G LTE">https://paiement.algerietelecom.dz/AR/index.php?p=internet_recharge&pr=4g</LINK>
+    <LINK label="جديد تفعيل الإشتراك تفعيل الإشتراك تركيب مودم ألياف بصرية">https://www.algerietelecom.dz/ar/page/formulaire-de-signalisation-pour-les-clients-raccordes-a-la-fibre-optique-sans-mise-en-service-p315?fbclid=IwY2xjawTIJ31leHRuA2FlbQIxMABicmlkETFPRDk0cUxJSEZ1VE1ZTWc2c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtVU8ETaMTqd3F8wTTpNYnKW1J7WQ-5Y3z3c9DpIa9uW4-c2ztWWZh3W4IRi_aem_U5ToEaH8dFrPtOQN2kmAhw</LINK>
+    <LINK label="فضاء الزبون فضاء الزبون - إنشاء حساب / تسجيل الدخول">https://client.at.dz/ar</LINK>
+    <LINK label="طلب إلكتروني تقديم طلب إلكتروني">https://www.algerietelecom.dz/ar/demande-na</LINK>
+    <LINK label="الإبلاغ عن عطب الإبلاغ عن عطب">https://www.algerietelecom.dz/ar/derangements</LINK>
+    <LINK label="تحويل خط هاتفي طلب تحويل الخط الهاتفي إلى عنوان آخر عبر الموقع الرسمي لاتصالات الجزائر">https://www.algerietelecom.dz/ar/page/B7-p332</LINK>
+    <LINK label="إبحث عن وكالة البحث عن وكالتي - إتصالات الجزائر">https://www.algerietelecom.dz/ar/page/trouver-mon-agence-p256</LINK>
+    <LINK label="إكتشف رقم هاتفك الثابت FTTH إكتشف رقم هاتفك الثابت FTTH">https://www.algerietelecom.dz/ar/page/trouver-votre-numero-de-fixe-p268</LINK>
+    <LINK label="WEEK-END Boost WEEK-END Boost">https://www.algerietelecom.dz/ar/particuliers/week-end-boost-prod227</LINK>
+    <LINK label="تطبيق E-paiement تطبيق E-paiement لإتصالات الجزائر">https://play.google.com/store/apps/details?id=dz.algerietelecom.rd.e_paiement&hl=ar</LINK>
+    <LINK label="تطبيق My IDOOM تطبيق My IDOOM لإتصالات الجزائر">https://play.google.com/store/apps/details?id=com.at.dz&hl=ar</LINK>
+    <LINK label="منصة معلم منصة معلم لإتصالات الجزائر">https://www.moalim-dz.net/moalim_v2/login/index.php</LINK>
+    <LINK label="المعلم المعلم">https://inkidia.com.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/anae.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/anae.html</ORIGINAL_URL>
+  <PAGE_TITLE>الوكالة الوطنية للمقاول الذاتي | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>توفر البوابة الجزائرية للخدمات الرقمية منصة للوصول إلى خدمات الوكالة الوطنية للمقاول الذاتي، وتتيح طلب واستخراج بطاقة المقاول الذاتي إلكترونيا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: طلب البطاقة المقاول الذاتي
+    الطلبات متوفرة - لا تفوت الفرصة
+    [عنوان فرعي H3]: خدمات المقاول الذاتي
+    طلب بطاقة المقاول الذاتي
+    طريقة الإستخراج
+    [عنوان فرعي H3]: الإتصال بالوكالة
+    الإتصال بالوكالة
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أطلبها الآن">https://anae.dz/user/ae/register/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/anem.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/anem.html</ORIGINAL_URL>
+  <PAGE_TITLE>الوكالة الوطنية للتشغيل | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات الوكالة الوطنية للتشغيل ANEM: التسجيل في منحة البطالة، عروض العمل، فرصتي، وتطبيقات التشغيل الرسمية في الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في منحة البطالة
+    [عنوان فرعي H3]: خدمات عن بعد
+    التسجيل في منحة البطالة
+    تمديد في منحة البطالة
+    فرصتي - التقدم لعروض العمل
+    فرص عمل وإعلانات
+    تطبيق ANEM-Dz
+    تطبيق Mon Agence للبحث عن وكالة
+    تطبيق Mon Offre لعروض العمل
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://minha.anem.dz/pre_inscription</LINK>
+    <LINK label="منحة البطالة تمديد في منحة البطالة">https://wassitonline.anem.dz/postulation/prolongationDemande</LINK>
+    <LINK label="فرصتي فرصتي - التقدم لعروض العمل">https://auth.anem.dz/Account/Login</LINK>
+    <LINK label="فرص عمل وإعلانات فرص عمل وإعلانات">https://www.anem.dz/opportunites/ar.html</LINK>
+    <LINK label="تطبيق ANEM-Dz تطبيق ANEM-Dz">https://www.anem.dz/app_mobile/Name.apk</LINK>
+    <LINK label="تطبيق Mon Agence تطبيق Mon Agence للبحث عن وكالة">https://www.anem.dz/app_mobile/Mon_agence.apk</LINK>
+    <LINK label="تطبيق Mon Offre تطبيق Mon Offre لعروض العمل">https://www.anem.dz/app_mobile/Mon_offre.apk</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/anpdp.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/anpdp.html</ORIGINAL_URL>
+  <PAGE_TITLE>حماية البيانات الشخصية في الجزائر</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات السلطة الوطنية لحماية المعطيات ذات الطابع الشخصي ANPDP في الجزائر، لتقديم الشكاوى والاحتجاجات وحماية البيانات الشخصية والتواصل والاستشارات القانونية والخدمات</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: قدم إحتجاج أو طعن أو شكوى أمام السلطة الوطنية
+    بسبب إستغلال معطياتك الشخصية بدون إذن
+    [عنوان فرعي H3]: خدمات السلطة الوطنية لحماية المعطيات ذات الطابع الشخصي
+    تقديم إحتجاج عن استغلال غير مشروع لبيناتك الشخصية
+    السلطة الوطنية لحماية المعطيات ذات الطابع الشخصي
+    لطلب موعد أو إرسال مراسلة رسمية ممسوحة ضوئيا (Scanned)
+    لطرح أسئلة أو انشغالات قانونية تتعلق بأحكام القانون 18-07 (المتعلق بحماية الأشخاص الطبيعيين في مجال معالجة المعطيات ذات الطابع الشخصي).
+    لطرح أسئلة أو الإبلاغ عن مشاكل تقنية تتعلق باستعمال البوابة الرقمية للسلطة الوطنية.
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="قدم الآن">https://plaintes.anpdp.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/arpce.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/arpce.html</ORIGINAL_URL>
+  <PAGE_TITLE>ARPCE | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>مجموعة من الخدمات عن بعد وتطبيقات تحسين جودة الاتصالات، توطين، تطوير البنية التحتية، ودعم الابتكار في قطاع الاتصالات لضمان تجربة رقمية متطورة وآمنة للمواطن الجزائري</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: مهارات رقمية لكل جيل 7.77
+    اكتساب مهارات رقمية عملية، استخدام آمن للإنترنت، وفرص جديدة
+    [عنوان فرعي H3]: خدمات سلطة الضبط البريد والاتصالات الالكترونية
+    مبادرة وطنية للإدماج الرقمي وتطوير المهارات حضوريا وعن بعد
+    منصة الإدماج الرقمي وتطوير المهارات
+    تابع طريقة التعلم والإدماج الرقمي وتطوير المهارات عن بعد
+    استمارة طلب خدمة عبر الموقع
+    دفع فاتورة سلطة الضبط عبر الإنترنت
+    التحقق من عدد الشرائح (SIM) المسلجلة بإسمك عبر متعاملي الهاتف النقال
+    تحميل تطبيق جودتي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أحجز في الدورةالأن">https://777.mpt.gov.dz/calendar#cal-board</LINK>
+    <LINK label="طلب خدمة استمارة طلب خدمة عبر الموقع">https://www.arpce.dz/ar/service/request</LINK>
+    <LINK label="دفع فاتورة دفع فاتورة سلطة الضبط عبر الإنترنت">https://epay.arpce.dz/</LINK>
+    <LINK label="جودتي تحميل تطبيق جودتي">https://play.google.com/store/apps/details?id=dz.arpce.jawdati</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/assurance.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/assurance.html</ORIGINAL_URL>
+  <PAGE_TITLE>وكالات التأمين على الممتلكات | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات التأمين على الممتلكات الرقمية في الجزائر، من حجز التأمين إلى تتبع وسائل التأمين، كل ما تحتاجه لتسهيل حياتك اليومية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تعرف على وكالات التأمين على الممتلكات
+    [عنوان فرعي H3]: وكالات التأمين على الممتلكات
+    الشركة الجزائرية للتأمينات (CAAT)
+    الشركة الجزائرية للتأمين وإعادة التأمين (CAAR)
+    ترست الجزائر للتأمينات (Trust Algeria)
+    أليانس للتأمينات (Alliance Assurances)
+    الشركة الجزائرية للتأمينات (SAA)
+    كارديف للتأمينات (Cardif Algérie)
+    أكسا للتأمينات (AXA Assurances Algérie)
+    مجموعة الخليج للتأمين (GIG)
+    أمانة للتأمينات (Amana Assurances)
+    سلامة للتأمينات (Salama Assurances)
+    ماكير في للتأمين على الحياة (Macir Vie)
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات الضمان الاجتماعي والتغطية الصحية الرقمية
+    خدمات الدفع والحسابات البريدية والمعاملات الرقمية
+    الوثائق الإدارية اللازمة للملفات والخدمات عن بعد
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="sectors/awlyaa-education.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/awlyaa-education.html</ORIGINAL_URL>
+  <PAGE_TITLE>فضاء الأولياء 2026 | النتائج والتسجيل ومتابعة التلاميذ</PAGE_TITLE>
+  <SEO_DESCRIPTION>ادخل إلى فضاء الأولياء في الجزائر لمتابعة نتائج التلاميذ والغيابات والتواصل مع المدرسة والتسجيل في الامتحانات. روابط المنصة الرسمية وشرح خطوات الاستخدام.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: إمتحانات البكالوريا 2026
+    الاطلاع على نتائج امتحان البكالوريا باستخدام رقم التسجيل
+    [عنوان فرعي H3]: فضاء الأولياء والتلاميذ
+    التصديق على كشوف النقاط وشهادة البكالوريا الموجهة للاستعمال بالخارج
+    متابعة أبنائك الدراسية، النتائج، الغيابات، والتواصل مع المدرسة
+    منصة توجيه ودعم الطلاب المتحصلين على شهادة الباكالوريا، إختر مستقبلك
+    بنك الفروض والاختبارات لجميع المستويات التعليمية
+    كل ما يحتاجه الطالب الجزائري في مكان واحد، الجامعات ، المدارس والمعاهد،
+    [عنوان فرعي H3]: فضاء الأستاذ
+    فضاءالأستاذ الشامل لإدارة العملية التربوية والتواصل مع الإدارة
+    [عنوان فرعي H3]: التعليم والتكوين عن بعد
+    التسجيل في برامج التعليم عن بعد
+    استخراج شهادات إثبات المستوى
+    [عنوان فرعي H3]: التسجيل في الامتحانات الوطنية
+    التسجيل في امتحان شهادة البكالوريا، متابعة الطلب، وطبع الاستدعاء
+    التسجيل في امتحان السنة الرابعة متوسط، الاطلاع على النتائج
+    تسديد مستحقات التسجيل في امتحانات BEM و BAC إلكترونيا
+    [عنوان فرعي H3]: النتائج والشهادات الإمتحانات الوطينية
+    الاطلاع على نتائج شهادة التعليم المتوسط باستخدام رقم التسجيل
+    الاطلاع على نتائج امتحان البكالوريا باستخدام رقم التسجيل
+    استخراج شهادة إثبات المستوى للتلاميذ المسجلين في التعليم عن بعد
+    [عنوان فرعي H3]: فيديوهات شرح الخدمات
+    طريقة التسجيل
+    [عنوان فرعي H3]: بنك الفروض والاختبارات
+    لجميع المستويات مع التصحيح
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات التسجيل الجامعي والتكوين ومتابعة المسار الدراسي
+    كل ما يحتاجه الطالب الجزائري في مكان واحد، الجامعات ، المدارس والمعاهد،
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إستكشف الآن">https://bac.onec.dz/</LINK>
+    <LINK label="فضاء أولياء التلاميذ متابعة أبنائك الدراسية، النتائج، الغيابات، والتواصل مع المدرسة">https://awlyaa.education.dz/login</LINK>
+    <LINK label="DZ-Orientation منصة توجيه ودعم الطلاب المتحصلين على شهادة الباكالوريا، إختر مستقبلك">https://dzorientation.com</LINK>
+    <LINK label="إثبات المستوى استخراج شهادات إثبات المستوى">https://www.onefd.edu.dz/att_niv_2025/</LINK>
+    <LINK label="شهادة التعليم المتوسط BEM التسجيل في امتحان السنة الرابعة متوسط، الاطلاع على النتائج">https://bem.onec.dz/</LINK>
+    <LINK label="الدفع الإلكتروني للامتحانات تسديد مستحقات التسجيل في امتحانات BEM و BAC إلكترونيا">https://epay.education.dz/auth</LINK>
+    <LINK label="شهادة إثبات المستوى استخراج شهادة إثبات المستوى للتلاميذ المسجلين في التعليم عن بعد">https://www.onefd.edu.dz/att_niv_**/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/bank.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/bank.html</ORIGINAL_URL>
+  <PAGE_TITLE>بنوك | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات البنوك والمالية الرقمية في الجزائر، من حجز القروض إلى تتبع وسائل الاستثمارات، كل ما تحتاجه لتسهيل حياتك اليومية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تعرف على مختلف البنوك الوطنية والأجنبية
+    بنوك عمومية وطنية
+    بنوك أحنبية
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    الصيرفة الإلكترونية وتطبيقات الدفع والخدمات البنكية الرقمية
+    الادخار والتمويل العقاري والخدمات البنكية الرقمية
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="sectors/campuce.jobs.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/campuce.jobs.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة توظيف مخصصة للطلبة الجزائريين | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>فرص عمل للطلاب الوصول إلى وظائف بدوام جزئي، وفرص تدريب، ومهام تتناسب مع مسارك الدراسي. تقديم سريع. تقديم سريع تقدّم للوظائف في بضع نقرات فقط، عبر ملف شخصي موحد</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في المنصة
+    التسجيل في منصة توظيف مخصصة للطلبة الجزائرين - آفاق جديدة
+    [عنوان فرعي H3]: منصة توظيف مخصصة للطلبة الجزائرين - آفاق جديدة
+    تسجيل الدخول الى منصة التوظيف المخصصة
+    إكتشف عروض العمل على المنصة
+    إكتشف شركاء CAMPUCE JOBs
+    أطلب الآن - بطاقة المقاول الذاتي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://jobs.student-campuce.dz/auth/login</LINK>
+    <LINK label="عروض العمل إكتشف عروض العمل على المنصة">https://jobs.student-campuce.dz/job-offers</LINK>
+    <LINK label="الشركاء إكتشف شركاء CAMPUCE JOBs">https://jobs.student-campuce.dz/companies</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/casnos.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/casnos.html</ORIGINAL_URL>
+  <PAGE_TITLE>CASNOS الجزائر | الضمان الاجتماعي للعمال غير الأجراء</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات CASNOS في الجزائر: فضاء المؤمن، الانتساب والتصريح عن بعد، استخراج الشهادات ومتابعة ملفات الضمان الاجتماعي للعمال غير الأجراء</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS الجزائر | الضمان الاجتماعي للعمال غير الأجراء)
+    إستخراج شهادة الإنتساب
+    إستخراج شهادة عدم الإنتساب
+    طلب الإنتساب عن بعد في الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS الجزائر | الضمان الاجتماعي للعمال غير الأجراء)، الدفع الإليكتروني عن بعد
+    التغطية الاجتماعية للفلاحين، طلب الإنتساب عن بعد ، دفع عن بعد، نظام التقاعد
+    محاكاة الإشتراك في نظام التقاعد
+    تقديم شكوى حول أي مشكلة
+    تسجيل الدخول إلى فضاء المؤمن / التقاعد
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الأجراء (CNAS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الأجراء
+    [عنوان فرعي H3]: الصندوق الوطني للتقاعد (CNR)
+    الدخول إلى الصندوق الوطني للتقاعد (CNR)
+    [عنوان فرعي H3]: تطبيقات وزارة العمل، التشغيل والضمان الإجتماعي
+    تحميل تطبيق الهناء
+    تحميل تطبيق المتقاعد
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="شهادة الإنتساب إستخراج شهادة الإنتساب">https://damancom.casnos.dz/auth/login/assure</LINK>
+    <LINK label="شهادة عدم الإنتساب إستخراج شهادة عدم الإنتساب">https://damancom.casnos.dz/non-affiliation</LINK>
+    <LINK label="طلب الإنتساب عن بعد طلب الإنتساب عن بعد في الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS الجزائر | الضمان الاجتماعي للعمال غير الأجراء)، الدفع الإليكتروني عن بعد">https://damancom.casnos.dz/affiliation</LINK>
+    <LINK label="جدبد حمايتي التغطية الاجتماعية للفلاحين، طلب الإنتساب عن بعد ، دفع عن بعد، نظام التقاعد">https://damancom.casnos.dz/himayati/</LINK>
+    <LINK label="جدبد محاكاة محاكاة الإشتراك في نظام التقاعد">https://damancom.casnos.dz/simulation</LINK>
+    <LINK label="جدبد تقديم شكوى تقديم شكوى حول أي مشكلة">https://damancom.casnos.dz/doleances</LINK>
+    <LINK label="جدبد قضاء المؤمن / التقاعد تسجيل الدخول إلى فضاء المؤمن / التقاعد">https://damancom.casnos.dz/</LINK>
+    <LINK label="تطبيق الهناء تحميل تطبيق الهناء">https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=ar</LINK>
+    <LINK label="تطبيق المتقاعد تحميل تطبيق المتقاعد">https://play.google.com/store/apps/details?id=dz.cnr.cnr</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/cnas.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/cnas.html</ORIGINAL_URL>
+  <PAGE_TITLE>CNAS الجزائر | الضمان الاجتماعي للعمال الأجراء</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات CNAS في الجزائر: فضاء الهناء، التصريح عن بعد، استخراج الشهادات ومتابعة ملفات الضمان الاجتماعي للعمال الأجراء</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حمل تطبيق الهناء
+    لا تفوت الفرصة وإستمتاع بالعديد من الخدمات الرقمية
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الأجراء (CNAS الجزائر | الضمان الاجتماعي للعمال الأجراء)
+    أرباب العمل (المستخدمين)
+    المؤمن لهم اجتماعيا (الأجراء)
+    التسجيل في فضاء الهناء
+    تحقق من شهادة الانتساب
+    التحقق من شهادة أداء المستحقات
+    إستخراج شهادة الإنتساب
+    إستخراج شهادة عدم الإنتساب
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء
+    [عنوان فرعي H3]: الصندوق الوطني للتقاعد (CNR)
+    الدخول إلى الصندوق الوطني للتقاعد (CNR)
+    [عنوان فرعي H3]: تطبيقات وزارة العمل، التشغيل والضمان الإجتماعي
+    تحميل تطبيق الهناء
+    تحميل تطبيق المتقاعد
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج وثائق الحالة المدنية المطلوبة في الملفات الإدارية
+    الوصول إلى الخدمات الصحية والمنصات الرقمية الصحية
+    الدفع الإلكتروني ومتابعة الخدمات البريدية عن بعد
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=ar</LINK>
+    <LINK label="البوابة الرقمية للتصريح عن بعد أرباب العمل (المستخدمين)">https://teledeclaration.cnas.dz/</LINK>
+    <LINK label="خدمات فضاء الهناء المؤمن لهم اجتماعيا (الأجراء)">https://elhanaa.cnas.dz</LINK>
+    <LINK label="فضاء الهناء التسجيل في فضاء الهناء">https://elhanaa.cnas.dz/inscription.xhtml</LINK>
+    <LINK label="فضاء الهناء تحقق من شهادة الانتساب">https://elhanaa.cnas.dz/affiliation.xhtml</LINK>
+    <LINK label="فضاء الهناء التحقق من شهادة أداء المستحقات">https://teledeclaration.cnas.dz/checkMAJ.jsp</LINK>
+    <LINK label="شهادة عدم الإنتساب إستخراج شهادة عدم الإنتساب">https://elhanaa.cnas.dz/attestation_no_affiliation.xhtml</LINK>
+    <LINK label="تطبيق المتقاعد تحميل تطبيق المتقاعد">https://play.google.com/store/apps/details?id=dz.cnr.cnr</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/cnr.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/cnr.html</ORIGINAL_URL>
+  <PAGE_TITLE>CNR الجزائر | خدمات التقاعد والضمان الاجتماعي</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات الصندوق الوطني للتقاعد CNR في الجزائر: حساب التقاعد، متابعة الملف، صب المعاش، تثمين المعاش وخدمات المتقاعدين</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حمل تطبيق المتقاعد
+    لا تفوت الفرصة وإستمتاع بالعديد من الخدمات الرقمية
+    [عنوان فرعي H3]: CNR الجزائر | خدمات التقاعد والضمان الاجتماعي (CNR) فضاء المتقاعد
+    حساب المتقاعد
+    حساب تاريخ صب المعاش
+    التقاعد المنقول
+    متابعة ملف التقاعد، متقاعد، وضعية الملف، تقديم عريضة، شكوى
+    تثمين المعاش
+    [عنوان فرعي H3]: CNR الجزائر | خدمات التقاعد والضمان الاجتماعي (CNR) فضاء أرباب العمل
+    التحقق من صحة الوثائق، شهادة الدخل، شهادة عدم تقاضي المنحة
+    فضاء صاحب العمل
+    [عنوان فرعي H3]: CNR الجزائر | خدمات التقاعد والضمان الاجتماعي (CNR) فضاء العامل الأجير
+    الحساب الفردي للأجير
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الأجراء (CNAS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الأجراء
+    [عنوان فرعي H3]: تطبيقات وزارة العمل، التشغيل والضمان الإجتماعي
+    تحميل تطبيق الهناء
+    تحميل تطبيق المتقاعد
+    تحميل تطبيق الحساب الفردي للأجير
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=dz.cnr.cnr</LINK>
+    <LINK label="حساب المتقاعد حساب المتقاعد">https://retraite.cnr.dz/#/login</LINK>
+    <LINK label="تاريخ صب المعاش حساب تاريخ صب المعاش">https://calccp.cnr.dz/</LINK>
+    <LINK label="التقاعد المنقول التقاعد المنقول">https://mankoul.cnr.dz/</LINK>
+    <LINK label="متابعة ملف التقاعد متابعة ملف التقاعد، متقاعد، وضعية الملف، تقديم عريضة، شكوى">https://suivi.cnr.dz/</LINK>
+    <LINK label="تثمين المعاش تثمين المعاش">https://reval.cnr.dz/</LINK>
+    <LINK label="التحقق من صحة الوثائق التحقق من صحة الوثائق، شهادة الدخل، شهادة عدم تقاضي المنحة">https://retraite.cnr.dz/#/validate</LINK>
+    <LINK label="فضاء صاحب العمل فضاء صاحب العمل">https://fel.cnr.dz/login</LINK>
+    <LINK label="فضاء العامل الأجير الحساب الفردي للأجير">https://cis.cnr.dz/</LINK>
+    <LINK label="تطبيق الهناء تحميل تطبيق الهناء">https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=ar</LINK>
+    <LINK label="تطبيق الحساب الفردي للأجير (CIS) تحميل تطبيق الحساب الفردي للأجير">https://play.google.com/store/apps/details?id=dz.cnr.mobi_cis&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/commerce.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/commerce.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة التجارة والجمارك | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم وزارة التجارة والجمارك مجموعة من الخدمات الرقمية التي تتيح للمواطنين الجزائريين الوصول إلى خدمات الوزارة بكل سهولة ويسر، دون الحاجة للتنقل</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تطبيق رفيقكوم
+    لا تفوت الفرصة والإستمتاع بالعديد من الخدمات الرقمية
+    [عنوان فرعي H3]: خدمات إليكترونية لوزارة التجارة وترقية الصادرات
+    المنصة الرقمية لتسيير الصندوق الخاص لترقية الصادرات
+    فضاء التصريح والدفع الإلكترونيين - جباية تيك
+    فضاء التصريح والدفع الإلكترونيين - جباية تيك
+    [عنوان فرعي H3]: خدمات إليكترونية للجمارك الجزائرية
+    المعلومة التعريفية الملزمة - RTC
+    الموقع الرسمي للجمارك الجزائرية
+    الإتصال بالجمارك الجزائرية
+    [عنوان فرعي H3]: خدمات الاتصال
+    خلية الإصغاء لوزارة التجارة
+    معرفة المحلات المناوبة خلال العطل والإبلاغ عن التجار غير الملتزمين
+    إرسال طلب أو تبليغ، طلب معلومات عامة، تبليغ عن مخالفة، فضاء المستهلك
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=com.brenco.rafikcom</LINK>
+    <LINK label="الصندوق الخاص لترقية الصادرات المنصة الرقمية لتسيير الصندوق الخاص لترقية الصادرات">https://fspe.commerce.gov.dz/</LINK>
+    <LINK label="التصريح والدفع - جباية تيك فضاء التصريح والدفع الإلكترونيين - جباية تيك">https://mfdgi.gov.dz/portailpublic_ar/</LINK>
+    <LINK label="المعلومة التعريفية الملزمة المعلومة التعريفية الملزمة - RTC">https://douane.gov.dz/rtc/</LINK>
+    <LINK label="الجمارك الجزائرية الموقع الرسمي للجمارك الجزائرية">https://www.douane.gov.dz/?lang=ar</LINK>
+    <LINK label="خلية الإصغاء خلية الإصغاء لوزارة التجارة">https://www.commerce.gov.dz/ar/ecrire-a-la-cellule-d-ecoute/</LINK>
+    <LINK label="جدبد منصة تواصل إرسال طلب أو تبليغ، طلب معلومات عامة، تبليغ عن مخالفة، فضاء المستهلك">https://tawassol.commerce.gov.dz/complaint/selecttype</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/creg.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/creg.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>لجنة ضبط الكهرباء والغاز CREG الجزائر | الخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات لجنة ضبط الكهرباء والغاز CREG في الجزائر: تسعيرة الكهرباء والغاز، محاكاة الفاتورة، منصة إلتماس للطعون وطلبات المعلومات، التوظيف وطرق التواصل</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تسعيرة الكهرباء والغاز في الجزائر
+    تعرف على التسعيرة الرسمية واستخدم محاكاة فاتورة الكهرباء والغاز عبر خدمات CREG الرقمية.
+    [عنوان فرعي H3]: خدمات لجنة ضبط الكهرباء والغاز CREG
+    تسجيل الدخول لمنصة إلتماس لإيداع ومتابعة الطعون
+    طلب معلومة، مواطن / مؤسسة
+    تعرف على تسعيرة الكهرباء والغاز في الجزائر
+    محاكاة فاتورة الكهرباء والغاز
+    فرص التوظيف لدى لجنة ضبط الكهرباء والغاز
+    [عنوان فرعي H3]: تواصل مع لجنة ضبط الكهرباء والغاز
+    تواصل مع لجنة ضبط الكهرباء والغاز عبر منصة الاتصال الرسمية.
+    تواصل مع فريق الدعم عبر البريد الإلكتروني
+    تواصل مع فريق الدعم عبر الاتصال الهاتفي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تعرف الآن">https://creg.gov.dz/%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1%d8%a9/?lang=ar</LINK>
+    <LINK label="تسجيل الدخول إلى منصة إلتماس تسجيل الدخول لمنصة إلتماس لإيداع ومتابعة الطعون">https://iltimess.creg.dz/register</LINK>
+    <LINK label="طلب معلومة عبر منصة إلتماس طلب معلومة، مواطن / مؤسسة">https://iltimess.creg.dz/demande-information</LINK>
+    <LINK label="محاكاة فاتورة الكهرباء والغاز محاكاة فاتورة الكهرباء والغاز">https://mouhakat.creg.dz/</LINK>
+    <LINK label="التوظيف في لجنة ضبط الكهرباء والغاز فرص التوظيف لدى لجنة ضبط الكهرباء والغاز">https://creg.gov.dz/%D8%AA%D9%88%D8%B8%D9%8A%D9%81/</LINK>
+    <LINK label="منصة الاتصال تواصل مع لجنة ضبط الكهرباء والغاز عبر منصة الاتصال الرسمية.">https://creg.gov.dz/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/dgfp.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/dgfp.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>الوظيفة العمومية والإصلاح الإداري في الجزائر</PAGE_TITLE>
+  <SEO_DESCRIPTION>المنصة الرقمية الرسمية للمديرية العامة للوظيفة العمومية والإصلاح الإداري (DGAFP) بالجزائر، توفر خدمات إلكترونية للمواطنين والموظفين تشمل طلب المعادلات الإدارية، متابعة مس</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الأرضية الرقمية للمعادلات الإدارية
+    احصل على المعادلة المطابقة للديلوم حسب كل تخصص
+    [عنوان فرعي H3]: خدمات عن بعد
+    الأرضية الرقمية للمعادلات الإدارية
+    الأرضية الرقمية لإشهار عروض التوظيف
+    [عنوان فرعي H3]: خدمات الاتصال
+    تواصل مع فريق الدعم للمديرية العامة للوظيفة العمومية و الإصلاح الإداري
+    تصفح وحمل النصوص القانونية المنظمة للوظيفة العمومية والإصلاح الإداري
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أحصل عليها الآن">https://equivalence.dgfp.gov.dz/?page=home</LINK>
+    <LINK label="إشهار عروض التوظيف الأرضية الرقمية لإشهار عروض التوظيف">http://www.concours-fonction-publique.gov.dz/</LINK>
+    <LINK label="اتصل بنا تواصل مع فريق الدعم للمديرية العامة للوظيفة العمومية و الإصلاح الإداري">http://www.concours-fonction-publique.gov.dz/?page=contact</LINK>
+    <LINK label="النصوص القانونية و التنظيمية تصفح وحمل النصوص القانونية المنظمة للوظيفة العمومية والإصلاح الإداري">http://www.concours-fonction-publique.gov.dz/?page=legal</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/dgsn.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/dgsn.html</ORIGINAL_URL>
+  <PAGE_TITLE>الشرطة الجزائرية | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم المديرية العامة العامة للأمن الوطني مجموعة من الخدمات الرقمية التي تهدف إلى تسهيل الوصول إلى الخدمات الأمنية للمواطنين، تطبيقات . هذه الخدمات تتيح للمواطنين الحصول ع</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الإدلاء بشهادة ، عن بعد
+    [عنوان فرعي H3]: خدمات عن بعد
+    إعلان عن توظيف ضباط شرطة رئيسيين ذكور وإناث
+    شارك في الاستبيان الوطني حول الشعور بالأمن وتحسين الخدمة
+    منصة التصريح بضياع الوثائق
+    إدلاء بشهادة
+    بحث في فائدة العائلات
+    إستمارة الخدمة الشرطية
+    الدليــــل الهــــــاتفي
+    تطبيق ألو الشرطة
+    [عنوان فرعي H3]: فيديوهات شرح الخدمات
+    طريقة التصريح
+    طريقة الأدلاء
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تقدم الآن">https://www.dgsn.dz/?-%D8%A5%D8%AF%D9%84%D8%A7%D8%A1-%D8%A8%D8%B4%D9%87%D8%A7%D8%AF%D8%A9,583-</LINK>
+    <LINK label="جدبد توظيف ضباط شرطة رئيسيين إعلان عن توظيف ضباط شرطة رئيسيين ذكور وإناث">https://www.dgsn.dz/24395</LINK>
+    <LINK label="الاستبيان الوطني حول الشعور بالأمن شارك في الاستبيان الوطني حول الشعور بالأمن وتحسين الخدمة">https://www.algeriepolice.dz/qnss/survey</LINK>
+    <LINK label="منصة التصريح بضياع الوثائق منصة التصريح بضياع الوثائق">https://www.dgsn.dz/e-declaration/</LINK>
+    <LINK label="بحث في فائدة العائلات بحث في فائدة العائلات">https://www.dgsn.dz/?-%D8%A8%D8%AD%D8%AB-%D9%81%D9%8A-%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-</LINK>
+    <LINK label="إستمارة الخدمة الشرطية إستمارة الخدمة الشرطية">https://www.algeriepolice.dz/qsc</LINK>
+    <LINK label="الدليــــل الهــــــاتفي الدليــــل الهــــــاتفي">https://www.dgsn.dz/?-%D8%AF%D9%84%D9%8A%D9%84-</LINK>
+    <LINK label="تطبيق ألو الشرطة تطبيق ألو الشرطة">https://play.google.com/store/apps/details?id=allochorta.algeriepolice.dz&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/djezzy.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/djezzy.html</ORIGINAL_URL>
+  <PAGE_TITLE>خدمات الهاتف - جازي | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات جازي الجزائر Djezzy Algeria، تشمل تعبئة الرصيد ودفع الفواتير عبر الإنترنت وتطبيق My Djezzy وخدمة الزبائن والعروض والإنترنت وخدمات الهاتف النقال الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات الهاتف النقال - جازي
+    تعبئة رصيد جازي بكل سهولة بإستخدام البطاقة الذهبية
+    إستمتع مع تطبيق djezzy والخدمات الأخرى
+    الإطلاع على الموقع الرسمي لجازي
+    تواصل مع مصلحة خدمة الزبائن لجازي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تعبئة رصيد الهاتف وتخليص الفواتير تعبئة رصيد جازي بكل سهولة بإستخدام البطاقة الذهبية">https://moncompte.djezzy.dz/ar/guest/recharge</LINK>
+    <LINK label="تطبيق djezzy إستمتع مع تطبيق djezzy والخدمات الأخرى">https://play.google.com/store/apps/details?id=com.djezzy.internet</LINK>
+    <LINK label="الموقع الرسمي الإطلاع على الموقع الرسمي لجازي">https://www.djezzy.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/douane.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/douane.html</ORIGINAL_URL>
+  <PAGE_TITLE>الجمارك الجزائرية الإلكترونية | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات الجمارك الجزائرية الإلكترونية: منصة ALCES، التصريح الجمركي، محاكاة الرسوم، تسجيل الشركات والاستفسارات عن بعد</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: منصة ALCES
+    لا تفوت الفرصة والإستمتاع بالعديد من الخدمات الرقمية
+    [عنوان فرعي H3]: خدمات إليكترونية للجمارك الجزائرية
+    المعلومة التعريفية الملزمة - Consultation RTC
+    منصة ALCES douane للخدمات الرقمية عن بعد
+    ALCES douane تسجيل الشركة
+    ALCES douane تسجيل فردي
+    محاكاة تعريفة جمركية عند إقتناء سيارة
+    [عنوان فرعي H3]: خدمات الاتصال
+    التواصل مع فريق عمل الجمارك الجزائرية
+    إتصل بالرقم الأخضر للجمارك الجزائرية
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://alces.douane.gov.dz/main</LINK>
+    <LINK label="المعلومة التعريفية الملزمة المعلومة التعريفية الملزمة - Consultation RTC">https://douane.gov.dz/rtc/</LINK>
+    <LINK label="جدبد ALCES Douane منصة ALCES douane للخدمات الرقمية عن بعد">https://alces.douane.gov.dz/login</LINK>
+    <LINK label="جدبد تسجيل الشركة ALCES douane تسجيل الشركة">https://alces.douane.gov.dz/pot/mp/comgmt/pot0003-s1?menuParam=use</LINK>
+    <LINK label="جدبد تسجيل فردي ALCES douane تسجيل فردي">https://alces.douane.gov.dz/pot/mp/psnuse/pot0001-s1</LINK>
+    <LINK label="جدبد محاكاة تعريفة جمركية محاكاة تعريفة جمركية عند إقتناء سيارة">https://alces.douane.gov.dz/pot/mp/vhcl/pot0200-q1</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل الجمارك الجزائرية">https://www.douane.gov.dz/?page=reclamation&type_service=information&lang=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/dronet.mdn.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/dronet.mdn.html</ORIGINAL_URL>
+  <PAGE_TITLE>المركز الوطني لمنظومات الطائرات بدون طيار على المتن</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات المركز الوطني لمنظومات الطائرات بدون طيار على المتن (CNSAPB / dronet.mdn.dz) التابع لوزارة الدفاع الوطني: التصريح بالدرون، الاعتمادات المهنية، رخص الاستخدام والتحليق، تدريب الطيارين وحجز المواعيد.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: البوابة الإلكترونية الرسمية (dronet.mdn.dz/ar)
+    المنصة الموحدة التابعة لوزارة الدفاع الوطني للتصريح، إيداع طلبات الاعتمادات، رخص الاستخدام، واعتماد هيئات التكوين وفق المرسوم الرئاسي 21-285.
+    [عنوان فرعي H3]: المنصة الرسمية وخدمات التصريح بالطائرات بدون طيار
+    الموقع الرسمي للولوج إلى الخدمات الرقمية، الاستمارات الإدارية، والنصوص التنظيمية المؤطرة لنشاطات الدرون بالجزائر.
+    التسجيل الإجباري لكافة الطائرات بدون طيار المملوكة للأشخاص الطبيعيين والمعنويين لدى المركز الوطني لتسوية وضعيتها القانونية.
+    [عنوان فرعي H3]: الاعتمادات لممارسة الأنشطة المهنية والصناعية
+    إجراءات وملف طلب الاعتماد المسبق لممارسة أنشطة التصنيع، التركيب، التجميع وتطوير منظومات الدرون ومكوناتها.
+    شروط وملفات الاعتماد الممنوح للمتعاملين الاقتصاديين لاستيراد وتصدير الطائرات بدون طيار وتجهيزاتها وملحقاتها.
+    شروط فتح وممارسة نشاط تجارة وتوزيع منظومات الطائرات بدون طيار وقطع الغيار والملحقات في السوق الوطنية.
+    الحصول على اعتماد فتح ورشات ومراكز الصيانة التقنية، المراقبة والمعايرة لمنظومات الطائرات بدون طيار.
+    الموافقة والشروط القانونية لممارسة نشاط تأجير وكراء منظومات الدرون للأغراض المهنية والمؤسساتية.
+    اعتماد المؤسسات والمتعاملين لتقديم خدمات التصوير الجوي الاحترافي، المسح الطبوغرافي، الفلاحة الذكية، ومعاينة المنشآت الصناعية.
+    [عنوان فرعي H3]: تراخيص العمليات والاستخدام (Réglementation & Autorisations)
+    استصدار الموافقة والرخصة الرسمية المسبقة لشراء واقتناء منظومات الطائرات بدون طيار من الموردين المعتمدين.
+    التراخيص الإدارية اللازمة للإفراج الجمركي ونقل معدات ومنظومات الطائرات بدون طيار عبر المنافذ الحدودية.
+    الإجراءات المعتمدة لتوثيق بيع أو نقل ملكية الطائرة بدون طيار، أو التصريح بإخراجها من الخدمة والإتلاف القانوني.
+    طلب تراخيص التحليق وتحديد المسارات الجوية والارتفاعات المسموحة لتنفيذ المهمات والأشغال الجوية المعتمدة.
+    [عنوان فرعي H3]: تكوين وتأهيل الطيارين عن بعد (Télépilotes)
+    شروط وملفات اعتماد المراكز والمدارس المتخصصة في التدريب النظري والتطبيقي لقيادة وتشغيل الطائرات بدون طيار.
+    المعايير المعتمدة للحصول على بطاقات وشهادات قيادة الطائرات بدون طيار والتحكم الآمن في العمليات الجوية.
+    [عنوان فرعي H3]: حجز المواعيد والإطار القانوني (المرسوم الرئاسي 21-285)
+    حجز موعد رسمي مسبق عبر المنصة الرقمية (dronet.mdn.dz/ar/rendezvous) للمقيمين بالجزائر لمراجعة مصالح المركز وتقديم الوثائق والمطابقة التقنية لمنظومات الدرون.
+    الاطلاع على المرسوم الرئاسي الصادر في 13 جويلية 2021 المحدد للقواعد العامة المتعلقة بنشاطات منظومات الطائرات بدون طيار على المتن.
+    [عنوان فرعي H3]: التواصل والمساعدة مع المركز الوطني للدرون
+    مخصص للاستفسارات، التوجيه الإداري وتأكيد مواعيد التصريح.
+    خط إضافي لمعالجة طلبات المواعيد والمعلومات التنظيمية.
+    إرسال الاستفسارات والملفات: CONTACT-CNSAPB@MDN.DZ
+    [عنوان فرعي H3]: قطاعات وهيئات حكومية ذات صلة
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="دخول المنصة الرقمية">https://dronet.mdn.dz/ar</LINK>
+    <LINK label="حجز إلكتروني خدمة حجز المواعيد المسبقة لمعالجة الملفات والتصريحات حجز موعد رسمي مسبق عبر المنصة الرقمية (dronet.mdn.dz/ar/rendezvous) للمقيمين بالجزائر لمراجعة مصالح المركز وتقديم الوثائق والمطابقة التقنية لمنظومات الدرون.">https://dronet.mdn.dz/ar/rendezvous</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/emergency.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/emergency.html</ORIGINAL_URL>
+  <PAGE_TITLE>أرقام الطوارئ والنجدة | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تعرف على جميع أرقام الطوارئ والنجدة في الجزائر، بما في ذلك الشرطة والدرك الوطني والإسعاف والحماية المدنية وحراس السواحل وخطوط المساعدة والتبليغ الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الأمن والدرك الوطني
+    الرقم الموحد للشرطة الجزائرية للبلاغات والطوارئ
+    الرقم المجاني للدرك الوطني في المناطق الريفية والنائية
+    خدمة الاستماع والدعم للمواطنين
+    رقم خاص للإبلاغ عن حالات الاختطاف والجرائم الخطيرة
+    البوابة الإلكترونية للمديرية العامة للأمن الوطني
+    خدمة الاستماع والدعم للمواطنين
+    خدمة الاستماع والدعم للمواطنين
+    [عنوان فرعي H3]: الإسعاف والخدمات الصحية
+    الرقم الموحد للإسعاف والطوارئ الصحية على المستوى الوطني
+    الإسعاف والإنقاذ والحماية من الحرائق والكوارث
+    الإنقاذ البحري والطوارئ في المياه الإقليمية
+    الاستشارات الطبية والإرشاد الصحي
+    [عنوان فرعي H3]: الحماية المدنية والكوارث
+    الإبلاغ عن الحرائق والحوادث المماثلة
+    الإنقاذ والإسعاف في حوادث الطرق
+    الإبلاغ عن حرائق الغابات والتعديات
+    [عنوان فرعي H3]: خدمات المواطنين والاستعلامات
+    الإبلاغ عن تعنيف الأطفال وحماية حقوقهم
+    الشكاوى والاستفسارات لمنظمة حماية المستهلك
+    تصليح الأجهزة الكهرومنزلية والصيانة
+    خدمة الزبائن لشركة المحروقات نفطال
+    الأعطال والاستعلامات حول الكهرباء والغاز
+    خدمة الزبائن للمؤسسة البريدية
+    [عنوان فرعي H3]: تطبيقات الطوارئ ومنصات التبيغ عن بعد
+    تواصل والإبلاغ
+    شكاوى المسبقة للدرك الوطني
+    مركز الإعلام المروري
+    تواصل مع وسيط الجمهورية
+    التصدي والحد من انتشار ظاهرة الفساد
+    المؤسسات وفعاليات المجتمع المدني
+    منصة تقديم الشكاوي - حماية المستهلك
+    منصة "أشتكي" لجمعية حماية المستهلك
+    الدعم النفسي والاجتماعي
+      * جميع أرقام الطوارئ مجانية ولا تتطلب رصيدا
+      * متاحة على مدار الساعة طوال أيام الأسبوع
+      * تعمل من أي خط هاتفي ثابت أو محمول
+      * استخدمها فقط في حالات الطوارئ الحقيقية
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الوصول إلى الخدمات الصحية والمنصات الرقمية الصحية
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="الموقع الرسمي للشرطة البوابة الإلكترونية للمديرية العامة للأمن الوطني">https://www.algeriepolice.dz/</LINK>
+    <LINK label="ألو الشرطة تواصل والإبلاغ">https://play.google.com/store/apps/details?id=allochorta.algeriepolice.dz&hl=ar</LINK>
+    <LINK label="PPGN - الدرك الوطني شكاوى المسبقة للدرك الوطني">https://ppgn.mdn.dz/</LINK>
+    <LINK label="طريقي مركز الإعلام المروري">https://www.facebook.com/tariki.GN/</LINK>
+    <LINK label="وسيط الجمهورية تواصل مع وسيط الجمهورية">https://wassit.dz/ar/register#</LINK>
+    <LINK label="بلِّغْنـَا التصدي والحد من انتشار ظاهرة الفساد">https://balighna.hatplc.dz/account-choice</LINK>
+    <LINK label="نراكم المؤسسات وفعاليات المجتمع المدني">https://hatplc.dz/declaration-form</LINK>
+    <LINK label="أشكي منصة تقديم الشكاوي - حماية المستهلك">https://apoce.org/%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%87%d9%84%d9%83-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a/%d8%aa%d9%82%d8%af%d9%8a%d9%85-%d8%b4%d9%83%d9%88%d9%89/</LINK>
+    <LINK label="أشتكي منصة "أشتكي" لجمعية حماية المستهلك">https://www.achki-apoce.org/login</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/enpi.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/enpi.html</ORIGINAL_URL>
+  <PAGE_TITLE>المؤسسة الوطنية للترقية العقارية | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>المؤسسة الوطنية للترقية العقارية ENPI بالجزائر، التسجيل في سكنات LPP وLPL، متابعة الملفات، فضاء الزبائن، اقتناء المحلات التجارية والاستفادة من الخدمات العقارية الإلكتروني</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: اقتناء محل تجاري
+    التسجيل لاقتناء محل تجاري
+    [عنوان فرعي H3]: ديوان الترقية والتسيير العقاري -OPGI
+    التسجل لاقتناء محل تجاري
+    فضاء الزبائن
+    [عنوان فرعي H3]: خدمات عن بعد
+    التسجيل لاقتناء سكن ترقوي عمومي LPP
+    التسجيل لاقتناء سكن ترقوي حر LPL
+    الدخول لتطبيق إنشغال
+    تحميل تطبيق بريدي موب الجزائر
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">http://www.enpi-net.dz/LocauxEnpi/</LINK>
+    <LINK label="محل تجاري التسجل لاقتناء محل تجاري">https://www.enpi-net.dz/LocauxEnpi/</LINK>
+    <LINK label="فضاء الزبائن فضاء الزبائن">https://www.enpi-net.dz/lpp_consultation/</LINK>
+    <LINK label="سكن ترقوي عمومي LPP التسجيل لاقتناء سكن ترقوي عمومي LPP">https://www.enpi-net.dz/ENPI/Inscription.php</LINK>
+    <LINK label="سكن ترقوي حر LPL التسجيل لاقتناء سكن ترقوي حر LPL">https://www.enpi-net.dz/LPL/Inscription.php</LINK>
+    <LINK label="تطبيق إنشغال الدخول لتطبيق إنشغال">https://www.enpi-net.dz/Inchighal/</LINK>
+    <LINK label="تطبيق بريدي موب تحميل تطبيق بريدي موب الجزائر">https://play.google.com/store/apps/details?id=ru.bpc.mobilebank.bpc</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/facteur.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/facteur.html</ORIGINAL_URL>
+  <PAGE_TITLE>فاتورة الماء والكهرباء| البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دفع فواتير الماء والكهرباء والغاز عبر البوابة الجزائرية للخدمات الرقمية، مع خدمات سونلغاز والجزائرية للمياه وسيال وخيارات الدفع الإلكتروني</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: "تطبيق بريدي موب"
+    يمكنكم تسديد فواتيركم سيال، الجزائرية للمياه وسونلغاز أيضا عبر التطبيق
+    [عنوان فرعي H3]: خدمات سونلغاز - فاتورة الكهرباء والغاز
+    تسديد فاتورة الكهرباء والغاز سونلغاز
+    [عنوان فرعي H3]: خدمات الجزائرية للمياه - فاتورة المياه وخدمات أخرى
+    تسديد فاتورة المياه - الجزائرية للمياه
+    [عنوان فرعي H3]: خدمات سيال للمياه والتطهير - فاتورة المياه وخدمات أخرى
+    تسديد فاتورة المياه لسيال
+    [عنوان فرعي H3]: خدمات سيرو للمياه - فاتورة المياه وخدمات أخرى
+    تسديد فاتورة المياه لسيرو
+    [عنوان فرعي H3]: دفع فاتورة الإيجار - خدمات أخرى
+    دفع فاتورة الإيجار للخدمات الأخرى
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="sectors/facture_loyer.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/facture_loyer.html</ORIGINAL_URL>
+  <PAGE_TITLE>فواتير استئجار السكن| البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل دفع الفواتير والإيجار في الجزائر، يشمل تسديد فواتير الكهرباء والغاز والمياه والإنترنت والهاتف وخدمات الدفع الإلكتروني عبر البطاقة الذهبية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: "تطبيق بريدي موب"
+    يمكنكم تسديد إيجاركم لوكالة عدل عبر التطبيق
+    [عنوان فرعي H3]: وكالة عدل لتحسين السكن وتطويره
+    تسديد إيجار وكالة عدل لتحسين السكن وتطويره
+    [عنوان فرعي H3]: ديوان الترقية والتسيير العقاري - تسديد الإيجار
+    تسديد الإيجار لديوان الترقية والتسيير العقاري
+    [عنوان فرعي H3]: ديوان الترقية والتسيير العقاري - تسديد الإيجار
+    تسديد الإيجار للمؤسسة الوطنية للترقية العقارية
+    [عنوان فرعي H3]: دفع فواتير الماء، الغاز والكهرباء - خدمات أخرى
+    دفع فاتورة إستهلاك الماء والغاز والكهرباء وخدمات الأخرى
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="sectors/fadaeldjazair.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/fadaeldjazair.html</ORIGINAL_URL>
+  <PAGE_TITLE>الأملاك الوطنية - فضاء الجزائر | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات المالية والجباية الرقمية في الجزائر. تسجيل في مختلف الصيغ المالية، دفع الرسوم والضرائب، قسيمة السيارات، قسيمية بطاقة التعريف، رخصة السياقة، جواز السفر، عقود ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: فضاء الجزائر - خدمات الأملاك العقارية
+    المنصة الرقمية لمستخرجات الوثائق العقارية، شهادة السلبية والعقود المشهرة
+    معطايات مسحية
+    طلب مستخرج المصفوفة المسحية CC11
+    طلب مستخرج من حالة القسم CC12
+    طلب مستخرج المصفوفة المسحية CC15
+    طلب الدفتر العقاري
+    متابعة طلب الدفتر العقاري
+    التواصل مع فريق عمل الاملاك العقارية
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: فضاء الجزائر - خدمات الأملاك العقارية للمحترفين
+    فضاء المحافظ العقاري
+    فضاء الموثق
+    فضاء المهندس المساحي
+    فضاء المفتش العقاري
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="المنصة الرقمية لمستخرجات الوثائق العقارية المنصة الرقمية لمستخرجات الوثائق العقارية، شهادة السلبية والعقود المشهرة">https://fadaeldjazair.mf.gov.dz/EDCFPUBLICHOME/</LINK>
+    <LINK label="معطايات مسحية معطايات مسحية">https://fadaeldjazair.mf.gov.dz/mission-documentaire/index_public_35.html</LINK>
+    <LINK label="طلب مستخرج CC11 طلب مستخرج المصفوفة المسحية CC11">https://fadaeldjazair.mf.gov.dz/recherche2</LINK>
+    <LINK label="طلب مستخرج حالة القسم طلب مستخرج من حالة القسم CC12">https://fadaeldjazair.mf.gov.dz/delivrance_automatique/recherche.php</LINK>
+    <LINK label="طلب مستخرج CC15 طلب مستخرج المصفوفة المسحية CC15">https://fadaeldjazair.mf.gov.dz/recherche4</LINK>
+    <LINK label="طلب الدفتر العقاري طلب الدفتر العقاري">https://fadaeldjazair.mf.gov.dz/lf/demander_lf</LINK>
+    <LINK label="متابعة طلب الدفتر العقاري متابعة طلب الدفتر العقاري">https://fadaeldjazair.mf.gov.dz/lf/suividemande</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل الاملاك العقارية">https://fadaeldjazair.mf.gov.dz/ar/contact/</LINK>
+    <LINK label="فضاء المحافظ العقاري فضاء المحافظ العقاري">https://fadaeldjazair.mf.gov.dz/login2</LINK>
+    <LINK label="فضاء الموثق فضاء الموثق">https://fadaeldjazair.mf.gov.dz/login</LINK>
+    <LINK label="فضاء المهندس المساحي فضاء المهندس المساحي">https://fadaeldjazair.mf.gov.dz/ar/geo_services/#</LINK>
+    <LINK label="فضاء المفتش العقاري فضاء المفتش العقاري">https://fadaeldjazair.mf.gov.dz/login1</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/hatplc.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/hatplc.html</ORIGINAL_URL>
+  <PAGE_TITLE>hatplc DZ | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم الموقع السلطة العليا للشفافية والوقاية من الفساد ومكافحته خدمات رقمية عن بعد دون الحاجة للتنقل وربح الوقت</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: المنصة الرقمية للشبكة الجزائرية للشفافية "نراكـــــم"
+    [عنوان فرعي H3]: الخدمات الرقمية
+    تحميل إستمارة التصريح بالممتلكات
+    المؤسسات وفعاليات المجتمع المدني
+    التصدي والحد من انتشار ظاهرة الفساد
+    التصدي والحد من انتشار ظاهرة الفساد
+    خدمة الاستماع والدعم للمواطنين
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://naracom.hatplc.dz/login</LINK>
+    <LINK label="التصريح بالممتلكات تحميل إستمارة التصريح بالممتلكات">https://hatplc.dz/declaration-form</LINK>
+    <LINK label="بلِّغْنـَا التصدي والحد من انتشار ظاهرة الفساد">https://balighna.hatplc.dz/account-choice</LINK>
+    <LINK label="جدبد تطبيق ألو- بلِّغْنـَا التصدي والحد من انتشار ظاهرة الفساد">https://play.google.com/store/apps/details?id=dz.hatplc.balighna&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/hcn.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/hcn.html</ORIGINAL_URL>
+  <PAGE_TITLE>المحافظة السامية للرقمنة | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>المحافظة السامية للرقمنة في الجزائر HCN، بوابة الخدمات الحكومية الرقمية dzds، منصة الأبوستيل، تطبيق الخدمات الرقمية، ومركز الاتصال 3017. خدمات رقمية شاملة للمواطنين</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: البوابة الحكومية للخدمات الرقمية
+    إستكشف الخدمات الرقمية عن بعد
+    [عنوان فرعي H3]: المحافظة السامية للرقمنة
+    dzds ، بوابة الخدمات الرقمية الحكومية، خدمات عن بعد، تطبيقات، دعم المستخدمين
+    تسجيل الدخول لمنصة الأبوستيل
+    [عنوان فرعي H3]: تطبيقات المحافظة السامية للرقمنة
+    التطبيقة البوابة الجزائرية للخدمات الرقمية "dzds"
+    [عنوان فرعي H3]: التواصل مع المحافظة السامية للرقمنة
+    فريق عمل تحت تصرفكم للإجابة على جميع إستفساراتكم
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الوصول إلى الخدمات الصحية والمنصات الرقمية الصحية
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إستكشف الآن">https://dzds.dz/ar-dz</LINK>
+    <LINK label="تطبيق dzds التطبيقة البوابة الجزائرية للخدمات الرقمية "dzds"">https://play.google.com/store/apps/details?id=com.linewell.citizen.aljly&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/ina-elections.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/ina-elections.html</ORIGINAL_URL>
+  <PAGE_TITLE>السلطة الوطنية المستقلة للانتخابات</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات الانتخابات والاستفتاءات في الجزائر، يشمل التسجيل في القوائم الانتخابية والتحقق من بطاقة الناخب وخدمات الهيئة الوطنية المستقلة للانتخابات</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في القوائم الانتخابية
+    [عنوان فرعي H3]: الخدمات الرقمية
+    التسجيل في القوائم الانتخابية
+    طلب نسخة من بطاقة الناخب
+    سجل نفسك في حفاظ الأمانة
+    هل أنت مسجل؟
+    طلب تغيير مكان الإقامة
+    تحيين وتصحيح المعلومات
+    التسجيل في القوائم الانتخابية
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://services.ina-elections.dz/services/register</LINK>
+    <LINK label="بطاقة الناخب طلب نسخة من بطاقة الناخب">https://services.ina-elections.dz/services/duplicata</LINK>
+    <LINK label="سجل نفسك في حفاظ الأمانة سجل نفسك في حفاظ الأمانة">https://services.ina-elections.dz/services/hofad-amana</LINK>
+    <LINK label="هل أنت مسجل؟ هل أنت مسجل؟">https://services.ina-elections.dz/services/orientation</LINK>
+    <LINK label="تغيير مكان الإقامة طلب تغيير مكان الإقامة">https://services.ina-elections.dz/services/residence</LINK>
+    <LINK label="تحيين وتصحيح المعلومات تحيين وتصحيح المعلومات">https://services.ina-elections.dz/services/update-infos</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/interieur.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/interieur.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الداخلية | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات وزارة الداخلية والجماعات المحلية الرقمية: البطاقة بيوميترية جواز السفر، شهادة الميلاد، الشباك عن بعد، منحة رمضان، وأكثر من ذلك بكثير. الوصول السريع والآمن لجم</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: شهادة الميلاد
+    إستخراج شهادة الميلاد عن بعد
+    [عنوان فرعي H3]: طلب وثائق بيوميترية
+    طلب بطاقة التعريف الوطنية البيومترية
+    متابعة الطلب
+    طلب جواز السفر الإلكتروني
+    متابعة طلب جواز السفر البيومتري
+    تحميل صور بيوميترية مطابقة
+    [عنوان فرعي H3]: طلب وثائق الحالة المدنية
+    استخراج شهادة الميلاد
+    استخراج عقد الزواج
+    استخراج شهادة الوفاة
+    استخراج شهادة الميلاد S12
+    متابعة طلب شهادة الميلاد S12
+    [عنوان فرعي H3]: الشباك عن بعد
+    الدخول في الشباك عن بعد
+    فترة التسجيل المعلنة: من 11 أكتوبر إلى 09 نوفمبر 2026. انتقل إلى المنصة للاطلاع على الشروط وإيداع الطلب.
+    [عنوان فرعي H3]: شكاوي وعارئض المواطنين
+    الدخول للمنصة
+    [عنوان فرعي H3]: تطبيقات الوزارة
+    القراءة الآلية لبطاقة التعريف الوطنية البيومترية
+    تطبيق “ولايتي”
+    تطبيق نظيف
+    تطبيق ألو الشرطة
+    [عنوان فرعي H3]: خدمات أخرى
+    طلب شهادة الكفاءة لرخصة السياقة
+    التسجيل في قرعة الحج
+    طلب طلب تسجيل التصريح التأسيسي للجمعيات البلدية و لجان الأحياء
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    إقتني قسيمة سيارتك من هنا
+    الخدمات الاجتماعية والصحية والإدارية للمواطنين
+    إقتني الطابع الجبائي الخاص بملفكم الإداري من هنا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إستخرجها الآن">https://etatcivil.interieur.gov.dz/</LINK>
+    <LINK label="بطاقة التعريف الوطنية البيومترية طلب بطاقة التعريف الوطنية البيومترية">https://services.interieur.gov.dz/ar/2020/10/24/%d8%b7%d9%84%d8%a8-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%b9%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d9%88%d9%85%d8%aa%d8%b1%d9%8a%d8%a9/</LINK>
+    <LINK label="متابعة طلب بطاقة التعريف الوطنية البيومترية متابعة الطلب">https://passeport.interieur.gov.dz/Ar/SuiviCNIBE/Suivi%20la%20demande%20de%20la%20carte%20national%20d'identit%c3%a9%20biom%c3%a9trique%20%c3%a9lectronique</LINK>
+    <LINK label="جواز السفر الإلكتروني طلب جواز السفر الإلكتروني">https://passeport.interieur.gov.dz/Ar/Inscription/BaBou</LINK>
+    <LINK label="متابعة طلب جواز السفر البيومتري متابعة طلب جواز السفر البيومتري">https://passeport.interieur.gov.dz/Ar/Suivi/Suivi%20demande%20passeport</LINK>
+    <LINK label="صور بيوميترية مطابقة تحميل صور بيوميترية مطابقة">https://passeport.interieur.gov.dz/Ar/Rejet/Chargement_Photo</LINK>
+    <LINK label="عقد الزواج استخراج عقد الزواج">https://etatcivil.interieur.gov.dz/ActeMariage/</LINK>
+    <LINK label="شهادة الوفاة استخراج شهادة الوفاة">https://etatcivil.interieur.gov.dz/ActeDeces/</LINK>
+    <LINK label="شهادة الميلاد S12 استخراج شهادة الميلاد S12">https://demande12s.interieur.gov.dz/Ar/WFDemande.aspx</LINK>
+    <LINK label="شهادة الميلاد S12 متابعة طلب شهادة الميلاد S12">https://demande12s.interieur.gov.dz/Ar/WFSuivi.aspx</LINK>
+    <LINK label="الشباك عن بعد الدخول في الشباك عن بعد">https://prestations.interieur.gov.dz/guichet/</LINK>
+    <LINK label="جديد منحة التضامن لشهر رمضان 1448 هـ / 2027 فترة التسجيل المعلنة: من 11 أكتوبر إلى 09 نوفمبر 2026. انتقل إلى المنصة للاطلاع على الشروط وإيداع الطلب.">https://prestations.interieur.gov.dz/solidariteramdhan/</LINK>
+    <LINK label="المنصة الشكاوي والعرائض الدخول للمنصة">https://www.interieur.gov.dz/index.php/ar/component/annuaire/?view=contacter_nous_ar</LINK>
+    <LINK label="القراءة الآلية لبطاقة التعريف الوطنية البيومترية القراءة الآلية لبطاقة التعريف الوطنية البيومترية">https://macnibe.interieur.gov.dz/Files/DzaEidCard.msi</LINK>
+    <LINK label="تطبيق “ولايتي تطبيق “ولايتي”">http://monographie.interieur.gov.dz/data/wilayati.apk</LINK>
+    <LINK label="تطبيق نظيف تطبيق نظيف">https://play.google.com/store/apps/details?id=dz.and.ndif&hl=ar&gl=US</LINK>
+    <LINK label="تطبيق ألو الشرطة تطبيق ألو الشرطة">https://play.google.com/store/apps/details?id=allochorta.algeriepolice.dz&hl=ar&gl=US</LINK>
+    <LINK label="شهادة الكفاءة لرخصة السياقة طلب شهادة الكفاءة لرخصة السياقة">https://capacitepc.interieur.gov.dz/GET-STARTED</LINK>
+    <LINK label="طلب تسجيل التصريح تأسيس جمعية طلب طلب تسجيل التصريح التأسيسي للجمعيات البلدية و لجان الأحياء">https://prestations.interieur.gov.dz/Association/LOGIN</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/madr.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/madr.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الفلاحة |البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم الموقع وزارة الفلاحة والتنمية الريفية والصيد البحري إليكترونية عن بعد دون الحاجة للتنقل وربح الوقت</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: منصة "حصاد" لمرافقة الفلاحين في حملة الحصاد والدرس
+    [عنوان فرعي H3]: موسم الحصاد والدرس
+    وستتكفّل تعاونية الحبوب (CCLS) او (AGRODRIVE) بدراسة طلبك.
+    موجّه للفلاحين غير الحائزين على بطاقة الفلاح الراغبين في بيع محصولهم للتعاونية.
+    [عنوان فرعي H3]: طب بيطري
+    شهادة التسجيل لدى السلطة البيطرية الوطنية
+    طلب رخصة ممارسة الطب البيطري و جراحة الحيوانات في القطاع الخاص
+    [عنوان فرعي H3]: تراخيص مسبقة
+    ترخيص تقني مسبق لاستيراد الشتلات
+    اعتماد ممارسة نشاطات معالجة مواد التعبئة الخشبية الموجهة للتصدير
+    ترخيص تقني مسبق لاستيراد البذور
+    ترخيص تقني مسبق لاستيراد البذور البطاطا
+    ترخيص تقني مسبق لاستيراد منتجات الصحة النباتية للاستخدام الزراعي
+    ترخيص تقني مسبق لاستيراد نبتات الزينة
+    ترخيص تقني مسبق لاستيراد المنتجات النباتية
+    [عنوان فرعي H3]: أضاحي العيد 2026
+    التسجيل في أضحية العيد
+    عرض أقرب نقاط البيع المعتمدة
+    تسجيل الدخول إلى حسابك
+    التسجيل في منصة أضاحي العيد
+    متابعة وإحصائيات أضاحي العيد بالارقام
+    توجيه الفلاحين والمستثمرين، إنشغالات، إرشادات وإصلاحات
+    التبليغ عن مخالفة أو فساد في القطاع
+    مديريات المصالح الفلاحية، محافظات الغابات ... ،ألخ. ...
+    تراخيص الاستيراد المتعلقة بالصحة النباتية والحيوانية
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أحجز الآن">https://hassad.dz/</LINK>
+    <LINK label="السلطة البيطرية الوطنية شهادة التسجيل لدى السلطة البيطرية الوطنية">https://pslar.madr.gov.dz/dsv/inscription-alautorite-nationale-veterinaire-avn/</LINK>
+    <LINK label="رخصة ممارسة الطب البيطري طلب رخصة ممارسة الطب البيطري و جراحة الحيوانات في القطاع الخاص">https://adhahi.dz/points-de-vente</LINK>
+    <LINK label="استيراد الشتلات ترخيص تقني مسبق لاستيراد الشتلات">https://pslar.madr.gov.dz/procedure-de-demande-dautorisation-technique-prealable-dimportation-des-plants/</LINK>
+    <LINK label="نشاطات معالجة مواد التعبئة الخشبية اعتماد ممارسة نشاطات معالجة مواد التعبئة الخشبية الموجهة للتصدير">https://pslar.madr.gov.dz/dpvct/agrement-pour-traitement-des-materiaux-demballages-en-bois-destines-a-lexportation/</LINK>
+    <LINK label="استيراد البذور ترخيص تقني مسبق لاستيراد البذور">https://pslar.madr.gov.dz/dpvct/demande-dautorisation-technique-prealable-dimportation-des-semences/</LINK>
+    <LINK label="استيراد بذور البطاطا ترخيص تقني مسبق لاستيراد البذور البطاطا">https://pslar.madr.gov.dz/importation-de-semences-de-pomme-de-terre/</LINK>
+    <LINK label="استيراد منتجات الصحة النباتية ترخيص تقني مسبق لاستيراد منتجات الصحة النباتية للاستخدام الزراعي">https://pslar.madr.gov.dz/dpvct/importation-des-produits-phytosanitaires-a-usage-agricole/</LINK>
+    <LINK label="استيراد نبتات الزينة ترخيص تقني مسبق لاستيراد نبتات الزينة">https://pslar.madr.gov.dz/dpvct/demande-dautorisation-technique-prealable-dimportation-des-plants-ornementaux/</LINK>
+    <LINK label="التسجيل في أضحية العيد التسجيل في أضحية العيد">https://adhahi.dz/register</LINK>
+    <LINK label="تسجيل الدخول تسجيل الدخول إلى حسابك">https://adhahi.dz/login</LINK>
+    <LINK label="اضاحي العيد بالأرقام متابعة وإحصائيات أضاحي العيد بالارقام">https://adhahi.dz/moutons-nationaux/</LINK>
+    <LINK label="خلية الإصغاء والتوجيه توجيه الفلاحين والمستثمرين، إنشغالات، إرشادات وإصلاحات">https://pslar.madr.gov.dz/cellule-ecoute/</LINK>
+    <LINK label="خلية إستقبال التبليغات عن الفساد التبليغ عن مخالفة أو فساد في القطاع">https://madr.gov.dz/nazaha/</LINK>
+    <LINK label="جدبد "نافذة الشفافية" تراخيص الاستيراد المتعلقة بالصحة النباتية والحيوانية">https://madr.gov.dz/transparency</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/markabatidz.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/markabatidz.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة فحص المركبات - مركبتي DZ | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>منصة فحص المركبات - مركبتي DZ هي منصة موحدة لفحص المركبات وتسجيلها في النظام، منصة فحص المركبات - مركبتي DZ في خدمة المواطنين الجزائريين لتسهيل الوصول إلى خدمات فحص المرك</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حجز موعد
+    [عنوان فرعي H3]: الخدمات الرقمية
+    موعد فحص المطابقة
+    طريقة الحجز
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    تعرف على وكالات التأمين على الممتلكات
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    إقتني قسيمة سيارتك من هنا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إحجز الآن">https://markabatidz.energy.gov.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mdn.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mdn.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الدفاع الوطني | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>البوابة الرقمية لوزارة الدفاع الوطني الجزائرية. خدمات التجنيد، التسجيل في أشبال الأمة، مجلة الجيش، طلبات العروض، وتطبيق MDNews. منصة موحدة للخدمات العسكرية الرقمية في الج</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: وزارةدفاع الوطني
+    الخدمات، المستجدات، قوانين ومصادر， حجز موعد، الأسئلة المتكررة， دعم
+    تحميل دليل التجنيد لسنة 2026-2027
+    التسجيل في أشبال الامة للسنة الدراسية 2026-2027
+    نتائج الانتقاء الأولي وسحب الاستدعاءات
+    تجنيد الطلبة الضباط العاملين على أساس الشهادة الجامعية
+    التجنيد المباشر للطلبة الضباط العاملين الحائزين على البكالوريا
+    تجنيد في فئة ضباط الصف المتعاقدين
+    تجنيد في فئة رجال الصف
+    صفح مجلة الجيش
+    صفح مجلات علمية مُحكَّمة
+    صفح مجلات المتحف المركزي للجيش
+    طلبات العروض- صفقات
+    [عنوان فرعي H3]: تطبيقات وزارة الدفاع الوطني
+    التطبيقة الإعلامية المحمولة "MDNews"
+    [عنوان فرعي H3]: التواصل مع وزارة الدفاع الوطني
+    الإنقاذ البحري والطوارئ في المياه الإقليمية
+    [عنوان فرعي H3]: قطاعات وهيئات حكومية ذات صلة
+    تصريح بضياع الوثائق، أرقام هاتف، شكاوي وتطبقات
+    الجمارك الجزائرية، جمركة، استعلام
+    أرقام الطوارئ والمساعدة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="جديد دليل التجنيد تحميل دليل التجنيد لسنة 2026-2027">https://www.mdn.dz/site_principal/sommaire/recrutement/images/guide2026_Ar.pdf</LINK>
+    <LINK label="أشبال الأمة التسجيل في أشبال الامة للسنة الدراسية 2026-2027">https://preinscription.mdn.dz/cadets/#contact</LINK>
+    <LINK label="جديد الضباط تجنيد الطلبة الضباط العاملين على أساس الشهادة الجامعية">https://preinscription.mdn.dz/fs/</LINK>
+    <LINK label="جديد الضباط التجنيد المباشر للطلبة الضباط العاملين الحائزين على البكالوريا">https://preinscription.mdn.dz/bac/</LINK>
+    <LINK label="جديد ضباط الصف تجنيد في فئة ضباط الصف المتعاقدين">https://preinscription.mdn.dz/soff/</LINK>
+    <LINK label="جديد رجال الصف تجنيد في فئة رجال الصف">https://preinscription.mdn.dz/hdr/</LINK>
+    <LINK label="مجلة الجيش صفح مجلة الجيش">https://www.mdn.dz/site_principal/sommaire/revues/revue_el_djeich_ar.php</LINK>
+    <LINK label="مجلات علمية مُحكَّمة صفح مجلات علمية مُحكَّمة">https://www.mdn.dz/site_principal/sommaire/revues/revues_science_ar.php</LINK>
+    <LINK label="مجلات المتحف المركزي للجيش صفح مجلات المتحف المركزي للجيش">https://www.mdn.dz/site_principal/sommaire/revues/revue_mca_ar.php</LINK>
+    <LINK label="طلب عروض طلبات العروض- صفقات">https://www.mdn.dz/site_principal/sommaire/appels/appels_ar.php</LINK>
+    <LINK label="تطبيق MDNews التطبيقة الإعلامية المحمولة "MDNews"">https://www.mdn.dz/site_principal/sommaire/mdnews/app/MDNews.apk</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/me.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/me.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة البيئة وجودة الحياة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف الخدمات الرقمية الرسمية التابعة لوزارة البيئة وجودة الحياة الجزائرية، بما في ذلك بورصة النفايات الصناعية، التطبيقات الرقمية، وخدمات التواصل الإلكتروني</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: بورصة النفايات الصناعية
+    بورصة النفايات الصناعية، كل ماتحتاج إليه لتخلص من نفاياتك أو التسويق لها
+    [عنوان فرعي H3]: بورصة النفايات الصناعية
+    التسجيل الدخول
+    الدخول للحساب
+    التسجيل مشروع في بوابة المستثمر
+    الموقع الرسمي
+    تطبيق "نظيف"
+    التواصل مع فريق عمل بورصة النفايات الصناعية
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://adhahi.dz/register</LINK>
+    <LINK label="بورصة النفايات الصناعية التسجيل الدخول">https://bourse.and.dz/inscriptionar.php</LINK>
+    <LINK label="بورصة النفايات الصناعية الدخول للحساب">https://bourse.and.dz/seconnecterar.php</LINK>
+    <LINK label="بوابة المستثمر التسجيل مشروع في بوابة المستثمر">https://invest.gov.dz/check/realms/INVEST-REALM/login-actions/registration?execution=9bd07bb8-0d4d-4a3c-b130-2833b94e4fba&client_id=invest-backend&tab_id=D7utuX1rUls</LINK>
+    <LINK label="الوكالة الوطنية للنفيات الموقع الرسمي">https://and.dz/</LINK>
+    <LINK label="نظيف تطبيق "نظيف"">https://play.google.com/store/apps/details?id=dz.and.ndif</LINK>
+    <LINK label="بورصة النفايات الصناعية التواصل مع فريق عمل بورصة النفايات الصناعية">https://bourse.and.dz/contactar.php</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/medjedel.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/medjedel.html</ORIGINAL_URL>
+  <PAGE_TITLE>Medjedel | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>جميع فروض واختبارات شهادة التعليم المتوسط، البكالوريا، والابتدائي مع التصحيح النموذجي لجميع المواد والمستويات التعليمية في الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التعليم الإبتدائي
+    نماذج اختبارية للسنة الأولى إبتدائي
+    نماذج اختبارية للسنة الثانية إبتدائي
+    نماذج اختبارية للسنة الثالثة إبتدائي
+    نماذج اختبارية للسنة الرابعة إبتدائي
+    نماذج اختبارية للسنة الخامسة إبتدائي
+    [عنوان فرعي H3]: التعليم المتوسط
+    نماذج الفروض والإختبارات للسنة الأولى متوسط
+    نماذج الفروض والإختبارات للسنة الثانية متوسط
+    نماذج الفروض والإختبارات للسنة الثالثة متوسط
+    نماذج الفروض والإختبارات للسنة الرابعة متوسط
+    مواضيع وحلول شهادة التعليم المتوسط
+    [عنوان فرعي H3]: التعليم الثانوي - بالتوفيق للممتحنين في شهادة البكالوريا 2026
+    نماذج الفروض والإختبارات للسنة الأولى ثانوي
+    نماذج الفروض والإختبارات للسنة الثانية ثانوي
+    نماذج الفروض والإختبارات للسنة الثالثة ثانوي
+    مواضيع وحلول شهادة البكالوريا
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="السنة الأولى إبتدائي نماذج اختبارية للسنة الأولى إبتدائي">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A/</LINK>
+    <LINK label="السنة الثانية إبتدائي نماذج اختبارية للسنة الثانية إبتدائي">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A/</LINK>
+    <LINK label="السنة الثالثة إبتدائي نماذج اختبارية للسنة الثالثة إبتدائي">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A/</LINK>
+    <LINK label="السنة الرابعة إبتدائي نماذج اختبارية للسنة الرابعة إبتدائي">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A/</LINK>
+    <LINK label="السنة الخامسة إبتدائي نماذج اختبارية للسنة الخامسة إبتدائي">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A/</LINK>
+    <LINK label="السنة الأولى متوسط نماذج الفروض والإختبارات للسنة الأولى متوسط">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="السنة الثانية متوسط نماذج الفروض والإختبارات للسنة الثانية متوسط">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="السنة الثالثة متوسط نماذج الفروض والإختبارات للسنة الثالثة متوسط">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="السنة الرابعة متوسط نماذج الفروض والإختبارات للسنة الرابعة متوسط">https://www.medjedel.com/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%85%D8%AA%D9%88%D8%B3%D8%B7-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="مواضيع وحلول شهادة التعليم المتوسط مواضيع وحلول شهادة التعليم المتوسط">https://www.medjedel.com/%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d8%b3%d8%b7/</LINK>
+    <LINK label="السنة الأولى ثانوي نماذج الفروض والإختبارات للسنة الأولى ثانوي">https://www.medjedel.com/%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%AB%D8%A7%D9%86%D9%88%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="السنة الثانية ثانوي نماذج الفروض والإختبارات للسنة الثانية ثانوي">https://www.medjedel.com/%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D8%AB%D8%A7%D9%86%D9%88%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="السنة الثالثة ثانوي نماذج الفروض والإختبارات للسنة الثالثة ثانوي">https://www.medjedel.com/%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%AB%D8%A7%D9%86%D9%88%D9%8A-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF/</LINK>
+    <LINK label="مواضيع وحلول شهادة البكالوريا مواضيع وحلول شهادة البكالوريا">https://www.medjedel.com/%E2%80%8B%D9%85%D9%88%D8%A7%D8%B6%D9%8A%D8%B9-%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD%D8%A7%D8%AA-%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D8%A7/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mesrs.dz.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mesrs.dz.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة التعليم العالي والبحث العلمي | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل بوابة المنصات الرقمية لوزارة التعليم العالي والبحث العلمي في الجزائر: خدمات الطالب، التعليم عن بعد، البحث والابتكار، الإدارة، التعاون الدولي، الاتصال والدعم، وتطبيقا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: بوابة المنصات الرقمية
+    تصفح المنصات الرسمية لوزارة التعليم العالي والبحث العلمي وخدماتها عن بعد.
+    [عنوان فرعي H3]: الخدمات عن بعد
+    دليل الخريجين وصيت الشهادات وقصص النجاح وفرص التربص والإدماج المهني.
+    الشهادات المدرسية وكشوف النقاط وجداول التوقيت والرزنامات والمتابعة الدراسية.
+    الدروس عبر الخط، بما فيها التكوينات المرتبطة بالطب، واستعمال أرضيات التعلم الإلكتروني.
+    إجابات وتوجيهات للطلبة والأشخاص المهتمين بالتكوين والخدمات الجامعية.
+    معلومات ونصائح لاختيار التخصصات والشعب ودليل المؤسسات لفائدة الخريجين الجدد.
+    مصنف مشاريع البحث القائمة والمنجزة وسجل أشغال البحث في المخابر.
+    دعم الابتكار وحضانة المشاريع وتبادل المشاريع مع المؤسسات الناشئة وإجراءات إنشاء المخابر.
+    الوصول إلى أرضية المنشورات الجزائرية المتخصصة في مجال الطب.
+    التسيير الإداري والموارد البشرية والنصوص التنظيمية والعطل والساعات الإضافية.
+    متابعة الممتلكات وصيانتها وكشف النزاعات المتعلقة بتسييرها.
+    منظومة معلوماتية متكاملة وإيجاد الواجهات اللازمة مع منصة Progres.
+    المجلات والمقالات والكتب والمنشورات العلمية للمؤسسات الجامعية.
+    إدارة ومتابعة مسار الطلبة الأجانب في مؤسسات التعليم العالي الجزائرية.
+    إدارة ومتابعة التكوين أو التنقل نحو الخارج والمعالجة الآلية للطلبات.
+    منصة التسجيل ومتابعة الملفات الخاصة بالطلبة الأجانب.
+    المنصة الرقمية لتجديد منح الطلبة الدراسية.
+    متابعة الأساتذة الضيوف والإشراف المشترك للأطروحات وتنقل الموظفين.
+    [عنوان فرعي H3]: دفع تكاليف حقوق التسجيل
+    دفع حقوق التسجيل أو إعادة التسجيل الجامعي إلكترونيا.
+    دفع حقوق الإيواء في الإقامات الجامعية إلكترونيا.
+    [عنوان فرعي H3]: الاتصال والدعم
+    أرسل استفسارك حول التكوين والخدمات المقدمة من قطاع التعليم العالي.
+    افتح بوابة البريد الإلكتروني الرسمية لوزارة التعليم العالي والبحث العلمي.
+    للاستفسارات العامة حول خدمات الوزارة ومنصاتها الرقمية.
+    قناة اتصال إضافية مع وزارة التعليم العالي والبحث العلمي.
+    أرسل مراسلة أو شكوى عبر منصة المواعيد والشكاوى التابعة للوزارة.
+    [عنوان فرعي H3]: التطبيقات
+    تطبيق الخدمات الجامعية ومتابعة المسار الدراسي للطلبة.
+    متابعة النقل الجامعي ومعلومات الرحلات للطلبة.
+    الوصول السريع إلى الشهادات وكشوف النقاط والتوقيت والرزنامة.
+    دليل موحد للوصول إلى جميع المنصات الرقمية الرسمية للوزارة.
+    كل ما يحتاجه الطالب الجزائري في مكان واحد، الجامعات ، المدارس والمعاهد،
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تصفح الآن">https://www.mesrs.dz/plateformes-mesrs-ar/</LINK>
+    <LINK label="أرضية قدامى الخريجين دليل الخريجين وصيت الشهادات وقصص النجاح وفرص التربص والإدماج المهني.">http://ancients.mesrs.dz/public/</LINK>
+    <LINK label="أرضية تمدرس الطالب Progres الشهادات المدرسية وكشوف النقاط وجداول التوقيت والرزنامات والمتابعة الدراسية.">https://progres.mesrs.dz/webetu/login.xhtml</LINK>
+    <LINK label="التعليم عبر الخط الدروس عبر الخط، بما فيها التكوينات المرتبطة بالطب، واستعمال أرضيات التعلم الإلكتروني.">https://dual-mesrs.dz/</LINK>
+    <LINK label="أرضية الطلبة الجدد والأسئلة إجابات وتوجيهات للطلبة والأشخاص المهتمين بالتكوين والخدمات الجامعية.">https://ask.mesrs.dz/</LINK>
+    <LINK label="التوجيه نحو التخصصات والحياة العملية معلومات ونصائح لاختيار التخصصات والشعب ودليل المؤسسات لفائدة الخريجين الجدد.">https://www.mesrs.dz/crafe/</LINK>
+    <LINK label="منصة مشاريع البحث PRFU مصنف مشاريع البحث القائمة والمنجزة وسجل أشغال البحث في المخابر.">https://www.prfu-mesrs.dz/index.php?lng=fr</LINK>
+    <LINK label="منصة دعم الابتكار SGPI دعم الابتكار وحضانة المشاريع وتبادل المشاريع مع المؤسسات الناشئة وإجراءات إنشاء المخابر.">https://sgpi.mesrs.dz/</LINK>
+    <LINK label="المنشورات الجزائرية في الطب الوصول إلى أرضية المنشورات الجزائرية المتخصصة في مجال الطب.">http://pubmed.mesrs.dz/</LINK>
+    <LINK label="أرضية تسيير المستخدمين التسيير الإداري والموارد البشرية والنصوص التنظيمية والعطل والساعات الإضافية.">https://progres.mesrs.dz/webgrh/login.xhtml</LINK>
+    <LINK label="متابعة وصيانة الممتلكات متابعة الممتلكات وصيانتها وكشف النزاعات المتعلقة بتسييرها.">https://progres.mesrs.dz/webplhs/login.xhtml</LINK>
+    <LINK label="النظام المعلوماتي المدمج منظومة معلوماتية متكاملة وإيجاد الواجهات اللازمة مع منصة Progres.">https://progres.mesrs.dz/</LINK>
+    <LINK label="منصة المنشورات ASJP المجلات والمقالات والكتب والمنشورات العلمية للمؤسسات الجامعية.">https://www.asjp.cerist.dz/</LINK>
+    <LINK label="متابعة الطلبة الأجانب إدارة ومتابعة مسار الطلبة الأجانب في مؤسسات التعليم العالي الجزائرية.">https://progres.mesrs.dz/international-students/</LINK>
+    <LINK label="التكوين والتنقل في الخارج إدارة ومتابعة التكوين أو التنقل نحو الخارج والمعالجة الآلية للطلبات.">https://services.mesrs.dz/DCEU/</LINK>
+    <LINK label="تسجيل الطلبة الأجانب منصة التسجيل ومتابعة الملفات الخاصة بالطلبة الأجانب.">https://services.mesrs.dz/DCEU/login/index.php</LINK>
+    <LINK label="تجديد المنح الدراسية المنصة الرقمية لتجديد منح الطلبة الدراسية.">https://services.mesrs.dz/DCEU/course/index.php?categoryid=17%20%20</LINK>
+    <LINK label="منصة التعاون الجامعي CEU متابعة الأساتذة الضيوف والإشراف المشترك للأطروحات وتنقل الموظفين.">https://ceu.mesrs.dz/accounts/login/?next=/</LINK>
+    <LINK label="دفع حقوق التسجيل دفع حقوق التسجيل أو إعادة التسجيل الجامعي إلكترونيا.">https://progres.mesrs.dz/epaiement/epaiementI.xhtml</LINK>
+    <LINK label="دفع حقوق الإيواء دفع حقوق الإيواء في الإقامات الجامعية إلكترونيا.">https://progres.mesrs.dz/epaiement/epaiementH.xhtml</LINK>
+    <LINK label="البريد الإلكتروني الرسمي افتح بوابة البريد الإلكتروني الرسمية لوزارة التعليم العالي والبحث العلمي.">https://mail.mesrs.dz/</LINK>
+    <LINK label="المراسلات والشكاوى أرسل مراسلة أو شكوى عبر منصة المواعيد والشكاوى التابعة للوزارة.">https://progres.mesrs.dz/rdvdoleance/</LINK>
+    <LINK label="تطبيق Progres تطبيق الخدمات الجامعية ومتابعة المسار الدراسي للطلبة.">https://play.google.com/store/apps/details?id=app.progres.webetu&hl=ar</LINK>
+    <LINK label="تطبيق MYBUS متابعة النقل الجامعي ومعلومات الرحلات للطلبة.">https://play.google.com/store/apps/details?id=com.mesrs.mybus.mybusapp&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mf.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mf.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>المالية - الجباية | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات المالية والجباية الرقمية في الجزائر. تسجيل في مختلف الصيغ المالية، دفع الرسوم والضرائب، قسيمة السيارات، قسيمية بطاقة التعريف، رخصة السياقة، جواز السفر، عقود ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات الطابع الجبائي -خدمات الجباية الرقمية
+    الطابع الجبائي لبطاقة التعريف، رخصة السياقة، جواز السفر، عقود النقل والسفر
+    [عنوان فرعي H3]: قسيمة السيارات - خدمات الجباية الرقمية
+    إقتناء قسيمة سيارة
+    [عنوان فرعي H3]: الصفقات العمومية
+    التسجيل في البوابة الإلكترونية
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: فضاء الجزائر - خدمات الأملاك العقارية
+    طلب وإستخراج مختلف الوثائق العقارية عن بعد
+    [عنوان فرعي H3]: فضاء الجزائر - خدمات الأملاك العقارية للمحترفين
+    خدمات الأملاك العقارية للمحترفين
+    [عنوان فرعي H3]: الترقيم الجبائي - خدمات عن بعد
+    الحصول على خدمات الترقيم الجبائي عن بعد
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="الصفقات العمومية التسجيل في البوابة الإلكترونية">https://auth.marches-publics.gov.dz/auth/realms/DGB-REALM/protocol/openid-connect/auth?client_id=dgb-pemp-frontend&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Fmarches-publics.gov.dz%2Fapi%2Fauth%2Fcallback%2Fkeycloak&ui_locales=ar</LINK>
+    <LINK label="الأملاك العقارية للمحترفين خدمات الأملاك العقارية للمحترفين">https://fadaeldjazair.mf.gov.dz/login2</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mfa.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mfa.html</ORIGINAL_URL>
+  <PAGE_TITLE>الشؤون الخارجية والجالية الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات وزارة الشؤون الخارجية الجزائرية عبر الإنترنت، بما في ذلك التأشيرات والخدمات القنصلية والوثائق الإدارية للمواطنين داخل وخارج الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: اكتب إلى كاتب الدولة مكلف بالجالية بالخارج
+    [عنوان فرعي H3]: خدمات عن بعد
+    تسجيل الدخول لمنصة الأبوستيل
+    طريقة تسجيل الدخول للمنصة
+    ترحيل الوثائق للتصديق عبر بريد الجزائر
+    [عنوان فرعي H3]: إبحث عن مكاتب دبلوماسية ومنظمات بالداخل والخارج
+    الممثليات الدبلوماسية والقنصلية الجزائرية بالخارج
+    الممثليات الدبلوماسية و القنصلية الأجنبية بالجزائر
+    المنظمات الدولية والإقليمية في الجزائر
+    اكتب إلى كاتب الدولة مكلف بالجالية بالخارج
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="اكتب الآن">https://www.mfa.gov.dz/ar/contact</LINK>
+    <LINK label="جدبد منصة الأبوستيل تسجيل الدخول لمنصة الأبوستيل">http://apostille.gov.dz/</LINK>
+    <LINK label="ترحيل الوثائق للتصديق ترحيل الوثائق للتصديق عبر بريد الجزائر">https://tasdik.poste.dz/</LINK>
+    <LINK label="الممثليات الدبلوماسية بالخارج الممثليات الدبلوماسية والقنصلية الجزائرية بالخارج">https://www.mfa.gov.dz/ar/embassys-locations-list</LINK>
+    <LINK label="الممثليات الدبلوماسية الأجنبية الممثليات الدبلوماسية و القنصلية الأجنبية بالجزائر">https://emblibreville.mfa.gov.dz/ar/foreign-diplomatic-and-consular-representations-in-algeria</LINK>
+    <LINK label="المنظمات الدولية والإقليمية المنظمات الدولية والإقليمية في الجزائر">https://www.mfa.gov.dz/ar/international-and-regional-organizations-in-algeria</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mfp.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mfp.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>التكوين المهني 2026 | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل شامل لخدمات وزارة التكوين والتعليم المهنيين في الجزائر. سجل في الدخول التكويني 2026، استفد من برامج 'تعلّم صنعة' وتركيب الهواتف الذكية، وتابع الامتحانات المهنية عبر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في الدخول التكويني 2026
+    العديد من المهن والحرف في إنظارك - لا تفوت الفرصة
+    [عنوان فرعي H3]: التسجيل في برامج التكوين والتعليم المهنيين
+    التسجيل في التكوين والتعليم المهنيين
+    طريقة تسجيل في التكوين والتعليم المهنيين
+    مراكز التكوين المهني تفتح أبوابها لكل الشباب من 15 إلى 26 سنة، في 6 تخصصات
+    برنامج للتكوين التأهيلي الأولي في تخصص تركيب الهواتف الذكية
+    التسجيل في التكوين والتعليم المهنيين
+    [عنوان فرعي H3]: الإمتحانات المهنية في التكوين والتعليم المهنيين
+    تسجيلات في الإمتحانات المهنية وفق الرزنامة الرسمية
+    [عنوان فرعي H3]: التكوين والتعليم المهنيان عن بعد
+    اكتشف البرامج والتخصصات التكوينية المتاحة
+    الولوج إلى منصة التعليم والتكوين عن بعد
+    دفع مستحقات التسجيل في التكوين والتعليم المهنيين عن بعد
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://takwin.dz/Offersinscription</LINK>
+    <LINK label="جدبد تعلّم صنعة واصنع مستقبلك مراكز التكوين المهني تفتح أبوابها لكل الشباب من 15 إلى 26 سنة، في 6 تخصصات">https://takwin.dz/san3a</LINK>
+    <LINK label="جدبد التكوين والتعليم المهنيين برنامج للتكوين التأهيلي الأولي في تخصص تركيب الهواتف الذكية">https://takwin.dz/inscription/264797</LINK>
+    <LINK label="التسجيل في التكوين والتعليم المهنيين التسجيل في التكوين والتعليم المهنيين">https://www.takwin.dz/</LINK>
+    <LINK label="الإمتحانات المهنية تسجيلات في الإمتحانات المهنية وفق الرزنامة الرسمية">https://takwin.dz/ProfessionalExams</LINK>
+    <LINK label="البرامج التكوينية اكتشف البرامج والتخصصات التكوينية المتاحة">https://cnepd.edu.dz/programs.html</LINK>
+    <LINK label="المنصة التعليمية الولوج إلى منصة التعليم والتكوين عن بعد">https://elearningdz.cnepd.edu.dz/my/</LINK>
+    <LINK label="دفع مستحقات التسجيل دفع مستحقات التسجيل في التكوين والتعليم المهنيين عن بعد">https://inscription-epaiement.cnepd.edu.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mhuv.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mhuv.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>السكن، المدينة والعقار | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل الخدمات الرقمية لوزارة السكن والعمران والمدينة في الجزائر، يشمل اعتماد المرقي العقاري، اعتماد الوكيل العقاري، اعتماد المهندس، وخدمات السكن والعقار عبر الإنترنت</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات إليكترونية لوزارة السكن والعمران (mhuv)
+    تقديم طلب إعتماد مرقي عقاري
+    تقديم طلب إعتماد وكال عقاري
+    تقديم طلب إعتماد مهندس
+    [عنوان فرعي H3]: خدمات وكالة عدل (AADL)
+    خدمات وكالة عدل لتحسين السكن وتطويره
+    [عنوان فرعي H3]: خدمات ديوان الترقية والتسيير العقاري (OPGI)
+    خدمات ديوان الترقية والتسيير العقاري OPGI
+    [عنوان فرعي H3]: خدمات المؤسسة الوطنية للترقية العقارية (ENPI)
+    خدمات المؤسسة الوطنية للترقية العقارية (ENPI)
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إعتماد مرقي عقاري تقديم طلب إعتماد مرقي عقاري">https://eagrement-pi.mhuv.gov.dz/</LINK>
+    <LINK label="إعتماد وكال عقاري تقديم طلب إعتماد وكال عقاري">https://e-agrement-agent.mhuv.gov.dz/</LINK>
+    <LINK label="إعتماد مهندس تقديم طلب إعتماد مهندس">https://e-agrement-ingenieur.mhuv.gov.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mjeunesse.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mjeunesse.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الشباب | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>وزارة الشباب الجزائرية تقدم خدمات وبرامج للشباب، بما في ذلك برامج القيادة، الهاكاثونات، التخييم، وبيوت الشباب</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: بيوت الشباب
+    حمل تطبيق دليل بيوت الشباب في الجزائر
+    [عنوان فرعي H3]: خدمات وزارة الشسباب
+    برنامج للتكوين التأهيلي الأولي في تخصص تركيب الهواتف الذكية
+    تأهيل كفاءات قادرة على قيادة مؤسسات الشباب والتنشيط التربوي
+    الإختبارات للإلتحاق بالتكوين المتخصص في رتبة مربي رئيسي لتنشيط الشباب
+    دليل برنامج Dz Young Leaders
+    أنشطة Young Leaders - التسجيل والمشاركة
+    إكتشف hackathon
+    إبحث عن مراكز العطل
+    إكتشف برامج التخييم
+    المراكز المخصصة لأبناء الجالية بالخارج
+    تطبيق "دليل بيوت الشباب في الجزائر"
+    التواصل مع فريق عمل وزارة الشباب
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=com.ouledmimounhostel.algeriahostels</LINK>
+    <LINK label="جدبد التكوين والتعليم المهنيين برنامج للتكوين التأهيلي الأولي في تخصص تركيب الهواتف الذكية">https://takwin.dz/inscription/264797</LINK>
+    <LINK label="جدبد المدرسة العليا لعلوم وتقنيات تأطير الشباب تأهيل كفاءات قادرة على قيادة مؤسسات الشباب والتنشيط التربوي">https://esstej.mjeunesse.gov.dz/</LINK>
+    <LINK label="جدبد مسابقات التوظيف الإختبارات للإلتحاق بالتكوين المتخصص في رتبة مربي رئيسي لتنشيط الشباب">https://takwin.mjeunesse.gov.dz/competitions/</LINK>
+    <LINK label="Dz Young Leaders دليل برنامج Dz Young Leaders">https://youngleaders.mjeunesse.gov.dz/#participation</LINK>
+    <LINK label="النشاطات الشبابية أنشطة Young Leaders - التسجيل والمشاركة">https://youthconnect.mjeunesse.gov.dz/signup</LINK>
+    <LINK label="hackathon إكتشف hackathon">https://hackathon-2025.mjeunesse.gov.dz/</LINK>
+    <LINK label="مراكز العطل إبحث عن مراكز العطل">https://moukhayami.mjeunesse.gov.dz/center/</LINK>
+    <LINK label="برامج التخييم إكتشف برامج التخييم">https://moukhayami.mjeunesse.gov.dz/programme/</LINK>
+    <LINK label="الجالية الجزائرية في الخارج المراكز المخصصة لأبناء الجالية بالخارج">https://moukhayami.mjeunesse.gov.dz/communaute-algerienne-a-l-etranger/</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل وزارة الشباب">https://moukhayami.mjeunesse.gov.dz/contact/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mjustice.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mjustice.html</ORIGINAL_URL>
+  <PAGE_TITLE>العدالة تيك| البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات وزارة العدل الجزائرية الإلكترونية، بما في ذلك طلب الوثائق القضائية ومتابعة الإجراءات القانونية والوصول إلى الخدمات الرقمية الرسمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: النيابة الإلكترونية - إيداع شكوى
+    [عنوان فرعي H3]: خدمات عن بعد
+    استخراج صحيفة السوابق القضائية
+    استخراج الجنسية الجزائرية
+    طلب مستخرج الوجود بالسجن إبان الثورة
+    طلب نسخة من عقود المحاكم
+    طلب رخص الاتصال بالمحبوسين
+    طلب رخص الاتصال بالمحبوسين
+    طريقة طلب صحيفة السوابق القضائية
+    [عنوان فرعي H3]: النيابة الإلكترونية
+    تسجيل شكوى
+    متابعة شكوى
+    طريقة تسيجيل شكوى
+    تطبيق AdalaTic
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أشكي الآن">https://e-nyaba.mjustice.dz/nouvelle_plainte.php</LINK>
+    <LINK label="صحيفة السوابق القضائية استخراج صحيفة السوابق القضائية">https://e-casier.mjustice.dz/</LINK>
+    <LINK label="الجنسية الجزائرية استخراج الجنسية الجزائرية">https://portail.mjustice.dz/remote/login?lang=fr</LINK>
+    <LINK label="مستخرج الوجود بالسجن إبان الثورة طلب مستخرج الوجود بالسجن إبان الثورة">https://www.mjustice.dz/ar/archive/</LINK>
+    <LINK label="نسخة من عقود المحاكم طلب نسخة من عقود المحاكم">https://www.mjustice.dz/ar/tr-ch/</LINK>
+    <LINK label="الاتصال بالمحبوسين طلب رخص الاتصال بالمحبوسين">https://ziyarati.mjustice.dz/</LINK>
+    <LINK label="متابعة شكوى متابعة شكوى">https://e-nyaba.mjustice.dz/login.php</LINK>
+    <LINK label="تطبيق AdalaTic تطبيق AdalaTic">https://play.google.com/store/apps/details?id=dz.mjustice.e_service&pcampaignid=web_share</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mobilis.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mobilis.html</ORIGINAL_URL>
+  <PAGE_TITLE>خدمات الهاتف - موبيليس | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات موبيليس الجزائر Djezzy Algeria، تشمل تعبئة الرصيد ودفع الفواتير عبر الإنترنت وتطبيق My Djezzy وخدمة الزبائن والعروض والإنترنت وخدمات الهاتف النقال الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات الهاتف النقال - موبيليس
+    تعبئة رصيد موبيليس بكل سهولة بإستخدام البطاقة الذهبية
+    إستمتع مع تطبيق MobiSpace والخدمات الأخرى
+    تابع رصيدك واستهلاك الإنترنت والرسائل ووحدات MU وصلاحية العرض، واشحن رصيدك وفعّل خدمات 5G واشترِ العروض. يوفّر أيضا Keep On وكريديليس وسلكني ونغمتي وكلمني، مع دعم على مدار الساعة.
+    الإطلاع على الموقع الرسمي لموبيليس
+    تواصل مع مصلحة خدمة الزبائن لموبيليس
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تعبئة رصيد الهاتف وتخليص الفواتير تعبئة رصيد موبيليس بكل سهولة بإستخدام البطاقة الذهبية">https://e-paiement.mobilis.dz/</LINK>
+    <LINK label="تطبيق MobiSpace إستمتع مع تطبيق MobiSpace والخدمات الأخرى">https://play.google.com/store/search?q=mobispace&c=apps&hl=ar</LINK>
+    <LINK label="تطبيق Mobilis Care تابع رصيدك واستهلاك الإنترنت والرسائل ووحدات MU وصلاحية العرض، واشحن رصيدك وفعّل خدمات 5G واشترِ العروض. يوفّر أيضا Keep On وكريديليس وسلكني ونغمتي وكلمني، مع دعم على مدار الساعة.">https://play.google.com/store/apps/details?id=dz.mobilis.mcare</LINK>
+    <LINK label="الموقع الرسمي الإطلاع على الموقع الرسمي لموبيليس">https://www.mobilis.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/msnfcf.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/msnfcf.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>التضامن والاسرة وقضايا المرأة | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات وزارة التضامن الوطني والأسرة وقضايا المرأة في الجزائر، بما في ذلك الدعم الاجتماعي، حماية المرأة، برامج الأسرة المنتجة، التوظيف والخدمات الرقمية الموجهة للمواط</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات التضامن والأسرة
+    الحصول على الدعم المالي العمومي للجمعيات
+    تسجيل دخول إدارة مديرية النشاط الإجتماعي
+    تسجيل دخول إلى الأرضية الرقمية
+    تسجيل الدخول لبرنامج الأسرة المنتجة
+    منتجات الأسرة المنتجة و المرأة الريفية
+    مرافقة الأشخاص المسنين
+    المنصة الرقمية للتبليغ عن الفساد
+    تكفل الشامل بالمرأة ضحية العنف
+    طلب إستشارة أسرية
+    للتبليغ عن العنف ضد المرأة
+    المنصة الرقمية للتبليغ عن الفساد
+    المنصة الإصغاء والمتابعة
+    التواصل مع فريق عمل نزاهة
+    التواصل عبر البريد الإلكتروني
+    الدعم النفسي والاجتماعي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="برنامج الدعم المالي الحصول على الدعم المالي العمومي للجمعيات">https://www.solidarite-association.dz/</LINK>
+    <LINK label="العمليات الاستثمارية تسجيل دخول إدارة مديرية النشاط الإجتماعي">https://portail-solidarite.gov.dz/equipements/authentification</LINK>
+    <LINK label="منصة التوظيف تسجيل دخول إلى الأرضية الرقمية">https://www.msnfcf.gov.dz/tawdif2026/</LINK>
+    <LINK label="برنامج الأسرة المنتجة تسجيل الدخول لبرنامج الأسرة المنتجة">https://www.ousraty.dz/Login_AD</LINK>
+    <LINK label=""تسويق" منتجات الأسرة المنتجة و المرأة الريفية">https://www.ousraty.dz/authentification</LINK>
+    <LINK label="الأشخاص المسنين مرافقة الأشخاص المسنين">https://www.mourafaka.dz/ad/authentification</LINK>
+    <LINK label=""النزاهة" المنصة الرقمية للتبليغ عن الفساد">https://www.solidarite-nazaha.dz/NazahaAPP</LINK>
+    <LINK label=""حمايتي" تكفل الشامل بالمرأة ضحية العنف">https://www.himayati.dz/himayati/app/himayati.apk</LINK>
+    <LINK label=""سندكم" طلب إستشارة أسرية">https://www.sanedcom.dz/authentification_ad</LINK>
+    <LINK label=""حمايتي" للتبليغ عن العنف ضد المرأة">https://www.himayati.dz/himayati/authentification_AD</LINK>
+    <LINK label=""النزاهة" المنصة الرقمية للتبليغ عن الفساد">https://www.solidarite-nazaha.dz/Formulaire</LINK>
+    <LINK label=""يصغي" المنصة الإصغاء والمتابعة">https://service-solidarite.gov.dz/tadamoun/#plateforme/login_T2.php</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/msport.gov.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/msport.gov.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الرياضة | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات وزارة الرياضة الجزائرية الرقمية، من تسجيل رياضيي النخبة والمستوى العالي والتكوين الرياضي إلى تحميل الشهادات ومتابعة الملفات إلكترونيا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: وزارة الرياضة
+    تكوين جزئي، تحميل شهادة المشاركة، متابعة حالة طلبات
+    [عنوان فرعي H3]: التواصل مع وزارة الرياضة
+    التواصل مع فريق عمل وزارةالرياضة
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تكوين تكوين جزئي، تحميل شهادة المشاركة، متابعة حالة طلبات">https://taksport.msport.gov.dz/public/certificate</LINK>
+    <LINK label="فضاء الإصغاء والتواصل التواصل مع فريق عمل وزارةالرياضة">https://itassel.msport.gov.dz/public/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mtess.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mtess.html</ORIGINAL_URL>
+  <PAGE_TITLE>العمل، التشغيل والضمان الإجتماعي | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم وزارة العمل، التشغيل والضمان الاجتماعي خدمات رقمية للمواطنين، بما في ذلك منصة تبليغ الرسمية للتبليغ عن المخالفات ومتابعة معالجة البلاغات بسرية وأمان</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حمل تطبيق الهناء
+    لا تفوت الفرصة وإستمتاع بالعديد من الخدمات الرقمية
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء (CASNOS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الغير أجراء
+    [عنوان فرعي H3]: الصندوق الوطني للضمان الاجتماعي للعمال الأجراء (CNAS)
+    الدخول إلى الصندوق الوطني للضمان الاجتماعي للعمال الأجراء
+    [عنوان فرعي H3]: الصندوق الوطني للتقاعد (CNR)
+    الدخول إلى الصندوق الوطني للتقاعد (CNR)
+    [عنوان فرعي H3]: الوكالة الوطنية للتشغيل
+    الدخول إلى الوكالة الوطنية للتشغيل
+    [عنوان فرعي H3]: منصة «تبليغ» للمبلغين عن المخالفات
+    منصة مخصصة للمبلغين عن المخالفات، تتيح إرسال البلاغات وتتبع مراحل معالجتها بسرية وأمان.
+    سجل في دقائق للوصول إلى فضاء المبلغ الآمن.
+    ادخل إلى فضاء المبلغ لإرسال البلاغات وتتبع مراحل المعالجة.
+    تواصل مع خلية النزاهة عبر البريد: cellule.nazaha@mtess.gov.dz
+    [عنوان فرعي H3]: تطبيقات وزارة العمل، التشغيل والضمان الإجتماعي
+    تحميل تطبيق الهناء
+    تحميل تطبيق المتقاعد
+    تحميل تطبيق الحساب الفردي للأجير
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن عن بعد
+    خدمات الضمان الاجتماعي والتغطية الصحية الرقمية
+    الخدمات البريدية والدفع الإلكتروني ومتابعة الملفات
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=ar</LINK>
+    <LINK label="المنصة الرقمية «تبليغ» منصة مخصصة للمبلغين عن المخالفات، تتيح إرسال البلاغات وتتبع مراحل معالجتها بسرية وأمان.">https://tabligh.mtess.gov.dz/home</LINK>
+    <LINK label="إنشاء حساب سجل في دقائق للوصول إلى فضاء المبلغ الآمن.">https://tabligh.mtess.gov.dz/auth/register</LINK>
+    <LINK label="تسجيل الدخول ادخل إلى فضاء المبلغ لإرسال البلاغات وتتبع مراحل المعالجة.">https://tabligh.mtess.gov.dz/auth/login</LINK>
+    <LINK label="تطبيق المتقاعد تحميل تطبيق المتقاعد">https://play.google.com/store/apps/details?id=dz.cnr.cnr</LINK>
+    <LINK label="تطبيق الحساب الفردي للأجير (CIS) تحميل تطبيق الحساب الفردي للأجير">https://play.google.com/store/apps/details?id=dz.cnr.mobi_cis&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/mtpib.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/mtpib.html</ORIGINAL_URL>
+  <PAGE_TITLE>وزارة الأشغال العمومية والمنشآت القاعدية | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>البوابة الرقمية لوزارة الأشغال العمومية والمنشآت القاعدية في الجزائر: التأهيل والتصنيف المهني، اعتماد المهندسين ومكاتب الدراسات، رخصة شبكة الطرق، وثيقة تحديد المسافة، ومحاكاة التصنيف المهني إلكترونيا.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات عن بعد
+    فضاء الحصول على شهادة التأهيل و التصنيف المهنيين
+    فضاء الحصول على شهادة اعتماد للمهندسين و مكاتب الدراسات الخاصة
+    فضاء الحصول على رخصة شبكة الطرق
+    فضاء الحصول على وثيقة تحديد المسافة
+    جرب تصنيفك المهني
+    تعريف عن بوابة أشغال العمومية والمنشآت الكبرى
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    بنوك وطنية عمومية وأجنبية
+    الوصول السريع إلى أرقام ومصالح الطوارئ في الجزائر
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="التأهيل و التصنيف المهنيين فضاء الحصول على شهادة التأهيل و التصنيف المهنيين">https://portail.mtpib.dz/demande-login.php</LINK>
+    <LINK label="محاكاة تصنيف مهني جرب تصنيفك المهني">https://portail.mtpib.dz/simul.php</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/naftal.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/naftal.html</ORIGINAL_URL>
+  <PAGE_TITLE>نفطال | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم موقع الشركة الوطنية نفطال للمواد البيترولية خدمات إليكترونية عن بعد دون الحاجة للتنقل وربح الوقت</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في خدمات محطتي لنفطال وإقتني أفضل العجلات،
+    انضم إلينا واحصل على الخدمة التي تبحث عنها
+    [عنوان فرعي H3]: خدمات محطتي
+    التسجيل في خدمة محطتي لاقتناء عجلات السيارات
+    طريقة التسجيل
+    تحميل تطبيق نفطال خدمات
+    [عنوان فرعي H3]: خدمات التواصل ومصلحة الزبائن
+    إتصل الأن ، نفطال - 3305
+    التواصل مع مصلحة الزبائن عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    معلومات وخدمات النقل والتنقل والمنصات الرقمية
+    الدفع الإلكتروني والخدمات البريدية عن بعد
+    استخراج الوثائق الإدارية إلكترونيا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://e-mahata.naftal.dz/</LINK>
+    <LINK label="تطبيق نفطال خدمات تحميل تطبيق نفطال خدمات">https://play.google.com/store/apps/details?id=com.naftal.apps.naftalkhadamat&hl=AR</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/nifenligne.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/nifenligne.html</ORIGINAL_URL>
+  <PAGE_TITLE>الترقيم الجبائي | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات المالية والجباية الرقمية في الجزائر. تسجيل في مختلف الصيغ المالية، دفع الرسوم والضرائب، قسيمة السيارات، قسيمية بطاقة التعريف، رخصة السياقة، جواز السفر، عقود ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الترقيم الجبائي
+    أحصل علة الترقيم الجبائي الأن
+    [عنوان فرعي H3]: الترقيم الجبائي - خدمات الجباية الرقمية
+    طلب الحصول على رقم التعريف الجبائي لشخص معنوي
+    طلب الحصول على رقم التعريف الجبائي لشخص طبيعي
+    متابعة طلب الحثول على رقم التعريف الجبائي لشخص معنوي
+    متابعة طلب الحثول على رقم التعريف الجبائي لشخص طبيعي
+    طباعة شهادة الترقيم الجبائي لشخص معنوي
+    طباعة شهادة الترقيم الجبائي لشخص طبيعي
+    تعديل طلب الحصول على رقم التعريف الجبائي لشخص معنوي
+    تعديل طلب الحصول على رقم التعريف الجبائي لشخص طبيعي
+    إسترجاع طلب رقم التعريف الجبائي لشخص معنوي
+    إسترجاع طلب رقم التعريف الجبائي لشخص طبيعي
+    إسترجاع وصل إستلام طلب رقم التعريف الجبائي لشخص معنوي
+    إسترجاع وصل إستلام طلب رقم التعريف الجبائي لشخص طبيعي
+    التحقق من مصادقة رقم التعريف الجبائي
+    الدخول إلى بوابة الخدمات الرقمية "جبايتيك"
+    التواصل مع فريق عمل الترقيم الجبائي
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="طلب الآن">https://nifenligne.mf.gov.dz/DIDindexDemande2Ar.asp</LINK>
+    <LINK label="طلب رقم التعريف الجبائي طلب الحصول على رقم التعريف الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/ChoixMorale.asp</LINK>
+    <LINK label="طلب رقم التعريف الجبائي طلب الحصول على رقم التعريف الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/FormulairePhysique.asp</LINK>
+    <LINK label="طلب متابعة متابعة طلب الحثول على رقم التعريف الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/voirEtatPM.asp</LINK>
+    <LINK label="طلب متابعة متابعة طلب الحثول على رقم التعريف الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/voiretatPNIF.asp</LINK>
+    <LINK label="طباعة شهادة الترقيم الجبائي طباعة شهادة الترقيم الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/editMorNIF.asp</LINK>
+    <LINK label="طباعة شهادة الترقيم الجبائي طباعة شهادة الترقيم الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/ChoixeditionPP.asp</LINK>
+    <LINK label="تعديل طلب رقم التعريف الجبائي تعديل طلب الحصول على رقم التعريف الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/AutupPM.asp</LINK>
+    <LINK label="تعديل طلب رقم التعريف الجبائي تعديل طلب الحصول على رقم التعريف الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/AutupPH.asp</LINK>
+    <LINK label="إسترجاع الطلب إسترجاع طلب رقم التعريف الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/AutrecpnumdemPM.asp</LINK>
+    <LINK label="إسترجاع الطلب إسترجاع طلب رقم التعريف الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/AutrecpnumdemPH.asp</LINK>
+    <LINK label="إسترجاع وصل إستلام الطلب إسترجاع وصل إستلام طلب رقم التعريف الجبائي لشخص معنوي">https://nifenligne.mf.gov.dz/PM/AuteditMacc.asp</LINK>
+    <LINK label="إسترجاع وصل إستلام الطلب إسترجاع وصل إستلام طلب رقم التعريف الجبائي لشخص طبيعي">https://nifenligne.mf.gov.dz/PPH/AuteditPHacc.asp</LINK>
+    <LINK label="التحقق من المصادقة التحقق من مصادقة رقم التعريف الجبائي">https://nifenligne.mf.gov.dz/nif.asp</LINK>
+    <LINK label="بوابة الخدمات الرقمية"جبايتيك" الدخول إلى بوابة الخدمات الرقمية "جبايتيك"">https://jibayatic.mf.gov.dz/#/Logon</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل الترقيم الجبائي">https://nifenligne.mf.gov.dz/DIDindexContacterAr.asp</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/ocrc.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/ocrc.html</ORIGINAL_URL>
+  <PAGE_TITLE>الديوان المركزي لقمع الفساد | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات التبليغ عن الفساد والجرائم الاقتصادية والمالية في الجزائر، مع معلومات حول الهيئات المختصة ووسائل الإبلاغ وحماية المبلغين</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الخدمات الرقمية
+    تقديم شكوى حول أي مخالفات أو فساد
+    خدمة الاستماع والدعم للمواطنين
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تقديم شكوى تقديم شكوى حول أي مخالفات أو فساد">https://www.ocrc.gov.dz/ar/%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%B4%D9%83%D9%88%D9%89</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/onpo.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/onpo.html</ORIGINAL_URL>
+  <PAGE_TITLE>الديوان الوطني للحج والعمرة | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات الديوان الوطني للحج والعمرة في الجزائر: التسجيل في الحج، القرعة، متابعة الطلب، خدمات العمرة والمعلومات الرسمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات عن بعد
+    التسجيل في قرعة الحج
+    البوابة الجزائرية للحج
+    البوابة الجزائرية للعمرة
+    الآذان بتوقيت الجزائـر "تحميل"
+    مكتبة القرآن الصوتية - مصحف رقمي
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="التسجيل في قرعة الحج التسجيل في قرعة الحج">https://pelerinage.interieur.gov.dz/Ar/Accueil/Accueil</LINK>
+    <LINK label="البوابة الجزائرية للحج البوابة الجزائرية للحج">https://bawabetelhadj.dz/</LINK>
+    <LINK label="البوابة الجزائرية للعمرة البوابة الجزائرية للعمرة">https://bawabetelomra.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/ooredoo.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/ooredoo.html</ORIGINAL_URL>
+  <PAGE_TITLE>خدمات الهاتف - أوريدو | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات أوريدو الجزائر Ooredoo Algeria، تشمل تعبئة الرصيد ودفع الفواتير عبر الإنترنت وتطبيق My Ooredoo وخدمة الزبائن والعروض والإنترنت وخدمات الهاتف النقال الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات الهاتف النقال - أوريدو
+    تعبئة رصيد أوريدو بكل سهولة بإستخدام البطاقة الذهبية
+    إستمتع مع تطبيق ooredoo والخدمات الأخرى
+    الإطلاع على الموقع الرسمي لأوريدو
+    تواصل مع مصلحة خدمة الزبائن لأوريدو
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تعبئة رصيد الهاتف وتخليص الفواتير تعبئة رصيد أوريدو بكل سهولة بإستخدام البطاقة الذهبية">http://estorm.ooredoo.dz/</LINK>
+    <LINK label="تطبيق My Ooredoo Algeria إستمتع مع تطبيق ooredoo والخدمات الأخرى">https://play.google.com/store/apps/details?id=com.algeria.selfcare.app.android&pli=1</LINK>
+    <LINK label="الموقع الرسمي الإطلاع على الموقع الرسمي لأوريدو">https://www.ooredoo.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/opgi.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/opgi.html</ORIGINAL_URL>
+  <PAGE_TITLE>ديوان الترقية والتسيير العقاري | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات ديوان الترقية والتسيير العقاري OPGI في الجزائر، دفع فواتير الكراء، متابعة الخدمات السكنية، التواصل مع خدمة الزبائن، والوصول إلى التطبيقات والمنصات الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: ديوان الترقية والتسيير العقاري -OPGI
+    مصلحة خدمة الزبائن
+    [عنوان فرعي H3]: خدمات عن بعد
+    دفع فاتورة كراء سكنات OPGI
+    تطبيق OPGI Mobile
+    تحميل تطبيق بريدي موب الجزائر
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="فاتورة كراء OPGI دفع فاتورة كراء سكنات OPGI">https://www.opgiconstantine.dz/</LINK>
+    <LINK label="تطبيق OPGI تطبيق OPGI Mobile">https://play.google.com/store/apps/details?id=dz.opgi.mobile</LINK>
+    <LINK label="تطبيق بريدي موب تحميل تطبيق بريدي موب الجزائر">https://play.google.com/store/apps/details?id=ru.bpc.mobilebank.bpc</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/ostad-education.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/ostad-education.html</ORIGINAL_URL>
+  <PAGE_TITLE>فضاء الأستاذ – منصات التوظيف، التقييم، والمسابقات | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>فضاء الأستاذ في الجزائر: منصة الأستاذ الرقمية، توظيف الأساتذة المتعاقدين، مسابقات التوظيف، تقييم المكتسبات، والامتحانات المهنية. خدمات رقمية شاملة لقطاع التربية الوطنية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: مسابقة التوظيف الخاصة بالاساتذة
+    الاطلاع على نتائج مسابقة التوظيف على اساس الشهادة خاصة بالاساتذة
+    [عنوان فرعي H3]: فضاء الأستاذ
+    التصديق على كشوف النقاط وشهادة البكالوريا الموجهة للاستعمال بالخارج
+    الاطلاع على نتائج الامتحانات المهنية للاسلاك الخاصة
+    الاطلاع على نتائج مسابقة التوظيف على أساس الشهادة الخاصة بالأساتذة
+    فضاء الأستاذ الشامل لإدارة العملية التربوية والتواصل مع الإدارة
+    تسجيل نتائج التلاميذ ومتابعة تحصيلهم الدراسي
+    التسجيل في مسابقات التوظيف كأستاذ متعاقد
+    المسابقات والتوظيف في مختلف مناصب التربية
+    منصة تعليمية متكاملة للأساتذة والتلاميذ
+    [عنوان فرعي H3]: فضاء الأولياء والتلاميذ
+    متابعة النتائج الدراسية، الغيابات، والتواصل مع المدرسة
+    [عنوان فرعي H3]: التعليم والتكوين عن بعد
+    التسجيل في برامج التعليم عن بعد
+    استخراج شهادات إثبات المستوى
+    [عنوان فرعي H3]: التسجيل في الامتحانات الوطنية
+    التسجيل في امتحان شهادة البكالوريا، متابعة الطلب، وطبع الاستدعاء
+    التسجيل في امتحان السنة الرابعة متوسط، الاطلاع على النتائج
+    تسديد مستحقات التسجيل في امتحانات BEM و BAC إلكترونيا
+    [عنوان فرعي H3]: النتائج والشهادات الإمتحانات الوطينية
+    الاطلاع على نتائج شهادة التعليم المتوسط باستخدام رقم التسجيل
+    الاطلاع على نتائج امتحان البكالوريا باستخدام رقم التسجيل
+    استخراج شهادة إثبات المستوى للتلاميذ المسجلين في التعليم عن بعد
+    [عنوان فرعي H3]: بنك الفروض والاختبارات
+    لجميع المستويات مع التصحيح
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات التسجيل الجامعي والتكوين ومتابعة المسار الدراسي
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إستكشف الآن">https://concours.onec.dz/</LINK>
+    <LINK label="جدبد الامتحانات المهنية الاطلاع على نتائج الامتحانات المهنية للاسلاك الخاصة">https://mowadaf.education.dz/</LINK>
+    <LINK label="المنصة الرقمية للأستاذ فضاء الأستاذ الشامل لإدارة العملية التربوية والتواصل مع الإدارة">https://ostad.education.dz/auth</LINK>
+    <LINK label="منصة تقييم المكتسبات تسجيل نتائج التلاميذ ومتابعة تحصيلهم الدراسي">https://taqiim.education.dz/</LINK>
+    <LINK label="توظيف الأساتذة المتعاقدين التسجيل في مسابقات التوظيف كأستاذ متعاقد">https://tawdif.education.dz/</LINK>
+    <LINK label="المنصة الرقمية للتوظيف المسابقات والتوظيف في مختلف مناصب التربية">https://concour.onec.dz/</LINK>
+    <LINK label="منصة معلم منصة تعليمية متكاملة للأساتذة والتلاميذ">https://www.moalim-dz.net/</LINK>
+    <LINK label="التعليم عن بعد التسجيل في برامج التعليم عن بعد">https://awlyaa.education.dz/login</LINK>
+    <LINK label="إثبات المستوى استخراج شهادات إثبات المستوى">https://www.onefd.edu.dz/att_niv_2025/</LINK>
+    <LINK label="شهادة البكالوريا BAC التسجيل في امتحان شهادة البكالوريا، متابعة الطلب، وطبع الاستدعاء">https://bac.onec.dz/</LINK>
+    <LINK label="شهادة التعليم المتوسط BEM التسجيل في امتحان السنة الرابعة متوسط، الاطلاع على النتائج">https://bem.onec.dz/</LINK>
+    <LINK label="الدفع الإلكتروني للامتحانات تسديد مستحقات التسجيل في امتحانات BEM و BAC إلكترونيا">https://epay.education.dz/auth</LINK>
+    <LINK label="شهادة إثبات المستوى استخراج شهادة إثبات المستوى للتلاميذ المسجلين في التعليم عن بعد">https://www.onefd.edu.dz/att_niv_**/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/poste.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/poste.html</ORIGINAL_URL>
+  <PAGE_TITLE>بريد الجزائر 2026 | البطاقة الذهبية وبريدي موب وECCP</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات بريد الجزائر الرقمية: فضاء ECCP والاطلاع على الرصيد، البطاقة الذهبية، بريدي موب، تتبع الطرود وإيداع الشكاوى، مع روابط مباشرة للمواقع الرسمية.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: طلب البطاقة الذهبية
+    الطلبات متوفرة - لا تفوت الفرصة
+    [عنوان فرعي H3]: فضاء زبائن بريد الجزائر
+    فضاء يتيح لك فتح حساب جاري عن بعد
+    الإطلاع على الحساب الجاي (E-CCP). - إستمارة KYC وتحديث معلومات
+    فتح حساب ECCP عن بعد - بدون الحاجة لزيارة مكتب البريد
+    الإطلاع على الحساب صندوق التوفير والإحتياط (E-CNEP)
+    طلب البطاقة الذهبية وتتبعها
+    الإطلاع على الحساب الجاي، إجراء عمليات
+    تتبع ومعرفة مسار الطرود والمتابعة
+    إرسال وثائق للتصديق عبر بريد الجزائر على مستوى وزارة الخارجية
+    إبحث عن مكاتب البريد القريبة منك
+    إشتري كتابك المفضل من بيتك
+    إشتري طوابعك البريدية المفضلة من بيتك
+    [عنوان فرعي H3]: فضاء المؤسسات والشركات
+    تحقق من صحة كشوفات الحسابات البريدية - Tikka
+    فتح الحساب الجاري البريدي للأعمال - Cashless
+    تحميل دفاتر الشروط والإطلاع على المناقسات - Port-Eco
+    خدمات توصيل لتجارتك الإلكترونية - Amantec
+    [عنوان فرعي H3]: إيداع الشكاوي والمقترحات
+    تقديم شكاوي بريد الجزائر ومتابعتها
+    تحميل تطبيق بريدي موب الجزائر
+    الإطلاع على رصيد الحساب كشف للمعاملات، البطاقة الذهبية
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج شهادات ووثائق الحالة المدنية عن بعد
+    خدمات النقل والمواصلات والتطبيقات المرتبطة بها
+    الوصول إلى أرقام ومصالح الطوارئ بسرعة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أطلبها الآن">https://eccp.poste.dz/commande-edahabia</LINK>
+    <LINK label="فتح حساب بريدي فضاء يتيح لك فتح حساب جاري عن بعد">https://ccpnet.poste.dz/init</LINK>
+    <LINK label="رصيد الحساب CCP الإطلاع على الحساب الجاي (E-CCP). - إستمارة KYC وتحديث معلومات">https://eccp.poste.dz/login</LINK>
+    <LINK label="فتح حساب ECCP فتح حساب ECCP عن بعد - بدون الحاجة لزيارة مكتب البريد">https://eccp.poste.dz/password/reset</LINK>
+    <LINK label="رصيد CNEP Bank الإطلاع على الحساب صندوق التوفير والإحتياط (E-CNEP)">https://ecnep.poste.dz/</LINK>
+    <LINK label="الطرود البريدية تتبع ومعرفة مسار الطرود والمتابعة">https://aptracking.poste.dz/</LINK>
+    <LINK label="تصديق الوثائق إرسال وثائق للتصديق عبر بريد الجزائر على مستوى وزارة الخارجية">https://tasdik.poste.dz/</LINK>
+    <LINK label="مكاتب البريد إبحث عن مكاتب البريد القريبة منك">https://baridimap.poste.dz/</LINK>
+    <LINK label="شراء الكتب إشتري كتابك المفضل من بيتك">https://store-anep.poste.dz/</LINK>
+    <LINK label="الطوابع البريدية إشتري طوابعك البريدية المفضلة من بيتك">https://ephilatelie.poste.dz/</LINK>
+    <LINK label="كشوف الحسابات تحقق من صحة كشوفات الحسابات البريدية - Tikka">https://tikka.poste.dz/</LINK>
+    <LINK label="حساب بريدي للأعمال فتح الحساب الجاري البريدي للأعمال - Cashless">https://cashless.poste.dz/</LINK>
+    <LINK label="دفاتر الشروط تحميل دفاتر الشروط والإطلاع على المناقسات - Port-Eco">https://porteco.poste.dz/</LINK>
+    <LINK label="خدمات توصيل خدمات توصيل لتجارتك الإلكترونية - Amantec">https://amantec.poste.dz/</LINK>
+    <LINK label="تقديم شكاوي تقديم شكاوي بريد الجزائر ومتابعتها">https://reclamation.poste.dz/</LINK>
+    <LINK label="تطبيق بريدي موب تحميل تطبيق بريدي موب الجزائر">https://play.google.com/store/apps/details?id=ru.bpc.mobilebank.bpc</LINK>
+    <LINK label="تطبيق E-CCP الإطلاع على رصيد الحساب كشف للمعاملات، البطاقة الذهبية">https://play.google.com/store/apps/details?id=dz.poste.eccp</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/progres.mesrs.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/progres.mesrs.html</ORIGINAL_URL>
+  <PAGE_TITLE>Progres MESRS DZ 2026 | التسجيل والخدمات الجامعية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل Progres MESRS DZ والخدمات الجامعية في الجزائر: التسجيل الجامعي، التحويلات، الإيواء، دفع حقوق التسجيل، تطبيقات الخدمات الجامعية، وروابط المنصات الرسمية.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: منصة الخدمات الجامعية Progres
+    [عنوان فرعي H3]: التسجيلات
+    منصة توجيه ودعم الطلاب المتحصلين على شهادة الباكالوريا، إختر مستقبلك
+    التسجيل الأولي الجامعي
+    اكتشف المعرفة المثالية لبناء نقاطك في امتحان البكالوريا
+    طلبات الإيواء الجامعية
+    التحويلات الجامعية
+    منصة تجديد المنح الجامعية
+    التسجيل في منصة الخبراء والمترشحين للمناصب العليا
+    انتقل إلى قسم التسجيلات والخدمات الرسمية المتاحة
+    اختر شهادتك لمعرفة مستوى الإطار الوطني للمؤهلات (CNC)
+    [عنوان فرعي H3]: دفع تكاليف حقوق التسجيل
+    دفع حقوق التّسجيل / إعادة التّسجيل
+    دفع حقوق الإيواء
+    [عنوان فرعي H3]: تواصل مع فريق الدعم لمنصة Progres.Mesrs
+    تواصل مع فريق الدعم عبر البريد الإلكتروني
+    تواصل مع فريق الدعم عبر الإتصال الهاتفي
+    تواصل مع فريق الدعم عبر الإتصال الهاتفي
+    تواصل مع فريق الدعم عبر الإتصال الهاتفي
+    تواصل مع فريق الدعم عبر الإتصال الهاتفي
+    [عنوان فرعي H3]: تطبيقات مهمة وخدمات أخرى
+    بوابة الطالب، Portail BAC ، بوابة الطالب الجديد
+    تطبيق Progres للخدمات الجامعية
+    كل ما يحتاجه الطالب الجزائري في مكان واحد، الجامعات ، المدارس والمعاهد، الإقامات
+    تطبيق MYBUS للنقل الجامعي
+    منصة الخدمات الجامعية Progres
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    طلب البطاقة الذهبية، فتح حساب ccp، تتبع المنحة الجامعية
+    استخراج وثائق الحالة المدنية شهادة الميلاد عقد الزواج إلكترونيا
+    تعرف على خدمات النقل والمواصلات، تطبيقات
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="تصفح الآن">https://progres.mesrs.dz/webfve/login.xhtml</LINK>
+    <LINK label="DZ-Orientation منصة توجيه ودعم الطلاب المتحصلين على شهادة الباكالوريا، إختر مستقبلك">https://dzorientation.com</LINK>
+    <LINK label="التسجيل الأولي التسجيل الأولي الجامعي">https://www.orientation-esi.dz/</LINK>
+    <LINK label="المعرفة المثالية لبناء نقاطك في امتحان البكالوريا اكتشف المعرفة المثالية لبناء نقاطك في امتحان البكالوريا">https://bac.mesrs.dz/</LINK>
+    <LINK label="طلبات الإيواء طلبات الإيواء الجامعية">https://progres.mesrs.dz/webonou/</LINK>
+    <LINK label="التحويلات الجامعية التحويلات الجامعية">https://progres.mesrs.dz/webetu</LINK>
+    <LINK label="تجديد المنح الجامعية منصة تجديد المنح الجامعية">https://progres.mesrs.dz/eminha/</LINK>
+    <LINK label="التسجيل في منصة الخبراء التسجيل في منصة الخبراء والمترشحين للمناصب العليا">https://portal.dgrsdt.dz/</LINK>
+    <LINK label="جدبد مؤهلات وشهادات اختر شهادتك لمعرفة مستوى الإطار الوطني للمؤهلات (CNC)">https://cnc.mesrs.dz/ar/outils-recherche</LINK>
+    <LINK label="دفع حقوق التّسجيل دفع حقوق التّسجيل / إعادة التّسجيل">https://progres.mesrs.dz/epaiement/epaiementI.xhtml</LINK>
+    <LINK label="دفع حقوق الإيواء دفع حقوق الإيواء">https://progres.mesrs.dz/epaiement/epaiementH.xhtml</LINK>
+    <LINK label="جدبد بوابة الطالب بوابة الطالب، Portail BAC ، بوابة الطالب الجديد">https://preinscription.mdn.dz/fs/</LINK>
+    <LINK label="تطبيق Progres تطبيق Progres للخدمات الجامعية">https://play.google.com/store/apps/details?id=app.progres.webetu&hl=ar</LINK>
+    <LINK label="تطبيق MYBUS تطبيق MYBUS للنقل الجامعي">https://play.google.com/store/apps/details?id=com.mesrs.mybus.mybusapp&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/qassimatouka.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/qassimatouka.html</ORIGINAL_URL>
+  <PAGE_TITLE>- قسيمتك - قسيمة السيارات| البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات المالية والجباية الرقمية في الجزائر. تسجيل في مختلف الصيغ المالية، دفع الرسوم والضرائب، قسيمة السيارات، قسيمية بطاقة التعريف، رخصة السياقة، جواز السفر، عقود ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: إقتني قسيمة سيارتك
+    الطلبات متوفرة - لا تفوت الفرصة
+    [عنوان فرعي H3]: قسيمة السيارات - خدمات الجباية الرقمية
+    إقتناء قسيمة سيارة
+    إعادة إقتناء قسيمة سيارة
+    فضاءالتوثيق و المصادقة
+    التواصل مع فريق عمل قسيمتك
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="شراء الآن">https://qassimatouka.mf.gov.dz/acheter</LINK>
+    <LINK label="إعادة إقتناء قسيمة سيارة إعادة إقتناء قسيمة سيارة">https://qassimatouka.mf.gov.dz/edit</LINK>
+    <LINK label="التوثيق و المصادقة فضاءالتوثيق و المصادقة">https://qassimatouka.mf.gov.dz/autentifier</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل قسيمتك">https://qassimatouka.mf.gov.dz/contact</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/sante.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/sante.html</ORIGINAL_URL>
+  <PAGE_TITLE>الصحة العمومية | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل خدمات الصحة في الجزائر، يشمل بطاقة الشفاء والتأمين الصحي والمستشفيات والعيادات والتلقيح والخدمات الطبية الرقمية التابعة لوزارة الصحة</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: المنصة الوطنية لإدارة شهادة المعادلة- التسجيل الدخول
+    [عنوان فرعي H3]: خدمات عن بعد
+    منصة دارة معادلة الشهادات - فتح حساب
+    منصة دارة معادلة الشهادات - الدول إلى الحساب
+    منصة التكوين - التسجيل في الشبه طبي
+    العيادة الرقمية
+    "تعرف على دلالة لون البول بطريقة علمية
+    "قطرة حياة" لترطيب الجسم خاصة في فصل الصيف
+    تطبيق "أطباء الجزائر "
+    تطبيق "الطبيب الجزائري""
+    تطبيق "بنك الدم الجزائري"
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    الوصول السريع إلى أرقام ومصالح الطوارئ في الجزائر
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://equivalence.sante.gov.dz/auth?tab=login</LINK>
+    <LINK label="جديد معادلة الشهادات منصة دارة معادلة الشهادات - فتح حساب">https://equivalence.sante.gov.dz/auth?tab=signup</LINK>
+    <LINK label="منصة التكوين منصة التكوين - التسجيل في الشبه طبي">https://formation.sante.gov.dz/index.html</LINK>
+    <LINK label="العيادة الرقمية العيادة الرقمية">https://etabib.dz/</LINK>
+    <LINK label="تطبيق "أطباء الجزائر " تطبيق "أطباء الجزائر "">https://play.google.com/store/apps/details?id=dz.sebrou.docts_guide.app&hl=ar</LINK>
+    <LINK label="تطبيق "الطبيب الجزائري "" تطبيق "الطبيب الجزائري""">https://play.google.com/store/apps/details?id=com.algerian.doctor&hl=ar</LINK>
+    <LINK label="تطبيق "بنك الدم الجزائري" تطبيق "بنك الدم الجزائري"">https://play.google.com/store/apps/details?id=com.dz.bank.blood.nabilsoft.bankblooddz&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/seaal.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/seaal.html</ORIGINAL_URL>
+  <PAGE_TITLE>سيال| البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات شركة المياه والتطهير للجزائر SEAAL، تشمل دفع فاتورة المياه ومتابعة الاستهلاك وطلبات الاشتراك والتوصيل والتبليغ عن الأعطال والتسربات</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الوكالة الرقمية- Wakalati
+    التسجيل في الوكالة الرقمية لفضاء سيال
+    [عنوان فرعي H3]: خدمات سيال للمياه والتطهير Seeal
+    فضاء الزبائن لسيال
+    دفع الفاتورة عبر موقع سيال
+    دفع الفاتورة عبر موقع بريد الجزائر
+    تسديد فاتورة الماء - سيال للمياه والتطهير
+    [عنوان فرعي H3]: تطبيقات سيال للمياه والتطهير Seeal
+    البوابة الجغرافية للتوزيع
+    تطبيق Seeal
+    [عنوان فرعي H3]: التواصل مع سيال للمياه والتطهير Seeal
+    إتصل بمصلحة خدمة الزبائن
+    تواصل مع سيال للمياه والتطهير
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://wakalati.seaal.dz/nouvel-abonnement</LINK>
+    <LINK label="الوكالة الرقمية فضاء الزبائن لسيال">https://wakalati.seaal.dz/</LINK>
+    <LINK label="دفع الفاتورة دفع الفاتورة عبر موقع سيال">https://fatourati.seaal.dz/</LINK>
+    <LINK label="دفع الفاتورة دفع الفاتورة عبر موقع بريد الجزائر">https://baridinet.poste.dz/seaal</LINK>
+    <LINK label="البوابة الجغرافية البوابة الجغرافية للتوزيع">https://www.seaal.dz/geoportail/</LINK>
+    <LINK label="تطبيق Seeal تطبيق Seeal">https://play.google.com/store/apps/details?id=com.seaal.mobile</LINK>
+    <LINK label="تواصل تواصل مع سيال للمياه والتطهير">https://www.seaal.dz/contact-ar/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/seor.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/seor.html</ORIGINAL_URL>
+  <PAGE_TITLE>للمياه سيور | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات مؤسسة مياه وهران SEOR في الجزائر، تشمل دفع فواتير المياه ومتابعة الاستهلاك وطلبات الاشتراك والتوصيل والتبليغ عن الأعطال والانقطاعات</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: تطبيق SeorMob
+    تحميبل تطبيق SeorMob
+    [عنوان فرعي H3]: خدمات سيور للمياه seor
+    تسديد فاتورة المياه
+    محاكاة الفاتورة عبر الانترنات
+    الحصول / إستعادة كلمة المرور
+    [عنوان فرعي H3]: تطبيقات سيور للمياه Seor
+    تطبيق SeorMob
+    [عنوان فرعي H3]: التواصل سيور للمياه Seor
+    إتصل بمصلحة خدمة الزبائن
+    تواصل مع الجزائرية للمياه
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="حمل الآن">https://play.google.com/store/apps/details?id=com.djm.seor</LINK>
+    <LINK label="فاتورة الماء تسديد فاتورة المياه">https://seor.dz/espace-clients/e-paiement/</LINK>
+    <LINK label="أحسب فاتورتك محاكاة الفاتورة عبر الانترنات">https://seor.dz/espace-clients/consultation/</LINK>
+    <LINK label="كلمة المرور الحصول / إستعادة كلمة المرور">https://seor.dz/wp-content/seor/consultation/auth.php/</LINK>
+    <LINK label="تواصل تواصل مع الجزائرية للمياه">https://seor.dz/contact/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/sonalgaz-bill-guide.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/sonalgaz-bill-guide.html</ORIGINAL_URL>
+  <PAGE_TITLE>كيف تقرأ فاتورة سونلغاز؟ شرح مبسط للكهرباء والغاز | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل مبسط لفهم فاتورة سونلغاز في الجزائر: بيانات الزبون والعداد، المؤشرات، رموز القراءة، حساب الاستهلاك، الرسوم والمبلغ المستحق، بالاعتماد على دليل CREG الرسمي.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    دليل توعوي للمستهلك الجزائري
+    [عنوان رئيسي H2]: كيف تقرأ فاتورة سونلغاز؟
+    تعرف على أهم بيانات فاتورة الكهرباء والغاز، وافهم مؤشرات العداد ورموز القراءة وطريقة حساب الاستهلاك، ثم تعرّف على مكونات المبلغ المطلوب دفعه.
+    [عنوان رئيسي H2]: نظرة شاملة على شرح الفاتورة
+    عرض بصري يلخص طريقة قراءة فاتورة سونلغاز ومواقع أهم المعلومات قبل الانتقال إلى الشرح التفصيلي.
+    [عنوان رئيسي H2]: تعرف على أجزاء الفاتورة
+    اختر أحد الأقسام المرقمة في النموذج التوضيحي لعرض معنى البيانات وأهميتها.
+    [عنوان فرعي H3]: بيانات الفاتورة
+    تتضمن رقم الفاتورة وتاريخ إصدارها ومرجع مكان الاستهلاك وعنوانه، وقد تتضمن التاريخ المتوقع للقراءة القادمة. احتفظ بهذه البيانات عند الاستعلام أو تقديم شكوى.
+    هذا نموذج تفاعلي تعليمي أعدته البوابة، وليس نسخة طبق الأصل من فاتورة سونلغاز. تختلف مواضع البيانات حسب نموذج الفاتورة.
+    [عنوان رئيسي H2]: كيف تفهم مؤشرات العداد؟
+    الاستهلاك هو الفرق بين المؤشر الجديد والقديم مضروبا في المعامل المعتمد في الفاتورة.
+    [عنوان فرعي H3]: المؤشر القديم
+    قراءة العداد المسجلة في بداية فترة الفوترة الحالية، وهي غالبا قراءة نهاية الفترة السابقة. لا تُؤخذ الأرقام العشرية في الاعتبار وفق دليل CREG.
+    [عنوان فرعي H3]: المؤشر الجديد
+    القراءة المسجلة لنهاية الفترة الحالية. يُطرح منها المؤشر القديم لمعرفة الفرق قبل تطبيق المعامل.
+    معامل الكهرباء يساوي عادة 1. أما الغاز فيستخدم معامل التحويل الحراري (PCS) المبين في الفاتورة لتحويل حجم الغاز إلى طاقة مفوترة.
+    [عنوان فرعي H3]: رمز مصدر القراءة
+      * R قراءة فعلية مسجلة من العداد.
+      * E قراءة مقدّرة وفق تاريخ الاستهلاك أو عند تعذر الوصول إلى العداد.
+      * M قراءة فعلية خاصة خارج دورة الفوترة المعتادة، مثل بعض حالات الانتقال أو طلب الزبون.
+    [عنوان رئيسي H2]: حاسبة استهلاك مبسطة
+    أدخل المؤشرين والمعامل كما يظهران في فاتورتك للحصول على فرق الاستهلاك التقديري.
+    الحساب: (المؤشر الجديد − المؤشر القديم) × المعامل. هذه الأداة لحساب الاستهلاك فقط، ولا تحسب قيمة الفاتورة بالدينار. تختلف طريقة الفوترة حسب التعريفة والعقد والشرائح والضرائب والرسوم، وقد تتضمن الفاتورة عناصر أخرى.
+    [عنوان رئيسي H2]: ممّ يتكوّن المبلغ المطلوب دفعه؟
+    لا يساوي المبلغ النهائي دائما تكلفة الطاقة المستهلكة وحدها.
+    [عنوان فرعي H3]: تكلفة الاستهلاك
+    تُحسب كمية الطاقة وفق المؤشرات والمعامل، ثم تُطبّق التعريفة المناسبة وشرائحها حسب نوع الزبون والعقد. لذلك لا يكفي ضرب كامل الاستهلاك في سعر واحد في جميع الحالات.
+    [عنوان فرعي H3]: الرسوم الثابتة
+    مبالغ مرتبطة بالاشتراك والخدمات الثابتة، وقد تستحق حتى عند عدم تسجيل استهلاك خلال الفترة، وفق شروط الفوترة المطبقة.
+    [عنوان فرعي H3]: الضرائب والرسوم الأخرى
+    قد تتضمن الفاتورة ضريبة القيمة المضافة، وحقوقا أو مساهمات أخرى، ورسوم طوابع عند انطباقها. راجع البنود المبينة في فاتورتك والدليل الرسمي الحالي.
+    [عنوان فرعي H3]: الإجمالي المستحق
+    تحقق من المبلغ النهائي المطلوب دفعه، وآخر أجل للتسديد، وأي رصيد سابق غير مسدد. قد تختلف مفردات المبلغ النهائي حسب وضعية الحساب.
+    [عنوان رئيسي H2]: أسئلة شائعة
+    إجابات مختصرة لمساعدة الزبون على مراجعة فاتورته.
+    تحقق من فترة الفوترة والمؤشرات المسجلة، وطريقة القراءة، والتغير في الاستهلاك، والتعريفة والرسوم وأي مبالغ سابقة. قارن كمية الاستهلاك قبل مقارنة المبلغ الإجمالي.
+    الرمز E يعني أن المؤشر مقدّر وليس قراءة مباشرة اعتيادية. قارن القراءة بالعداد والفاتورة السابقة، واطلب التحقق من وكالة التوزيع إذا وجدت اختلافا مهما.
+    يوضح دليل CREG أن رقم العداد غالبا ما يكون آخر أربعة أرقام معروضة أسفل العداد، لكن يُستحسن مطابقة الرقم مع البيانات المطبوعة في فاتورتك.
+    استخدم الروابط الرسمية المتاحة أدناه للاستعلام أو الدفع، وتحقق من عنوان الموقع قبل إدخال بياناتك. لا تشارك رقم الزبون أو بيانات الفاتورة علنا.
+    احتفظ بالفاتورة وسجل المؤشرات الحالية، ثم اتصل بوكالة التوزيع أو مصلحة الزبائن لتقديم طلب تحقق. ويمكنك مراجعة إرشادات لجنة ضبط الكهرباء والغاز بشأن حقوق المستهلك ومسارات الشكاوى.
+    [عنوان رئيسي H2]: روابط موثوقة
+    للاستعلام عن الفاتورة أو الدفع أو قراءة الدليل الرسمي.
+    المصدر المرجعي: لجنة ضبط الكهرباء والغاز (CREG)، صفحة «كيف تقرأ فاتورتك؟». هذا المحتوى شرح توعوي مستقل من البوابة الجزائرية للخدمات الرقمية، وليس خدمة رسمية تابعة لسونلغاز أو CREG. المرجع الرسمي هو المعتمد عند اختلاف المعلومات.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="دليل CREG الرسمي">https://creg.gov.dz/المستهلكون/كيف-تقرأ-فاتورتك/</LINK>
+    <LINK label="الاستعلام عن الفاتورة">https://consulter-factures.elit.dz/</LINK>
+    <LINK label="دفع الفاتورة">https://epayement.elit.dz/payementFacture.xhtml</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/sonalgaz.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/sonalgaz.html</ORIGINAL_URL>
+  <PAGE_TITLE>خدمات سونلغاز الجزائر | دفع فاتورة الكهرباء والغاز وE-taqaty</PAGE_TITLE>
+  <SEO_DESCRIPTION>خدمات سونلغاز الجزائر: دفع وتصفح فاتورة الكهرباء والغاز، التسجيل في E-taqaty، طلب الربط، متابعة الطلبات، الإبلاغ عن الأعطال والتواصل مع مصلحة الزبائن</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في خدمة سونلغاز E-taqaty
+    التسجيل متوفر برقمكم التعريف الوطني
+    [عنوان فرعي H3]: خدمات سونلغاز - فاتورة الكهرباء والغاز
+    دفع فاتورة الكهرباء والغاز
+    استعلم عن فاتورة الكهرباء والغاز
+    الرفع الآلي - محاكاة فاتورتك عبر الإنترنت
+    دليل تفاعلي لفهم بيانات الفاتورة ومؤشرات العداد والاستهلاك والمبلغ المستحق
+    تسديد فاتورة الكهرباء والغاز
+    [عنوان فرعي H3]: خدمات سونلغاز - E-taqaty
+    تسجيل الدخول في فضاء e-taqaty عبر فضاء سونلغاز
+    تسجيل الدخول في فضاء e-taqaty عبر فضاء البوابة الجزائرية للخمات الرقمية
+    تسجيل رقمكم التعريفي الوطني
+    تعرف على الوثائق اللازمة لطلب التوصيل بالكهرباء أو الغاز
+    التوزيع والاستفادة من توصيل الكهرباء و/أو الغاز
+    راجع حالة طلب الربط الخاص بك
+    التوزيع والاستفادة من توصيل الكهرباء و/أو الغاز
+    تعرف على تسعيرات الكهرباء والغاز
+    اتصل بنا للحصول على المساعدة
+    الإبلاغ عن خلل في شبكة الكهرباء أو الغاز
+    [عنوان فرعي H3]: تواصل مع سونلغاز للكهرباء والغاز
+    طرح إنشغال لسونلغاز
+    طرح إنشغال لسونلغاز عبر البوابة الجزائرية للخدماتالرقمية
+    تواصل مع فريق الدعم عبر البريد الإلكتروني
+    تواصل مع فريق الدعم عبر الاتصال الهاتفي
+    [عنوان فرعي H3]: بيانات صحفية ومنشورات
+    [عنوان فرعي H3]: بيان صحفي 01
+    إجراءات التصريح والتعويض عن الأضرار الناتجة عن اضطرابات الشبكة الكهربائية.
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://e-taqaty.sonelgaz.dz/pages/application/collecteNin.xhtml</LINK>
+    <LINK label="دفع فاتورة الكهرباء والغاز دفع فاتورة الكهرباء والغاز">https://epayement.elit.dz/payementFacture.xhtml</LINK>
+    <LINK label="تصفح فاتورة الكهرباء والغاز استعلم عن فاتورة الكهرباء والغاز">https://consulter-factures.elit.dz/</LINK>
+    <LINK label="الرفع الآلي - محاكاة الرفع الآلي - محاكاة فاتورتك عبر الإنترنت">https://www.sonelgaz-distribution.dz/?option=form-auto-releve</LINK>
+    <LINK label="تسجيل الدخول e-taqaty تسجيل الدخول في فضاء e-taqaty عبر فضاء البوابة الجزائرية للخمات الرقمية">https://e-taqaty.sonelgaz.dz/pages/application/se_connecter.xhtml</LINK>
+    <LINK label="ملف طلب الربط تعرف على الوثائق اللازمة لطلب التوصيل بالكهرباء أو الغاز">https://e-taqaty.sonelgaz.dz/pages/utilisateur/rcn-hord-espace-client/dossierRcn.xhtml</LINK>
+    <LINK label="طلب الربط التوزيع والاستفادة من توصيل الكهرباء و/أو الغاز">https://e-taqaty.sonelgaz.dz/pages/utilisateur/rcn-hord-espace-client/demandRcnHespaceClient.xhtml</LINK>
+    <LINK label="الإطلاع على حالة الطلب / القضية راجع حالة طلب الربط الخاص بك">https://e-taqaty.sonelgaz.dz/pages/utilisateur/rcn-hord-espace-client/consulterEtatDmdHespacClient.xhtml</LINK>
+    <LINK label="متابعة الطلبات وتتبعها التوزيع والاستفادة من توصيل الكهرباء و/أو الغاز">https://e-taqaty.sonelgaz.dz/pages/utilisateur/rcn-hord-espace-client/suiviRcnHEspaceClient.xhtml</LINK>
+    <LINK label="التسعيرات تعرف على تسعيرات الكهرباء والغاز">https://e-taqaty.sonelgaz.dz/pages/utilisateur/tarification.xhtml</LINK>
+    <LINK label="الاتصال اتصل بنا للحصول على المساعدة">https://e-taqaty.sonelgaz.dz/pages/application/contactMessage.xhtml</LINK>
+    <LINK label="الإبلاغ عن مشكلة الإبلاغ عن خلل في شبكة الكهرباء أو الغاز">https://e-taqaty.sonelgaz.dz/pages/utilisateur/signalement.xhtml</LINK>
+    <LINK label="منصة الاتصال - انشغالاتكم طرح إنشغال لسونلغاز">https://www.sonelgaz.dz/ar#requetes</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/t-onec.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/t-onec.html</ORIGINAL_URL>
+  <PAGE_TITLE>بنك الفروض والإختبارات t-onec | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>جميع فروض واختبارات شهادة التعليم المتوسط، البكالوريا، والابتدائي مع التصحيح النموذجي لجميع المواد والمستويات التعليمية في الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التعليم الإبتدائي
+    نماذج الإختبارات والتمارين للقسم التحضيري
+    نماذج اختبارية للسنة الأولى إبتدائي
+    نماذج اختبارية للسنة الثانية إبتدائي
+    نماذج اختبارية للسنة الثالثة إبتدائي
+    نماذج اختبارية للسنة الرابعة إبتدائي
+    نماذج اختبارية للسنة الخامسة إبتدائي
+    [عنوان فرعي H3]: التعليم المتوسط
+    نماذج الفروض والإختبارات للسنة الأولى متوسط
+    نماذج الفروض والإختبارات للسنة الثانية متوسط
+    نماذج الفروض والإختبارات للسنة الثالثة متوسط
+    نماذج الفروض والإختبارات للسنة الرابعة متوسط
+    مواضيع وحلول شهادة التعليم المتوسط
+    [عنوان فرعي H3]: التعليم الثانوي - بالتوفيق للممتحنين في شهادة البكالوريا 2026
+    نماذج الفروض والإختبارات للسنة الأولى ثانوي
+    نماذج الفروض والإختبارات للسنة الثانية ثانوي
+    نماذج الفروض والإختبارات للسنة الثالثة ثانوي
+    مواضيع وحلول إختبارات شهادة البكالوريا
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="القسم التحضيري نماذج الإختبارات والتمارين للقسم التحضيري">https://www.t-onec.com/p/preparatory-education.html</LINK>
+    <LINK label="السنة الأولى إبتدائي نماذج اختبارية للسنة الأولى إبتدائي">https://www.t-onec.com/p/first-primary.html</LINK>
+    <LINK label="السنة الثانية إبتدائي نماذج اختبارية للسنة الثانية إبتدائي">https://www.t-onec.com/p/second-primary.html</LINK>
+    <LINK label="السنة الثالثة إبتدائي نماذج اختبارية للسنة الثالثة إبتدائي">https://www.t-onec.com/p/third-grade-primary.html</LINK>
+    <LINK label="السنة الرابعة إبتدائي نماذج اختبارية للسنة الرابعة إبتدائي">https://www.t-onec.com/p/fourth-grade.html</LINK>
+    <LINK label="السنة الخامسة إبتدائي نماذج اختبارية للسنة الخامسة إبتدائي">https://www.t-onec.com/p/fifth-grade.html</LINK>
+    <LINK label="السنة الأولى متوسط نماذج الفروض والإختبارات للسنة الأولى متوسط">https://www.t-onec.com/p/first-average.html</LINK>
+    <LINK label="السنة الثانية متوسط نماذج الفروض والإختبارات للسنة الثانية متوسط">https://www.t-onec.com/p/second-average.html</LINK>
+    <LINK label="السنة الثالثة متوسط نماذج الفروض والإختبارات للسنة الثالثة متوسط">https://www.t-onec.com/p/third-average.html</LINK>
+    <LINK label="السنة الرابعة متوسط نماذج الفروض والإختبارات للسنة الرابعة متوسط">https://www.t-onec.com/p/fourth-average.html</LINK>
+    <LINK label="مواضيع وحلول شهادة التعليم المتوسط مواضيع وحلول شهادة التعليم المتوسط">https://www.t-onec.com/p/subjects-4am.html</LINK>
+    <LINK label="السنة الأولى ثانوي نماذج الفروض والإختبارات للسنة الأولى ثانوي">https://www.t-onec.com/p/first-year-1-secondary.html</LINK>
+    <LINK label="السنة الثانية ثانوي نماذج الفروض والإختبارات للسنة الثانية ثانوي">https://www.t-onec.com/p/second-year-2-secondary.html</LINK>
+    <LINK label="السنة الثالثة ثانوي نماذج الفروض والإختبارات للسنة الثالثة ثانوي">https://www.t-onec.com/p/third-year-3-secondary.html</LINK>
+    <LINK label="مواضيع وحلول إختبارات شهادة البكالوريا مواضيع وحلول إختبارات شهادة البكالوريا">https://www.t-onec.com/p/baccalaureate-subjects.html</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/tabioucom.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/tabioucom.html</ORIGINAL_URL>
+  <PAGE_TITLE>طابعكم | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات المالية والجباية الرقمية في الجزائر. تسجيل في مختلف الصيغ المالية، دفع الرسوم والضرائب، قسيمة السيارات، قسيمية بطاقة التعريف، رخصة السياقة، جواز السفر، عقود ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: أطلب طابعك الجبائي الآن
+    الطابع الجبائي الخاص بجواز سفر- بطاقة التعريف الوطنية، رخصة السياقة،السفر
+    [عنوان فرعي H3]: خدمات الطابع الجبائي - خدمات الجباية الرقمية
+    إقتناء الجبائي لبطاقة التعريف، رخصة السياقة، جواز السفر، عقود النقل والسفر
+    إعادة إقتناء حقوق الطابع الجبائي
+    فضاءالتوثيق و المصادقة
+    التواصل مع فريق عمل طابكم
+    التواصل عبر البريد الإلكتروني
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أطلب الآن">https://tabioucom.mf.gov.dz/acheter</LINK>
+    <LINK label="إعادة إقتناء الطابع الجبائي إعادة إقتناء حقوق الطابع الجبائي">https://tabioucom.mf.gov.dz/edit</LINK>
+    <LINK label="التوثيق و المصادقة فضاءالتوثيق و المصادقة">https://tabioucom.mf.gov.dz/login</LINK>
+    <LINK label="تواصل معنا التواصل مع فريق عمل طابكم">https://tabioucom.mf.gov.dz/contact</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+
+<PAGE id="sectors/telephon.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/telephon.html</ORIGINAL_URL>
+  <PAGE_TITLE>خدمات الهاتف النقال | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>جميع خدمات الهاتف النقال النقال في الجزائر - شحن الرصيد، تفعيل الخدمات، تطبيقات الهاتف، مصلحة خدمة الزبائن، وغيرها من الخدمات الرقمية المتطورة التي توفر الوقت والجهد وتضم</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات الهاتف النقال - موبيليس
+    خدمات متعامل الهاتف النقال - موبيليس
+    [عنوان فرعي H3]: خدمات الهاتف النقال - جازي
+    خدمات متعامل الهاتف النقال - جازي
+    [عنوان فرعي H3]: خدمات الهاتف النقال - أوريدو
+    خدمات متعامل الهاتف النقال - أوريدو
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    استخراج الوثائق الإدارية وخدمات المواطن إلكترونيا
+    الخدمات البريدية والحسابات والدفع الإلكتروني عن بعد
+    خدمات النقل والتنقل والمنصات الرقمية ذات الصلة
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="sectors/transport.html" section="SECTION_01_MINISTRIES_AND_SECTORS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/sectors/transport.html</ORIGINAL_URL>
+  <PAGE_TITLE>النقل والمواصلات | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات النقل والمواصلات الرقمية في الجزائر، من حجز التذاكر إلى تتبع وسائل النقل العام، كل ما تحتاجه لتسهيل تنقلك اليومي</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: خدمات عن بعد
+    حجز تذاكر الجوية الجزائرية
+    حجز تذاكر طيران الطاسيلي
+    حجز تذاكر النقل البحري
+    الجداول الرسمية المصورة حسب الخط والمنطقة
+    مواقيت المغادرة والوصول وخريطة محطات القطارات
+    اللوحة الذكية لمواقيت سير القطارات (SNTF)
+    تتبع حركة الملاحة الجوية في الوقت الحقيقي
+    تطبيق "تواصل" للترامواي
+    تطبيق "محطتي" للخطوط البرية سوقرال SOGRAL
+    تطبيق "Etusa Mob" لمؤسسة النقل الحضري وشبه الحضري
+    احجز تذاكر طيرانك من الجزائر عبر Volz
+    التبليغ لدى وزارة النقل
+    [عنوان فرعي H3]: خدمات قد تحتاجها أيضا
+    الدفع الإلكتروني والخدمات البريدية الرقمية
+    استخراج الوثائق الإدارية إلكترونيا
+    الوصول السريع إلى أرقام ومصالح الطوارئ في الجزائر
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="الخطوط الجوية الجزائرية حجز تذاكر الجوية الجزائرية">https://airalgerie.dz/ar/%d8%a7%d9%84%d8%ad%d8%ac%d8%b2/</LINK>
+    <LINK label="طيران الطاسيلي حجز تذاكر طيران الطاسيلي">https://tassiliairlines.dz/</LINK>
+    <LINK label="النقل البحري حجز تذاكر النقل البحري">https://afs.algerieferries.dz/booking/step1</LINK>
+    <LINK label="تطبيق "Flightradar24" تتبع حركة الملاحة الجوية في الوقت الحقيقي">https://www.flightradar24.com/36.17,3.25/7</LINK>
+    <LINK label="تطبيق "تواصل" تطبيق "تواصل" للترامواي">https://play.google.com/store/apps/details?id=dz.setram.AppEtwassel</LINK>
+    <LINK label="تطبيق "محطتي" تطبيق "محطتي" للخطوط البرية سوقرال SOGRAL">https://play.google.com/store/apps/details?id=com.sogral.mobile&hl=ar</LINK>
+    <LINK label="Volz احجز تذاكر طيرانك من الجزائر عبر Volz">https://volz.app/ar</LINK>
+    <LINK label="التبليغ لدى وزارة النقل التبليغ لدى وزارة النقل">https://play.google.com/store/apps/details?id=dz.sebrou.docts_guide.app&hl=ar</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+</PAGE>
+

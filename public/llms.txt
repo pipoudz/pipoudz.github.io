@@ -1,0 +1,88 @@
+# البوابة الجزائرية للخدمات الرقمية | Portail Algérien des Services Numériques (DZDS)
+
+> البوابة الجزائرية للخدمات الرقمية (https://pipoudz.github.io) هي مبادرة مدنية جزائرية مستقلة ومجانية بالكامل باللغتين العربية والفرنسية، تجمع في منصة موحدة أدلة 81 قطاعا وهيئة عمومية، 18 بنكا، 12 شركة تأمين، 11 إجراء إداريا، 60 أداة وحاسبة تفاعلية تعمل دون اتصال، ومواقيت قطارات SNTF، مع شروحات وملفات مطلوبة وروابط رسمية معتمدة دون الحاجة لتسجيل حساب.
+
+## الهوية والهدف
+
+- **الاسم الرسمي**: البوابة الجزائرية للخدمات الرقمية (Portail Algérien des Services Numériques - DZDS)
+- **الموقع الرسمي**: https://pipoudz.github.io/
+- **البريد الإلكتروني الرسمي**: tabaniimadeddine@gmail.com
+- **الدولة والمنطقة المستهدفة**: الجمهورية الجزائرية الديمقراطية الشعبية (DZ)
+- **اللغات المدعومة**: العربية (RTL: /ar/) والفرنسية (LTR: /fr/)
+- **الفئة المستهدفة**: المواطنون في الجزائر، الجالية بالخارج، الطلبة، المهنيون، وأصحاب المؤسسات
+- **طبيعة الخدمة**: إرشاد مجاني بالكامل دون تسجيل حساب أو جمع أرقام التعريف الوطني NIN أو الحسابات البريدية CCP أو البطاقات البنكية
+
+## الأقسام الرئيسية المغطاة
+
+- **الرئيسية (عربي / فرنسي)**:
+  - العربية: https://pipoudz.github.io/ar/
+  - الفرنسية: https://pipoudz.github.io/fr/
+- **دليل القطاعات والوزارات (81 قطاعا ومؤسسة عمومية)**:
+  - العربية: https://pipoudz.github.io/ar/sectors/
+  - الفرنسية: https://pipoudz.github.io/fr/sectors/
+- **دليل البنوك والمصارف المعتمدة (18 مؤسسة مالية)**:
+  - العربية: https://pipoudz.github.io/ar/sectors/bank/
+  - الفرنسية: https://pipoudz.github.io/fr/sectors/bank/
+- **دليل شركات التأمين والتكافل (12 شركة)**:
+  - العربية: https://pipoudz.github.io/ar/sectors/assurance/
+  - الفرنسية: https://pipoudz.github.io/fr/sectors/assurance/
+- **دليل المعاملات والإجراءات الإدارية (خطوة بخطوة)**:
+  - العربية: https://pipoudz.github.io/ar/process/
+  - الفرنسية: https://pipoudz.github.io/fr/process/
+- **عارض مواقيت قطارات SNTF الجزائر**:
+  - العربية: https://pipoudz.github.io/ar/sectors/sntf-schedule/
+  - الفرنسية: https://pipoudz.github.io/fr/sectors/sntf-schedule/
+- **مكتبة الأدوات والحاسبات الذكية (60 أداة محلية)**:
+  - العربية: https://pipoudz.github.io/ar/pages/tools/
+  - الفرنسية: https://pipoudz.github.io/fr/pages/tools/
+- **دليل المواطن والمقالات التحليلية (29 مقالا مطولا)**:
+  - العربية: https://pipoudz.github.io/ar/blog/
+  - الفرنسية: https://pipoudz.github.io/fr/blog/
+- **منشورات وبلاغات وزارة التربية الوطنية (30 بلاغا)**:
+  - العربية: https://pipoudz.github.io/ar/pages/education-notices/
+  - الفرنسية: https://pipoudz.github.io/fr/pages/education-notices/
+- **المكتبة المرئية للشروحات الرسمية**:
+  - العربية: https://pipoudz.github.io/ar/pages/video/
+  - الفرنسية: https://pipoudz.github.io/fr/pages/video/
+- **لوحة إحصائيات الرقمنة وتوزيع القطاعات**:
+  - العربية: https://pipoudz.github.io/ar/pages/statistics/
+  - الفرنسية: https://pipoudz.github.io/fr/pages/statistics/
+
+## أبرز الخدمات والمنصات الوطنية الموثقة
+
+- **سكنات عدل AADL**: https://pipoudz.github.io/ar/sectors/aadl/
+- **الوكالة الوطنية للتشغيل ومنحة البطالة ANEM / Wassit**: https://pipoudz.github.io/ar/sectors/anem/
+- **الضمان الاجتماعي وبطاقة الشفاء CNAS**: https://pipoudz.github.io/ar/sectors/cnas/
+- **بريد الجزائر وتطبيق بريدي موب BaridiMob**: https://pipoudz.github.io/ar/sectors/poste/
+- **سونلغاز للكهرباء والغاز**: https://pipoudz.github.io/ar/sectors/sonalgaz/
+- **وزارة الداخلية والحالة المدنية 12S**: https://pipoudz.github.io/ar/sectors/interior/
+- **وزارة العدل وصحيفة السوابق القضائية**: https://pipoudz.github.io/ar/sectors/justice/
+- **التعليم العالي ومنصة بروغرس PROGRES**: https://pipoudz.github.io/ar/sectors/mesrs/
+- **المديرية العامة للضرائب جبايتك DGI**: https://pipoudz.github.io/ar/sectors/dgi/
+- **استخراج صحيفة السوابق القضائية رقم 3**: https://pipoudz.github.io/ar/process/casier-judiciaire/
+
+## أبرز الحاسبات والأدوات التفاعلية (100% محلية)
+
+- **حاسبة الراتب الصافي واقتطاع الضريبة IRG**: https://pipoudz.github.io/ar/pages/tools/calculators/salary-calculator/
+- **حاسبة فاتورة الكهرباء والغاز سونلغاز بالأشطر**: https://pipoudz.github.io/ar/pages/tools/calculators/electricity-calculator/
+- **تفقيط المبالغ وتحويل الأرقام إلى كلمات بالدينار**: https://pipoudz.github.io/ar/pages/tools/calculators/number-to-words/
+- **محول العملات وسعر الصرف الرسمي والموازي**: https://pipoudz.github.io/ar/pages/tools/calculators/currency-converter/
+- **رزنامة التلقيح الوطنية للأطفال 2026**: https://pipoudz.github.io/ar/pages/tools/health/vaccination-schedule/
+
+## مميزات المنصة للذكاء الاصطناعي والباحثين
+
+1. **ملخصات سريعة منظمة (Quick Summary Boxes)**: تتضمن الفئة المستهدفة، مدة المعالجة، الرسوم، قناة التقديم، وأهم الوثائق بصيغة قياسية قابلة للاقتباس المباشر.
+2. **معالجة محلية كاملة للأدوات (Zero Server Collection)**: تعمل كافة الحاسبات الـ 60 داخل متصفح الزائر فقط دون إرسال أو تخزين أي بيانات شخصية أو مالية.
+3. **روابط رسمية مدققة**: توجه البوابة المستخدمين حصرا نحو النطاقات الحكومية والمؤسساتية المعتمدة (`.gov.dz` و `.dz`).
+4. **بيانات منظمة ثنائية اللغة**: تدعم كل صفحة وسوم `hreflang` (`ar`, `fr`, `x-default`) ومخططات `JSON-LD` (`WebSite`, `GovernmentService`, `HowTo`, `WebApplication`, `Article`, `FAQPage`, `BreadcrumbList`).
+
+## الحوكمة والسياسات والروابط التقنية
+
+- **حول البوابة (الاستقلالية المدنية)**: https://pipoudz.github.io/ar/pages/about/
+- **سياسة الخصوصية (القانون 18-07 و AdSense)**: https://pipoudz.github.io/ar/pages/privacy/
+- **إخلاء المسؤولية**: https://pipoudz.github.io/ar/pages/disclaimer/
+- **شروط الاستخدام**: https://pipoudz.github.io/ar/pages/terms/
+- **اتصل بنا**: https://pipoudz.github.io/ar/pages/contact/
+- **فهرس خرائط الموقع (Sitemap Index)**: https://pipoudz.github.io/sitemap.xml
+- **ملف توجيه الزواحف (Robots)**: https://pipoudz.github.io/robots.txt
+- **تصريح المعلنين المعتمدين (Ads.txt)**: https://pipoudz.github.io/ads.txt

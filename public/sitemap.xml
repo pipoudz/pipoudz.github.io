@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://pipoudz.github.io/sitemap-main.xml</loc>
+    <lastmod>2026-11-20</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://pipoudz.github.io/sitemap-sectors.xml</loc>
+    <lastmod>2026-11-20</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://pipoudz.github.io/sitemap-finance.xml</loc>
+    <lastmod>2026-11-20</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://pipoudz.github.io/sitemap-procedures.xml</loc>
+    <lastmod>2026-11-20</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://pipoudz.github.io/sitemap-tools.xml</loc>
+    <lastmod>2026-11-20</lastmod>
+  </sitemap>
+</sitemapindex>

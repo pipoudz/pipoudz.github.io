@@ -1,0 +1,356 @@
+<DOCUMENT_METADATA>
+  <SECTION_ID>SECTION_04_PROCEDURES_AND_VIDEOS</SECTION_ID>
+  <SECTION_NAME>شروحات الإجراءات الإدارية والفيديوهات التوضيحية</SECTION_NAME>
+  <TOTAL_PAGES>21</TOTAL_PAGES>
+  <INDEX>
+    1. [pages/process/adhahi.dz.html] - أضاحي العيد DZ | البوابة الجزائرية للخدمات الرقمية
+    2. [pages/process/anae.html] - الوكالة الوطنية للمقاول الذاتي
+    3. [pages/process/apostille.html] - منصة أبوستيل | البوابة الجزائرية للخدمات الرقمية
+    4. [pages/process/arpce.html] - منصة جيل لجيل 777 (ARPCE) | البوابة الجزائرية للخدمات الرقمية
+    5. [pages/process/arpce2.html] - منصة جيل لجيل 777 (ARPCE) | البوابة الجزائرية للخدمات الرقمية
+    6. [pages/process/awlyaa-process.html] - كيفية التسجيل في فضاء الأولياء 2026 | شرح خطوة بخطوة
+    7. [pages/process/e-declaration.html] - تصريح بالضياع | البوابة الجزائرية للخدمات الرقمية
+    8. [pages/process/e-mahata.naftal.html] - منصة محطتي نفطال | البوابة الجزائرية
+    9. [pages/process/idlaa.html] - إدلاء بشاهادة | البوابة الجزائرية للخدمات الرقمية
+    10. [pages/process/markabatidz.html] - مركبتي DZ: فحص المركبات والخدمات الرقمية | البوابة الجزائرية
+    11. [pages/process/takwin.html] - التسجيل في التكوين المهني 2026
+    12. [pages/video/apostille-registration.html] - طريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل
+    13. [pages/video/arpce-777.html] - برنامج جيل لجيل 777 للإدماج الرقمي
+    14. [pages/video/awlyaa-registration.html] - طريقة التسجيل في فضاء الأولياء 2026
+    15. [pages/video/dronet.mdn.html] - تعرف عن المركز الوطني لمنظومات الطائرات بدون طيار على المتن
+    16. [pages/video/e-declaration-registration.html] - طريقة التصريح بضياع الوثائق
+    17. [pages/video/index.html] - فيديوهات تعليمية للخدمات الرقمية الجزائرية
+    18. [pages/video/markabatidz-registration.html] - طريقة حجز موعد فحص المركبات عبر منصة مركبتي DZ
+    19. [pages/video/mtpib-presentation.html] - تعريف بالبوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى
+    20. [pages/video/naftal-tyres.html] - طريقة التسجيل في منصة محطتي لاقتناء عجلات السيارات
+    21. [pages/video/takwin-registration.html] - طريقة التسجيل في الدخول التكويني 2026
+  </INDEX>
+</DOCUMENT_METADATA>
+
+<PAGE id="pages/process/adhahi.dz.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/adhahi.dz.html</ORIGINAL_URL>
+  <PAGE_TITLE>أضاحي العيد DZ | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم الموقع وزارة الفلاحة والتنمية الريفية والصيد البحري إليكترونية عن بعد دون الحاجة للتنقل وربح الوقت</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حجز أضحية العيد 2026
+    [عنوان فرعي H3]: طريقة حجز أضحية
+    شاهد الشرح الكامل لطريقة الحجز لأضحية العيد 2026.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أحجز الآن">https://adhahi.dz/register</LINK>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=pfYIDYoVE5g</LINK>
+    <LINK label="مشاهدة على يوتيوب">https://www.youtube.com/watch/pfYIDYoVE5g</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/pfYIDYoVE5g</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/anae.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/anae.html</ORIGINAL_URL>
+  <PAGE_TITLE>الوكالة الوطنية للمقاول الذاتي</PAGE_TITLE>
+  <SEO_DESCRIPTION>اكتشف خدمات الوكالة الوطنية للمقاول الذاتي في الجزائر، ومنها طلب بطاقة المقاول الذاتي والتسجيل ومتابعة الملف والروابط الرسمية للخدمات الرقمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: طلب البطاقة المقاول الذاتي
+    الطلبات متوفرة - لا تفوت الفرصة
+    [عنوان فرعي H3]: طريقة طلب بطاقة المقاول الذاتي
+    شاهد الشرح الكامل لطريقة طلب بطاقة المقاول الذاتي.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أطلبها الآن">https://anae.dz/user/ae/register/</LINK>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=WvoxK3nbYXQ</LINK>
+    <LINK label="مشاهدة على يوتيوب">https://www.youtube.com/watch/WvoxK3nbYXQ</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/WvoxK3nbYXQ</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/apostille.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/apostille.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة أبوستيل | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>طريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل في الجزائر. شرح بالفيديو خطوة بخطوة للمصادقة على الوثائق عن بعد دون تنقل. خدمات المحافظة السامية للرقمنة</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في المنصة الوطنية الرقمية للأبوستيل
+    انضم إلينا واحصل على الخدمة التي تبحث عنها
+    [عنوان رئيسي H2]: طريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل
+    شرح مرئي لطريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل وتصديق الوثائق إلكترونيا.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إلتحق الآن">https://apostille.hcn.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/Abph3zC5gZA</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/arpce.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/arpce.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة جيل لجيل 777 (ARPCE) | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم سلطة ضبط البريد والاتصالات الإلكترونية (ARPCE) خدمات رقمية عن بعد تشمل مبادرة جيل لجيل 777 للإدماج الرقمي وتطوير المهارات حضوريا وعن بعد</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: جيل 7.77 بالفيديو
+    مبادرة وطنية للإدماج الرقمي وتطوير المهارات حضوريا وعن بعد
+    [عنوان رئيسي H2]: برنامج جيل لجيل 777 للإدماج الرقمي
+    فيديو يشرح برنامج جيل لجيل 777 للتعلم والإدماج الرقمي وتطوير المهارات عن بعد في الجزائر.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://777.mpt.gov.dz/calendar#cal-board</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/opO1dEXGFDw</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/arpce2.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/arpce2.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة جيل لجيل 777 (ARPCE) | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم سلطة ضبط البريد والاتصالات الإلكترونية (ARPCE) خدمات رقمية عن بعد تشمل مبادرة جيل لجيل 777 للإدماج الرقمي وتطوير المهارات بعد</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: جيل 7.77 بالفيديو
+    تعلم الإدماج الرقمي وتطوير المهارات عن بعد المبادرة 7.77
+    [عنوان رئيسي H2]: برنامج جيل لجيل 777 للإدماج الرقمي
+    فيديو يشرح برنامج جيل لجيل 777 للتعلم والإدماج الرقمي وتطوير المهارات عن بعد في الجزائر.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://777.mpt.gov.dz/calendar#cal-board</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/opO1dEXGFDw</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/awlyaa-process.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/awlyaa-process.html</ORIGINAL_URL>
+  <PAGE_TITLE>كيفية التسجيل في فضاء الأولياء 2026 | شرح خطوة بخطوة</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح التسجيل في فضاء الأولياء 2026 خطوة بخطوة: إنشاء حساب وليّ، إضافة الأبناء، متابعة النتائج والغيابات، مع رابط الدخول إلى المنصة الرسمية وفيديو توضيحي.</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في فضاء الأولياء 2026
+    سجل وإستمتع بعديد الخدمات عن بعد
+    [عنوان رئيسي H2]: طريقة التسجيل في فضاء الأولياء 2026
+    شرح مرئي لطريقة التسجيل في فضاء الأولياء ومتابعة الأبناء دراسيا عبر المنصة الرسمية.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://awlyaa.education.dz/login</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D485913154242019&show_text=false</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/e-declaration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/e-declaration.html</ORIGINAL_URL>
+  <PAGE_TITLE>تصريح بالضياع | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم المديرية العامة العامة للأمن الوطني مجموعة من الخدمات الرقمية التي تهدف إلى تسهيل الوصول إلى الخدمات الأمنية للمواطنين، تطبيقات . هذه الخدمات تتيح للمواطنين الحصول ع</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التصريح بضياع الوثائق عن بعد
+    انضم إلينا واحصل على الخدمة التي تبحث عنها
+    [عنوان فرعي H3]: طريقة التصريح بضياع الوثائق
+    شاهد الشرح الكامل لطريقة التصريح بضياع الوثائق عن بعد مع الشرطة الجزائرية.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://www.dgsn.dz/e-declaration/</LINK>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=PWTHYIOMKgE</LINK>
+    <LINK label="مشاهدة على يوتيوب">https://www.youtube.com/watch/PWTHYIOMKgE</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/PWTHYIOMKgE</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/e-mahata.naftal.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/e-mahata.naftal.html</ORIGINAL_URL>
+  <PAGE_TITLE>منصة محطتي نفطال | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>طريقة التسجيل في منصة محطتي التابعة للشركة الوطنية نفطال لاقتناء عجلات السيارات والزيوت البترولية بسهولة. شاهد الفيديو التوضيحي خطوة بخطوة واستفد من الخدمات الرقمية لنفطا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في خدمات محطتي لنفطال وإقتني أفضل العجلات،
+    انضم إلينا واحصل على الخدمة التي تبحث عنها
+    [عنوان رئيسي H2]: طريقة التسجيل في منصة محطتي لاقتناء عجلات السيارات
+    شرح مرئي لطريقة التسجيل في منصة محطتي التابعة لنفطال لاقتناء العجلات المطاطية.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://e-mahata.naftal.dz/</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/U-3YSOxddEs</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/idlaa.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/idlaa.html</ORIGINAL_URL>
+  <PAGE_TITLE>إدلاء بشاهادة | البوابة الجزائرية للخدمات الرقمية</PAGE_TITLE>
+  <SEO_DESCRIPTION>تقدم المديرية العامة العامة للأمن الوطني مجموعة من الخدمات الرقمية التي تهدف إلى تسهيل الوصول إلى الخدمات الأمنية للمواطنين، تطبيقات . هذه الخدمات تتيح للمواطنين الحصول ع</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: الإدلاء بشهادة عن بعد
+    انضم إلينا واحصل على الخدمة التي تبحث عنها
+    [عنوان فرعي H3]: طريقة الإدلاء بشهادة عن بعد مع الشرطة الجزائرية
+    شاهد الشرح الكامل لطريقة الإدلاء بشهادة عن بعد مع الشرطة الجزائرية.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="إدلاء بشهادة - الآن">https://www.dgsn.dz/?-%D8%A5%D8%AF%D9%84%D8%A7%D8%A1-%D8%A8%D8%B4%D9%87%D8%A7%D8%AF%D8%A9,583-</LINK>
+    <LINK label="مشاهدة على يوتيوب">https://www.youtube.com/watch/******</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/****</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/markabatidz.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/markabatidz.html</ORIGINAL_URL>
+  <PAGE_TITLE>مركبتي DZ: فحص المركبات والخدمات الرقمية | البوابة الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>منصة مركبتي DZ لفحص المركبات وتسجيلها إلكترونيا في الجزائر، مع الوصول إلى الخدمات الرقمية الرسمية ومعلومات الإجراءات للمواطنين</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: حجز موعد فحص المركبات
+    [عنوان فرعي H3]: طريقة حجز موعد فحص المركبات عبر منصة مركبتي DZ
+    شاهد الشرح الكامل لطريقة الحجز لموعد فحص المركبات عبر منصة مركبتي DZ.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="أحجز الآن">https://markabatidz.energy.gov.dz/</LINK>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=GD3ymUiI2m0</LINK>
+    <LINK label="مشاهدة على يوتيوب">https://www.youtube.com/watch/GD3ymUiI2m0</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/GD3ymUiI2m0</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/process/takwin.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/process/takwin.html</ORIGINAL_URL>
+  <PAGE_TITLE>التسجيل في التكوين المهني 2026</PAGE_TITLE>
+  <SEO_DESCRIPTION>دليل شامل لخدمات وزارة التكوين والتعليم المهنيين في الجزائر. تعرف على طريقة التسجيل في الدخول التكويني 2026 عبر منصة مهنتي، مواعيد الامتحانات، برامج التدريب، وكل ما يخص ا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    [عنوان فرعي H3]: التسجيل في الدخول التكويني 2026
+    العديد من المهن والحرف في إنظارك - لا تفوت الفرصة
+    [عنوان فرعي H3]: طريقة التسجيل في الدخول التكويني 2026
+    شاهد الشرح الكامل لطريقة التسجيل في الدخول التكويني 2026 .
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="سجل الآن">https://takwin.dz/Offersinscription</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/1967640217271523&show_text=false</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/apostille-registration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/apostille-registration.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل وتصديق الوثائق إلكترونيا</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل وتصديق الوثائق إلكترونيا.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=Abph3zC5gZA</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/Abph3zC5gZA</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/arpce-777.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/arpce-777.html</ORIGINAL_URL>
+  <PAGE_TITLE>برنامج جيل لجيل 777 للإدماج الرقمي</PAGE_TITLE>
+  <SEO_DESCRIPTION>فيديو يشرح برنامج جيل لجيل 777 للتعلم والإدماج الرقمي وتطوير المهارات عن بعد في الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    فيديو يشرح برنامج جيل لجيل 777 للتعلم والإدماج الرقمي وتطوير المهارات عن بعد في الجزائر.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=opO1dEXGFDw</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/opO1dEXGFDw</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/awlyaa-registration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/awlyaa-registration.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة التسجيل في فضاء الأولياء 2026</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل في فضاء الأولياء ومتابعة الأبناء دراسيا عبر المنصة الرسمية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل في فضاء الأولياء ومتابعة الأبناء دراسيا عبر المنصة الرسمية.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.facebook.com/watch/?v=485913154242019</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D485913154242019&show_text=false</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/dronet.mdn.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/dronet.mdn.html</ORIGINAL_URL>
+  <PAGE_TITLE>تعرف عن المركز الوطني لمنظومات الطائرات بدون طيار على المتن</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي للمركز الوطني لمنظومات الطائرات بدون طيار على المتن</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي للمركز الوطني لمنظومات الطائرات بدون طيار على المتن.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <VIDEO_EMBED>https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/4133914470240754&show_text=false</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/e-declaration-registration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/e-declaration-registration.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة التصريح بضياع الوثائق</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل و التصريح بضياع الوثائق</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل و التصريح بضياع الوثائق.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <VIDEO_EMBED>https://www.youtube.com/embed/PWTHYIOMKgE</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/index.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/index.html</ORIGINAL_URL>
+  <PAGE_TITLE>فيديوهات تعليمية للخدمات الرقمية الجزائرية</PAGE_TITLE>
+  <SEO_DESCRIPTION>مكتبة فيديوهات تعليمية تشرح التسجيل واستعمال المنصات الرقمية في الجزائر، مثل الدخول التكويني وفضاء الأولياء ومنصة محطتي والأبوستيل وبرنامج جيل لجيل 777</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شروحات مختارة تساعدك على فهم خطوات التسجيل واستعمال عدد من المنصات الرقمية الرسمية. افتح صفحة المشاهدة الخاصة بالفيديو ثم انتقل إلى صفحة الخدمة لمراجعة الروابط والتفاصيل.
+    [عنوان رئيسي H2]: شرح الدخول التكويني 2026
+    فيديو مرتبط بصفحة قطاع التكوين والتعليم المهنيين.
+    [عنوان فرعي H3]: طريقة التسجيل في الدخول التكويني 2026
+    شرح مرئي لطريقة التسجيل في الدخول التكويني وخدمات وزارة التكوين والتعليم المهنيين في الجزائر.
+    [عنوان رئيسي H2]: كل الفيديوهات التعليمية
+    اختر موضوعا للانتقال إلى صفحة المشاهدة والفيديو المضمّن.
+    [عنوان فرعي H3]: تعرف بالبوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى
+    شرح عن البوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى.
+    [عنوان فرعي H3]: تعرف عن المركز الوطني لمنظومات الطائرات بدون طيار على المتن
+    شرح مرئي للمركز الوطني لمنظومات الطائرات بدون طيار على المتن.
+    [عنوان فرعي H3]: طريقة التسجيل في فضاء الأولياء 2026
+    شرح مرئي لطريقة التسجيل في فضاء الأولياء ومتابعة الأبناء دراسيا عبر المنصة الرسمية.
+    [عنوان فرعي H3]: طريقة التسجيل في منصة محطتي لاقتناء عجلات السيارات
+    شرح مرئي لطريقة التسجيل في منصة محطتي التابعة لنفطال لاقتناء العجلات المطاطية.
+    [عنوان فرعي H3]: التسجيل و حجز موعد فحص المركبات عبر منصة مركبتي DZ
+    شرح مرئي لطريقة حجز موعد فحص المركبات عبر منصة مركبتي DZ.
+    [عنوان فرعي H3]: طريقة التصريح بضياع الوثائق
+    شرح مرئي لطريقة طريقة التصريح بضياع الوثائق عن بعد.
+    [عنوان فرعي H3]: طريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل
+    شرح مرئي لطريقة التسجيل في المنصة الوطنية الرقمية للأبوستيل وتصديق الوثائق إلكترونيا.
+    [عنوان فرعي H3]: برنامج جيل لجيل 777 للإدماج الرقمي
+    فيديو يشرح برنامج جيل لجيل 777 للتعلم والإدماج الرقمي وتطوير المهارات عن بعد في الجزائر.
+    [عنوان رئيسي H2]: روابط مفيدة
+    انتقل من الشرح المرئي إلى الخدمات والبيانات المرتبطة.
+  </CONTENT_STRUCTURE>
+</PAGE>
+
+<PAGE id="pages/video/markabatidz-registration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/markabatidz-registration.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة حجز موعد فحص المركبات عبر منصة مركبتي DZ</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل و حجز موعد فحص المركبات عبر منصة مركبتي DZ</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل و حجز موعد فحص المركبات عبر منصة مركبتي DZ.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <VIDEO_EMBED>https://www.youtube.com/embed/GD3ymUiI2m0</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/mtpib-presentation.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/mtpib-presentation.html</ORIGINAL_URL>
+  <PAGE_TITLE>تعريف بالبوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي عن البوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    البوابة الرقمية لوزارة الأشغال العمومية والمنشآت الكبرى.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <VIDEO_EMBED>https://portail.mtpib.dz/portail_v.mp4</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/naftal-tyres.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/naftal-tyres.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة التسجيل في منصة محطتي لاقتناء عجلات السيارات</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل في منصة محطتي التابعة لنفطال لاقتناء العجلات المطاطية</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل في منصة محطتي التابعة لنفطال لاقتناء العجلات المطاطية.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <OFFICIAL_EXTERNAL_LINKS>
+    <LINK label="▶ اضغط لتشغيل الفيديو">https://www.youtube.com/watch?v=U-3YSOxddEs</LINK>
+  </OFFICIAL_EXTERNAL_LINKS>
+  <VIDEO_EMBED>https://www.youtube.com/embed/U-3YSOxddEs</VIDEO_EMBED>
+</PAGE>
+
+<PAGE id="pages/video/takwin-registration.html" section="SECTION_04_PROCEDURES_AND_VIDEOS">
+  <ORIGINAL_URL>https://imadtbn.github.io/dz_portal/pages/video/takwin-registration.html</ORIGINAL_URL>
+  <PAGE_TITLE>طريقة التسجيل في الدخول التكويني 2026</PAGE_TITLE>
+  <SEO_DESCRIPTION>شرح مرئي لطريقة التسجيل في الدخول التكويني وخدمات وزارة التكوين والتعليم المهنيين في الجزائر</SEO_DESCRIPTION>
+  <CONTENT_STRUCTURE>
+    شرح مرئي لطريقة التسجيل في الدخول التكويني وخدمات وزارة التكوين والتعليم المهنيين في الجزائر.
+    هذا الفيديو هو المحتوى الرئيسي لهذه الصفحة، ويمكن العودة إلى صفحة الخدمة للاطلاع على التفاصيل والروابط الرقمية المرتبطة.
+  </CONTENT_STRUCTURE>
+  <VIDEO_EMBED>https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1967640217271523&show_text=false</VIDEO_EMBED>
+</PAGE>
+

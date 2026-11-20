@@ -1,0 +1,8 @@
+{
+  "name": "Bilingual Algerian Digital Services Portal",
+  "description": "Production-ready bilingual portal for Algerian public digital services, e-procedures, sectors, banks, transport, and interactive calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
