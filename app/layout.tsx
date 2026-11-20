@@ -66,6 +66,9 @@ export const metadata: Metadata = {
     description: 'دليل شامل وموحد للخدمات الرقمية، القطاعات الحكومية، البنوك، والتأمينات في الجزائر.',
     images: ['/assets/images/dz-portal-og.jpg'],
   },
+  verification: {
+    google: 'WKtgDPaZx8oAvjENkFpk1GgTOt9Rur5y-S2uQ0yrO-E',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
