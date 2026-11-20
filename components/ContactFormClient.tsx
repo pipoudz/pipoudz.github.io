@@ -86,7 +86,7 @@ export default function ContactFormClient({
       </div>
 
       {/* Interactive Local Message Form */}
-      <div className="md:col-span-2 bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="md:col-span-2 bg-white dark:bg-slate-900 p-4 sm:p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
         {submitted ? (
           <div className="py-12 text-center space-y-4">
             <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto" />

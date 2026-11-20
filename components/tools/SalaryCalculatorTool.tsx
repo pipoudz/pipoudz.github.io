@@ -31,7 +31,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
   return (
     <div className="space-y-6">
       {/* Input Parameters Form */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
           <Calculator className="w-5 h-5 text-emerald-600" />
           <span>{lang === 'ar' ? 'عناصر الأجر والراتب الشهري' : 'Éléments de Rémunération Mensuelle'}</span>
@@ -49,7 +49,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
                 step="500"
                 value={baseSalary}
                 onChange={(e) => setBaseSalary(Number(e.target.value))}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
+                className="w-full ps-3.5 pe-14 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
               />
               <span className="absolute end-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
                 DZD
@@ -68,7 +68,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
                 step="500"
                 value={bonuses}
                 onChange={(e) => setBonuses(Number(e.target.value))}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
+                className="w-full ps-3.5 pe-14 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
               />
               <span className="absolute end-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
                 DZD
@@ -87,7 +87,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
                 step="500"
                 value={allowances}
                 onChange={(e) => setAllowances(Number(e.target.value))}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
+                className="w-full ps-3.5 pe-14 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-base font-semibold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
               />
               <span className="absolute end-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
                 DZD
@@ -114,7 +114,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
           <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
             {lang === 'ar' ? 'الأجر الخام الإجمالي (Brut)' : 'Salaire Brut Global'}
           </span>
-          <div className="text-2xl font-black text-slate-900 dark:text-slate-100 font-mono">
+          <div className="text-xl sm:text-2xl font-black text-slate-900 dark:text-slate-100 font-mono tabular-nums">
             {result.grossSalary.toLocaleString('fr-DZ')} <span className="text-xs font-normal">DZD</span>
           </div>
           <span className="text-xs text-slate-400 mt-1 block">
@@ -127,7 +127,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
           <span className="text-xs font-bold text-red-700 dark:text-red-400 uppercase tracking-wider block mb-1">
             {lang === 'ar' ? 'مجموع الاقتطاعات (CNAS + IRG)' : 'Total Retenues'}
           </span>
-          <div className="text-2xl font-black text-red-600 dark:text-red-400 font-mono">
+          <div className="text-xl sm:text-2xl font-black text-red-600 dark:text-red-400 font-mono tabular-nums">
             -{(result.cnasDeduction + result.irgNet).toLocaleString('fr-DZ')} <span className="text-xs font-normal">DZD</span>
           </div>
           <span className="text-xs text-red-600/80 dark:text-red-400/80 mt-1 block">
@@ -140,7 +140,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
           <span className="text-xs font-bold uppercase tracking-wider block mb-1 opacity-90">
             {lang === 'ar' ? 'الراتب الصافي للدفع (Net à Payer)' : 'Salaire Net à Payer'}
           </span>
-          <div className="text-3xl font-black font-mono">
+          <div className="text-2xl sm:text-3xl font-black font-mono tabular-nums">
             {result.netSalary.toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span>
           </div>
           <span className="text-xs opacity-90 mt-1 block">
@@ -150,17 +150,17 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
       </div>
 
       {/* Official Printable Payslip (Fiche de Paie) */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <Receipt className="w-5 h-5 text-emerald-600" />
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+          <div className="flex items-center gap-2 min-w-0">
+            <Receipt className="w-5 h-5 text-emerald-600 shrink-0" />
             <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base">
               {lang === 'ar' ? 'بيان تفصيلي للأجر (كشف الراتب - Fiche de Paie)' : 'Bulletin de Paie Détaillé'}
             </h3>
           </div>
           <button
             onClick={handlePrint}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold hover:bg-slate-200 transition-colors"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold hover:bg-slate-200 transition-colors shrink-0"
           >
             <Printer className="w-3.5 h-3.5" />
             <span>{dict.common.print}</span>
@@ -169,7 +169,7 @@ export default function SalaryCalculatorTool({ lang }: SalaryCalculatorToolProps
 
         {/* Semantic Table for Calculation Breakdown */}
         <div className="overflow-x-auto">
-          <table className="w-full text-xs sm:text-sm text-start border-collapse border border-slate-200 dark:border-slate-800">
+          <table className="w-full min-w-[540px] sm:min-w-0 text-xs sm:text-sm text-start border-collapse border border-slate-200 dark:border-slate-800">
             <thead>
               <tr className="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300">
                 <th className="p-3 border border-slate-200 dark:border-slate-700 text-start">

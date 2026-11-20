@@ -188,7 +188,7 @@ export default async function FavoritesPage({
       />
 
       {/* Structured Comparison / Feature Table */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
           <ShieldCheck className="w-5 h-5 text-emerald-600" />
           <span>
@@ -198,7 +198,7 @@ export default async function FavoritesPage({
           </span>
         </h2>
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[440px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">

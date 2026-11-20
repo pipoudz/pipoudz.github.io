@@ -277,7 +277,7 @@ export default async function ToolsIndexPage({
         </div>
 
         <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-          <table className="w-full text-sm text-start border-collapse">
+          <table className="w-full min-w-[480px] sm:min-w-0 text-sm text-start border-collapse">
             <thead>
               <tr className="bg-slate-50 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300">
                 <th className="py-3 px-4 font-bold text-start">

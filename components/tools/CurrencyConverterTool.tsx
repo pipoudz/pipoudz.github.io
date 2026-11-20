@@ -33,7 +33,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
   return (
     <div className="space-y-6">
       {/* Market Selector Tabs */}
-      <div className="flex rounded-2xl bg-slate-100 dark:bg-slate-800 p-1.5 border border-slate-200 dark:border-slate-700 max-w-md mx-auto">
+      <div className="flex flex-col min-[420px]:flex-row gap-1 rounded-2xl bg-slate-100 dark:bg-slate-800 p-1.5 border border-slate-200 dark:border-slate-700 max-w-md mx-auto">
         <button
           type="button"
           onClick={() => setMarketType('square')}
@@ -61,7 +61,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
       </div>
 
       {/* Main Converter Card */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm max-w-2xl mx-auto">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm max-w-2xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-3 items-center">
           {/* From Input */}
           <div className="sm:col-span-2">
@@ -74,7 +74,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
                 min="0"
                 value={amount}
                 onChange={(e) => setAmount(Number(e.target.value))}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-lg font-bold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
+                className="w-full ps-4 pe-14 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono text-lg font-bold focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
               />
               <span className="absolute end-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
                 {direction === 'to_dzd' ? curr.symbol : 'DZD'}
@@ -104,7 +104,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
                 type="text"
                 readOnly
                 value={result.toLocaleString('fr-DZ', { minimumFractionDigits: 2 })}
-                className="w-full px-4 py-3 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/50 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-300 font-mono text-lg font-black focus:outline-hidden"
+                className="w-full ps-4 pe-14 py-3 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/50 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-300 font-mono text-lg font-black focus:outline-hidden"
               />
               <span className="absolute end-3 top-1/2 -translate-y-1/2 text-xs font-bold text-emerald-600">
                 {direction === 'to_dzd' ? 'DZD' : curr.symbol}
@@ -118,7 +118,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
           <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-2">
             {lang === 'ar' ? 'اختر العملة الأجنبية:' : 'Sélectionner la devise :'}
           </label>
-          <div className="grid grid-cols-4 sm:grid-cols-8 gap-1.5">
+          <div className="grid grid-cols-2 min-[340px]:grid-cols-4 sm:grid-cols-8 gap-1.5">
             {ALGERIAN_CURRENCIES.map((c) => (
               <button
                 key={c.code}
@@ -138,7 +138,7 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
         </div>
 
         {/* Current Rate Display */}
-        <div className="mt-4 p-3 rounded-xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 flex items-center justify-between text-xs text-slate-600 dark:text-slate-400">
+        <div className="mt-4 p-3 rounded-xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-600 dark:text-slate-400">
           <span>{lang === 'ar' ? 'سعر الصرف المعتمد حاليا:' : 'Taux appliqué :'}</span>
           <span className="font-mono font-bold text-slate-900 dark:text-slate-100 text-sm">
             1 {curr.code} = {rate.toFixed(2)} DZD ({marketType === 'square' ? (lang === 'ar' ? 'السكوار' : 'Square') : (lang === 'ar' ? 'رسمي' : 'Officiel')})
@@ -147,14 +147,14 @@ export default function CurrencyConverterTool({ lang }: CurrencyConverterToolPro
       </div>
 
       {/* Comparison Table: Official vs Square for All Currencies */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm max-w-3xl mx-auto">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm max-w-3xl mx-auto">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
-          <TrendingUp className="w-5 h-5 text-emerald-600" />
+          <TrendingUp className="w-5 h-5 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'جدول مقارنة أسعار العملات في الجزائر اليوم' : 'Tableau Comparatif des Cours de Change en Algérie'}</span>
         </h3>
 
         <div className="overflow-x-auto">
-          <table className="w-full text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">
+          <table className="w-full min-w-[520px] sm:min-w-0 text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">
             <thead>
               <tr className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
                 <th className="p-3 border border-slate-200 dark:border-slate-700 text-start">{lang === 'ar' ? 'العملة' : 'Devise'}</th>

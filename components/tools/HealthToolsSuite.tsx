@@ -128,7 +128,7 @@ function CalorieIdealWeightTool({ lang, mode }: { lang: Language; mode: string }
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <h3 className="font-bold text-base flex items-center gap-2">
           <Scale className="w-5 h-5 text-emerald-600" />
           <span>
@@ -217,7 +217,7 @@ function NutritionMacroTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs font-semibold text-slate-500 mb-1">{lang === 'ar' ? 'السعرات الحرارية اليومية المستهدفة:' : 'Calories quotidiennes cibles :'}</label>
           <input type="number" step="50" value={calories} onChange={(e) => setCalories(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -262,7 +262,7 @@ function WaterIntakeTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'الوزن (كغ):' : 'Poids (kg) :'}</label>
@@ -279,7 +279,7 @@ function WaterIntakeTool({ lang }: { lang: Language }) {
         </label>
       </div>
 
-      <div className="p-6 rounded-2xl bg-sky-600 text-white flex flex-wrap items-center justify-between gap-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-sky-600 text-white flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <Droplets className="w-8 h-8" />
           <div>
@@ -315,7 +315,7 @@ function ChildBmiTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'عمر الطفل (2-19 سنة):' : 'Âge (2-19 ans) :'}</label>
           <input type="number" min={2} max={19} value={ageYears} onChange={(e) => setAgeYears(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -353,7 +353,7 @@ function InfantGrowthTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'العمر بالأشهر (0-24):' : 'Âge en mois (0-24) :'}</label>
           <input type="number" min={0} max={24} value={months} onChange={(e) => setMonths(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -421,13 +421,13 @@ function VaccineTrackerTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
-        <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-          <div className="flex items-center gap-2 font-bold text-slate-900 dark:text-slate-100">
-            <ShieldCheck className="w-5 h-5 text-emerald-600" />
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-800 pb-3">
+          <div className="flex items-center gap-2 font-bold text-slate-900 dark:text-slate-100 min-w-0">
+            <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
             <span>{lang === 'ar' ? 'رزنامة التلقيح الوطنية الجزائرية' : 'Calendrier National de Vaccination (Algérie)'}</span>
           </div>
-          <span className="text-xs font-mono font-bold text-emerald-600">
+          <span className="text-xs font-mono font-bold text-emerald-600 shrink-0">
             {doneIds.length} / {schedule.length}
           </span>
         </div>
@@ -472,7 +472,7 @@ function PregnancyDueDateTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800">
         <label className="block text-xs font-semibold text-slate-500 mb-2">
           {lang === 'ar' ? 'تاريخ أول يوم من آخر دورة شهرية (LMP):' : 'Date du 1er jour des dernières règles :'}
         </label>
@@ -506,7 +506,7 @@ function PregnancyCalorieTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'السعرات الأساسية قبل الحمل:' : 'Besoins caloriques avant grossesse :'}</label>
           <input type="number" step="50" value={baseCal} onChange={(e) => setBaseCal(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -523,10 +523,10 @@ function PregnancyCalorieTool({ lang }: { lang: Language }) {
         </div>
       </div>
 
-      <div className="p-6 rounded-2xl bg-emerald-600 text-white flex items-center justify-between">
+      <div className="p-4 sm:p-6 rounded-2xl bg-emerald-600 text-white flex flex-wrap items-center justify-between gap-3">
         <div>
           <span className="text-xs opacity-90 block">{lang === 'ar' ? 'الاحتياج اليومي الإجمالي' : 'Total quotidien recommandé'}</span>
-          <span className="text-3xl font-black font-mono">{baseCal + bonus} kcal</span>
+          <span className="text-2xl sm:text-3xl font-black font-mono tabular-nums">{baseCal + bonus} kcal</span>
         </div>
         <span className="text-sm font-mono font-bold bg-emerald-700 px-3 py-1 rounded-lg">+{bonus} kcal</span>
       </div>
@@ -546,7 +546,7 @@ function FertileWindowTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'بداية آخر دورة شهرية:' : 'Début des dernières règles :'}</label>
           <input type="date" value={lastPeriod} onChange={(e) => setLastPeriod(e.target.value)} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
@@ -589,21 +589,21 @@ function PrediabetesRiskTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
         {questions.map((q, i) => (
           <label key={i} className="flex items-center gap-3 p-3 rounded-xl border border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-800/40">
             <input
               type="checkbox"
               checked={checks[i]}
               onChange={() => setChecks(checks.map((v, idx) => (idx === i ? !v : v)))}
-              className="w-4 h-4 accent-emerald-600"
+              className="w-4 h-4 accent-emerald-600 shrink-0"
             />
             <span className="text-sm font-medium">{q[lang]}</span>
           </label>
         ))}
       </div>
 
-      <div className={`p-5 rounded-2xl text-white flex items-center justify-between ${score >= 5 ? 'bg-amber-600' : 'bg-emerald-600'}`}>
+      <div className={`p-4 sm:p-5 rounded-2xl text-white flex flex-wrap items-center justify-between gap-3 ${score >= 5 ? 'bg-amber-600' : 'bg-emerald-600'}`}>
         <div>
           <span className="text-xs opacity-90 block">{lang === 'ar' ? 'النتيجة التقييمية' : 'Score évalué'}</span>
           <span className="text-2xl font-black font-mono">{score} / 7</span>
@@ -645,29 +645,29 @@ function DiabetesLogTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 flex flex-wrap items-end gap-3">
-        <div className="flex-1 min-w-36">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row sm:flex-wrap sm:items-end gap-3">
+        <div className="w-full sm:flex-1">
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'قياس سكر الدم (mg/dL):' : 'Glycémie (mg/dL) :'}</label>
           <input type="number" value={glucose} onChange={(e) => setGlucose(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
         </div>
-        <div className="flex-1 min-w-44">
+        <div className="w-full sm:flex-1">
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'التوقيت:' : 'Moment :'}</label>
           <select value={timing} onChange={(e) => setTiming(e.target.value as 'fasting' | 'post')} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm font-bold">
             <option value="fasting">{lang === 'ar' ? 'صائم (قبل الأكل)' : 'À jeun'}</option>
             <option value="post">{lang === 'ar' ? 'بعد الأكل بساعتين' : '2h après repas'}</option>
           </select>
         </div>
-        <button type="button" onClick={addLog} className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold">
+        <button type="button" onClick={addLog} className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold">
           {lang === 'ar' ? 'حفظ القراءة' : 'Enregistrer'}
         </button>
       </div>
 
       {logs.length > 0 && (
-        <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 space-y-2">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 space-y-2">
           <span className="text-xs font-bold text-slate-500 block">{lang === 'ar' ? 'سجل القياسات المحفوظ على جهازك:' : 'Historique local :'}</span>
           <div className="divide-y divide-slate-100 dark:divide-slate-800 text-xs">
             {logs.map((l, i) => (
-              <div key={i} className="py-2 flex items-center justify-between">
+              <div key={i} className="py-2 flex flex-wrap items-center justify-between gap-2">
                 <span>{l.date} · {l.timing === 'fasting' ? (lang === 'ar' ? 'صائم' : 'À jeun') : (lang === 'ar' ? 'بعد الأكل' : 'Post-prandial')}</span>
                 <span className="font-mono font-bold text-emerald-600">{l.val} mg/dL</span>
               </div>
@@ -694,7 +694,7 @@ function AsthmaControlTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         {items.map((it, idx) => (
           <div key={idx} className="space-y-1.5">
             <label className="text-xs sm:text-sm font-semibold block">{it[lang]}</label>
@@ -715,7 +715,7 @@ function AsthmaControlTool({ lang }: { lang: Language }) {
         ))}
       </div>
 
-      <div className={`p-5 rounded-2xl text-white flex items-center justify-between ${total >= 20 ? 'bg-emerald-600' : 'bg-amber-600'}`}>
+      <div className={`p-4 sm:p-5 rounded-2xl text-white flex flex-wrap items-center justify-between gap-3 ${total >= 20 ? 'bg-emerald-600' : 'bg-amber-600'}`}>
         <div>
           <span className="text-xs opacity-90 block">Score ACT</span>
           <span className="text-3xl font-black font-mono">{total} / 25</span>
@@ -762,14 +762,14 @@ function MentalHealthScreener({ lang, kind }: { lang: Language; kind: 'gad7' | '
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
         {questions.map((q, i) => (
           <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-100 dark:border-slate-800 last:border-b-0">
             <span className="text-xs sm:text-sm font-medium">{q[lang]}</span>
             <select
               value={vals[i]}
               onChange={(e) => setVals(vals.map((v, idx) => (idx === i ? Number(e.target.value) : v)))}
-              className="px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold shrink-0"
+              className="w-full sm:w-auto px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold shrink-0"
             >
               <option value={0}>{lang === 'ar' ? 'أبدا (0)' : 'Jamais (0)'}</option>
               <option value={1}>{lang === 'ar' ? 'عدة أيام (1)' : 'Plusieurs jours (1)'}</option>
@@ -780,7 +780,7 @@ function MentalHealthScreener({ lang, kind }: { lang: Language; kind: 'gad7' | '
         ))}
       </div>
 
-      <div className={`p-5 rounded-2xl text-white flex items-center justify-between ${total >= 15 ? 'bg-amber-600' : 'bg-emerald-600'}`}>
+      <div className={`p-4 sm:p-5 rounded-2xl text-white flex flex-wrap items-center justify-between gap-3 ${total >= 15 ? 'bg-amber-600' : 'bg-emerald-600'}`}>
         <div>
           <span className="text-xs opacity-90 block">{kind.toUpperCase()} Score</span>
           <span className="text-3xl font-black font-mono">{total} / {count * 3}</span>
@@ -814,15 +814,15 @@ function EatingAwarenessTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-2.5">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-2.5">
         {labels.map((l, i) => (
           <label key={i} className="flex items-center gap-3 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800 cursor-pointer">
-            <input type="checkbox" checked={habits[i]} onChange={() => setHabits(habits.map((h, idx) => (idx === i ? !h : h)))} className="w-4 h-4 accent-emerald-600" />
+            <input type="checkbox" checked={habits[i]} onChange={() => setHabits(habits.map((h, idx) => (idx === i ? !h : h)))} className="w-4 h-4 accent-emerald-600 shrink-0" />
             <span className="text-sm">{l[lang]}</span>
           </label>
         ))}
       </div>
-      <div className="p-5 rounded-2xl bg-emerald-600 text-white flex items-center justify-between">
+      <div className="p-4 sm:p-5 rounded-2xl bg-emerald-600 text-white flex flex-wrap items-center justify-between gap-2">
         <span className="font-bold text-sm">{lang === 'ar' ? 'درجة التوازن الغذائي:' : 'Score d\'équilibre alimentaire :'}</span>
         <span className="text-2xl font-black font-mono">{pts} / {labels.length}</span>
       </div>
@@ -842,31 +842,31 @@ function SleepAssessmentTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'متوسط ساعات النوم ليلا:' : 'Heures de sommeil par nuit :'}</label>
-          <input type="number" step="0.5" min={2} max={14} value={hours} onChange={(e) => setHours(Number(e.target.value))} className="w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
+          <input type="number" step="0.5" min={2} max={14} value={hours} onChange={(e) => setHours(Number(e.target.value))} className="w-full sm:w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
         </div>
         <label className="flex items-center gap-2 text-sm cursor-pointer">
-          <input type="checkbox" checked={snoring} onChange={(e) => setSnoring(e.target.checked)} className="w-4 h-4 accent-emerald-600" />
+          <input type="checkbox" checked={snoring} onChange={(e) => setSnoring(e.target.checked)} className="w-4 h-4 accent-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'وجود شخير مرتفع أو انقطاع نفس ملحوظ أثناء النوم' : 'Ronflements fréquents ou pauses respiratoires'}</span>
         </label>
         <label className="flex items-center gap-2 text-sm cursor-pointer">
-          <input type="checkbox" checked={tired} onChange={(e) => setTired(e.target.checked)} className="w-4 h-4 accent-emerald-600" />
+          <input type="checkbox" checked={tired} onChange={(e) => setTired(e.target.checked)} className="w-4 h-4 accent-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'نعاس وإرهاق واضح خلال النهار' : 'Somnolence ou fatigue diurne'}</span>
         </label>
         <label className="flex items-center gap-2 text-sm cursor-pointer">
-          <input type="checkbox" checked={screens} onChange={(e) => setScreens(e.target.checked)} className="w-4 h-4 accent-emerald-600" />
+          <input type="checkbox" checked={screens} onChange={(e) => setScreens(e.target.checked)} className="w-4 h-4 accent-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'استعمال الهاتف أو الشاشات قبل النوم مباشرة' : 'Écrans juste avant le coucher'}</span>
         </label>
       </div>
 
-      <div className="p-5 rounded-2xl bg-indigo-700 text-white flex items-center justify-between">
+      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-700 text-white flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
-          <Moon className="w-5 h-5" />
+          <Moon className="w-5 h-5 shrink-0" />
           <span className="font-bold text-sm">{lang === 'ar' ? 'مؤشر جودة النوم التقديري' : 'Indice Qualité de Sommeil'}</span>
         </div>
-        <span className="text-3xl font-black font-mono">{score} / 100</span>
+        <span className="text-2xl sm:text-3xl font-black font-mono tabular-nums">{score} / 100</span>
       </div>
     </div>
   );
@@ -886,13 +886,13 @@ function VisualAcuityTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 text-center space-y-5">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 text-center space-y-5">
         <div className="flex items-center justify-center gap-2 text-sm font-bold text-slate-700 dark:text-slate-300">
-          <Eye className="w-4 h-4 text-emerald-600" />
+          <Eye className="w-4 h-4 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'اختر أصغر سطر يمكنك تمييز اتجاه حروفه بوضوح من مسافة ذراع:' : 'Sélectionnez la plus petite ligne lisible nettement à bout de bras :'}</span>
         </div>
 
-        <div className="space-y-3 py-4 border-y border-slate-100 dark:border-slate-800">
+        <div className="space-y-3 py-4 border-y border-slate-100 dark:border-slate-800 overflow-x-auto">
           {levels.map((lv, idx) => (
             <button
               key={lv.label}
@@ -902,7 +902,7 @@ function VisualAcuityTool({ lang }: { lang: Language }) {
                 selected === idx ? 'bg-emerald-50 dark:bg-emerald-950/50 ring-2 ring-emerald-500' : 'hover:bg-slate-50 dark:hover:bg-slate-800/40'
               }`}
             >
-              <span className="font-mono font-black tracking-[0.4em] text-slate-900 dark:text-slate-100" style={{ fontSize: `${lv.px}px` }}>
+              <span className="font-mono font-black tracking-[0.2em] sm:tracking-[0.4em] text-slate-900 dark:text-slate-100" style={{ fontSize: `${lv.px}px` }}>
                 {lv.dir} {lv.dir === 'E' ? '∃' : 'E'} {lv.dir}
               </span>
               <span className="block text-[11px] font-mono text-slate-400 mt-1">{lv.label}</span>
@@ -939,13 +939,13 @@ function PilgrimHealthChecklistTool({ lang }: { lang: Language }) {
   return (
     <div className="space-y-5">
       <MedicalDisclaimer lang={lang} />
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
-        <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-          <div className="flex items-center gap-2 font-bold">
-            <Compass className="w-5 h-5 text-emerald-600" />
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-800 pb-3">
+          <div className="flex items-center gap-2 font-bold min-w-0">
+            <Compass className="w-5 h-5 text-emerald-600 shrink-0" />
             <span>{lang === 'ar' ? 'القائمة الصحية للحاج والمعتمر (12 بندا)' : 'Check-list Médicale Pèlerin (12 Points)'}</span>
           </div>
-          <span className="font-mono text-xs font-bold text-emerald-600">{checked.filter(Boolean).length} / {items.length}</span>
+          <span className="font-mono text-xs font-bold text-emerald-600 shrink-0">{checked.filter(Boolean).length} / {items.length}</span>
         </div>
 
         {items.map((it, i) => (
@@ -1118,18 +1118,18 @@ function MedicationTrackerTool({ lang }: { lang: Language }) {
         </div>
 
         {profiles.length < 3 && (
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2">
             <input
               type="text"
               value={newProfileName}
               onChange={(e) => setNewProfileName(e.target.value)}
               placeholder={isAr ? 'اسم الملف الجديد...' : 'Nom du profil...'}
-              className="flex-1 min-w-[180px] px-3 py-2 text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800"
+              className="w-full sm:flex-1 sm:min-w-[180px] px-3 py-2 text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800"
             />
             <button
               type="button"
               onClick={handleAddProfile}
-              className="px-4 py-2 rounded-xl bg-slate-900 dark:bg-emerald-600 text-white text-xs font-bold"
+              className="w-full sm:w-auto px-4 py-2 rounded-xl bg-slate-900 dark:bg-emerald-600 text-white text-xs font-bold"
             >
               {isAr ? 'إضافة ملف' : 'Ajouter un profil'}
             </button>
@@ -1177,8 +1177,8 @@ function MedicationTrackerTool({ lang }: { lang: Language }) {
                 key={m.id}
                 className="p-3 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2"
               >
-                <div>
-                  <p className="text-xs font-bold text-slate-900 dark:text-slate-100">{m.name}</p>
+                <div className="min-w-0">
+                  <p className="text-xs font-bold text-slate-900 dark:text-slate-100 break-words">{m.name}</p>
                   <p className="text-[11px] text-slate-500 font-mono">
                     {m.doseTime}
                     {m.correctedAt ? ` · ${isAr ? 'تم التصحيح' : 'Corrigé à'} ${m.correctedAt}` : ''}

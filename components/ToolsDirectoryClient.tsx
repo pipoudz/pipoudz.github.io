@@ -114,7 +114,7 @@ export default function ToolsDirectoryClient({
         <div
           role="tablist"
           aria-label={lang === 'ar' ? 'تصفية الأدوات حسب الفئة' : 'Filtrer par catégorie d’outils'}
-          className="flex flex-wrap items-center gap-1.5 p-1.5 rounded-xl bg-slate-100 dark:bg-slate-950 border border-slate-200/70 dark:border-slate-800"
+          className="flex overflow-x-auto sm:flex-wrap items-center gap-1.5 p-1.5 rounded-xl bg-slate-100 dark:bg-slate-950 border border-slate-200/70 dark:border-slate-800 scrollbar-none"
         >
           <button
             type="button"

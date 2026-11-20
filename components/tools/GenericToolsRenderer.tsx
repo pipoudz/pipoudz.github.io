@@ -127,7 +127,7 @@ function LoanCalculatorComponent({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
           <CreditCard className="w-5 h-5 text-emerald-600" />
           <span>{lang === 'ar' ? 'حاسبة القروض والتمويل العقاري والاستهلاكي' : 'Simulateur de Crédit & Financement'}</span>
@@ -160,7 +160,7 @@ function LoanCalculatorComponent({ lang }: { lang: Language }) {
           <span className="text-xs uppercase tracking-wider block opacity-90 mb-1">
             {lang === 'ar' ? 'القسط الشهري المقدر (Mensualité)' : 'Mensualité Estimée'}
           </span>
-          <div className="text-3xl font-black font-mono">
+          <div className="text-2xl sm:text-3xl font-black font-mono tabular-nums">
             {Math.round(monthlyPayment).toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span>
           </div>
         </div>
@@ -168,7 +168,7 @@ function LoanCalculatorComponent({ lang }: { lang: Language }) {
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">
             {lang === 'ar' ? 'إجمالي الأرباح / الفوائد' : 'Total Intérêts / Marge'}
           </span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">
             {Math.round(totalInterest).toLocaleString('fr-DZ')} DZD
           </div>
         </div>
@@ -176,7 +176,7 @@ function LoanCalculatorComponent({ lang }: { lang: Language }) {
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">
             {lang === 'ar' ? 'المبلغ الإجمالي المسدد' : 'Montant Total Remboursé'}
           </span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">
             {Math.round(totalPaid).toLocaleString('fr-DZ')} DZD
           </div>
         </div>
@@ -207,7 +207,7 @@ function CarCostCalculatorComponent({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
           <Car className="w-5 h-5 text-emerald-600" />
           <span>{lang === 'ar' ? 'حساب ثمن قسيمة السيارات والتكاليف السنوية' : 'Calculateur Vignette Automobile & Coûts'}</span>
@@ -243,15 +243,15 @@ function CarCostCalculatorComponent({ lang }: { lang: Language }) {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="p-5 rounded-2xl bg-amber-600 text-white shadow-md">
           <span className="text-xs uppercase tracking-wider block opacity-90 mb-1">{lang === 'ar' ? 'ثمن قسيمة السيارات الرسمية' : 'Prix Vignette Officielle'}</span>
-          <div className="text-3xl font-black font-mono">{vignetteCost.toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span></div>
+          <div className="text-2xl sm:text-3xl font-black font-mono tabular-nums">{vignetteCost.toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span></div>
         </div>
         <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">{lang === 'ar' ? 'الفحص الدوري التقني' : 'Contrôle Technique Annuel'}</span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">{technicalControlCost.toLocaleString('fr-DZ')} DZD</div>
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">{technicalControlCost.toLocaleString('fr-DZ')} DZD</div>
         </div>
         <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">{lang === 'ar' ? 'التأمين السنوي التقديري' : 'Assurance Annuelle Estimée'}</span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">{averageInsuranceYear.toLocaleString('fr-DZ')} DZD</div>
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">{averageInsuranceYear.toLocaleString('fr-DZ')} DZD</div>
         </div>
       </div>
     </div>
@@ -271,7 +271,7 @@ function FuelCalculatorComponent({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
           <Fuel className="w-5 h-5 text-emerald-600" />
           <span>{lang === 'ar' ? 'حاسبة استهلاك وتكلفة الوقود بين الولايات' : 'Calculateur Carburant Inter-Wilayas'}</span>
@@ -304,15 +304,15 @@ function FuelCalculatorComponent({ lang }: { lang: Language }) {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">{lang === 'ar' ? 'المسافة الإجمالية ذهابا' : 'Distance Aller'}</span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">{distanceKm} km</div>
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">{distanceKm} km</div>
         </div>
         <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
           <span className="text-xs uppercase tracking-wider block text-slate-500 mb-1">{lang === 'ar' ? 'حجم الوقود المستهلك' : 'Carburant Consommé'}</span>
-          <div className="text-2xl font-bold font-mono text-slate-900 dark:text-slate-100">{totalLiters.toFixed(1)} L</div>
+          <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">{totalLiters.toFixed(1)} L</div>
         </div>
         <div className="p-5 rounded-2xl bg-emerald-600 text-white shadow-md">
           <span className="text-xs uppercase tracking-wider block opacity-90 mb-1">{lang === 'ar' ? 'تكلفة الرحلة الإجمالية' : 'Coût Total du Trajet'}</span>
-          <div className="text-3xl font-black font-mono">{Math.round(totalCost).toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span></div>
+          <div className="text-2xl sm:text-3xl font-black font-mono tabular-nums">{Math.round(totalCost).toLocaleString('fr-DZ')} <span className="text-sm font-normal">DZD</span></div>
         </div>
       </div>
     </div>
@@ -335,14 +335,14 @@ function AgeCalculatorComponent({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs font-semibold text-slate-500 mb-1">{lang === 'ar' ? 'تاريخ الميلاد بالميلادي:' : 'Date de Naissance :'}</label>
           <input type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
         </div>
         <div>
           <label className="block text-xs font-semibold text-slate-500 mb-1">{lang === 'ar' ? 'الجنس (لحساب سن التقاعد CNR):' : 'Genre (Retraite CNR) :'}</label>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 min-[340px]:grid-cols-2 gap-2">
             <button type="button" onClick={() => setGender('male')} className={`py-2.5 px-3 rounded-xl border text-xs font-bold ${gender === 'male' ? 'bg-emerald-600 text-white border-emerald-600' : 'bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700'}`}>
               {lang === 'ar' ? 'ذكر (60 سنة)' : 'Homme (60 ans)'}
             </button>
@@ -379,7 +379,7 @@ function DateDifferenceComponent({ lang }: { lang: Language }) {
   const diffDays = Math.ceil(Math.abs(new Date(d2).getTime() - new Date(d1).getTime()) / 86400000);
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs font-semibold text-slate-500 mb-1">{lang === 'ar' ? 'التاريخ الأول:' : 'Date de début :'}</label>
           <input type="date" value={d1} onChange={(e) => setD1(e.target.value)} className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
@@ -389,7 +389,7 @@ function DateDifferenceComponent({ lang }: { lang: Language }) {
           <input type="date" value={d2} onChange={(e) => setD2(e.target.value)} className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
         <div className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-500/30 text-center">
           <span className="text-xs text-slate-500">{lang === 'ar' ? 'الأيام' : 'Jours'}</span>
           <div className="text-2xl font-bold font-mono text-emerald-700 dark:text-emerald-400">{diffDays}</div>
@@ -431,8 +431,8 @@ function PomodoroComponent({ lang }: { lang: Language }) {
   };
 
   return (
-    <div className="max-w-md mx-auto p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-6">
-      <div className="flex justify-center gap-2">
+    <div className="max-w-md mx-auto p-5 sm:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-6">
+      <div className="flex flex-wrap justify-center gap-2">
         <button type="button" onClick={() => switchMode('work')} className={`px-4 py-1.5 rounded-lg text-xs font-bold ${mode === 'work' ? 'bg-emerald-600 text-white' : 'bg-slate-100 dark:bg-slate-800'}`}>
           {lang === 'ar' ? 'جلسة تركيز (25 د)' : 'Focus (25 min)'}
         </button>
@@ -440,10 +440,10 @@ function PomodoroComponent({ lang }: { lang: Language }) {
           {lang === 'ar' ? 'استراحة (5 د)' : 'Pause (5 min)'}
         </button>
       </div>
-      <div className="text-6xl font-black font-mono text-slate-900 dark:text-slate-100 tracking-wider">
+      <div className="text-5xl sm:text-6xl font-black font-mono tabular-nums text-slate-900 dark:text-slate-100 tracking-wider">
         {String(Math.floor(seconds / 60)).padStart(2, '0')}:{String(seconds % 60).padStart(2, '0')}
       </div>
-      <div className="flex justify-center gap-3">
+      <div className="flex flex-wrap justify-center gap-3">
         <button type="button" onClick={() => setIsActive(!isActive)} className="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold flex items-center gap-2">
           {isActive ? <Pause className="w-5 h-5" /> : <Play className="w-5 h-5" />}
           <span>{isActive ? (lang === 'ar' ? 'إيقاف مؤقت' : 'Pause') : (lang === 'ar' ? 'ابدأ التركيز' : 'Démarrer')}</span>
@@ -461,7 +461,7 @@ function QiblaCompassComponent({ lang }: { lang: Language }) {
   const currentWilaya = QIBLA_WILAYAS.find((w) => w.code === selectedWilaya) || QIBLA_WILAYAS[15];
 
   return (
-    <div className="max-w-lg mx-auto bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-6">
+    <div className="max-w-lg mx-auto bg-white dark:bg-slate-900 rounded-3xl p-4 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-6">
       <div>
         <label className="block text-xs font-semibold text-slate-500 mb-2">
           {lang === 'ar' ? 'اختر ولايتك من 58 ولاية جزائرية:' : 'Sélectionnez votre wilaya (58 wilayas) :'}
@@ -472,12 +472,12 @@ function QiblaCompassComponent({ lang }: { lang: Language }) {
           ))}
         </select>
       </div>
-      <div className="relative w-56 h-56 mx-auto rounded-full border-4 border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 flex items-center justify-center">
+      <div className="relative w-44 h-44 min-[360px]:w-56 min-[360px]:h-56 mx-auto rounded-full border-4 border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 flex items-center justify-center">
         <span className="absolute top-2 text-xs font-bold text-red-500">N</span>
         <span className="absolute bottom-2 text-xs font-bold text-slate-400">S</span>
         <span className="absolute end-3 text-xs font-bold text-slate-400">E</span>
         <span className="absolute start-3 text-xs font-bold text-slate-400">W</span>
-        <div className="absolute w-1.5 h-40 transition-transform duration-500" style={{ transform: `rotate(${currentWilaya.angle}deg)` }}>
+        <div className="absolute w-1.5 h-32 min-[360px]:h-40 transition-transform duration-500" style={{ transform: `rotate(${currentWilaya.angle}deg)` }}>
           <div className="w-0 h-0 border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-[20px] border-b-emerald-600 mx-auto" />
           <div className="w-1 bg-emerald-600 h-16 mx-auto" />
         </div>
@@ -519,7 +519,7 @@ function HijriCalendarComponent({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-5">
-      <div className="bg-emerald-600 text-white rounded-2xl p-6 space-y-3">
+      <div className="bg-emerald-600 text-white rounded-2xl p-4 sm:p-6 space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <span className="text-xs font-bold uppercase opacity-90">{lang === 'ar' ? 'محول التاريخ الميلادي إلى الهجري (أم القرى):' : 'Convertisseur Grégorien vers Hégirien :'}</span>
           <input type="date" value={gDate} onChange={(e) => setGDate(e.target.value)} className="px-3 py-1.5 rounded-xl bg-white text-slate-900 font-mono text-xs font-bold" />
@@ -527,16 +527,16 @@ function HijriCalendarComponent({ lang }: { lang: Language }) {
         <div className="text-xl sm:text-2xl font-black">{hijriDisplay}</div>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base flex items-center gap-2">
-          <Moon className="w-5 h-5 text-emerald-600" />
+          <Moon className="w-5 h-5 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'جدول العطل والأعياد الرسمية في الجزائر' : 'Jours Fériés & Fêtes Officielles en Algérie'}</span>
         </h3>
         <div className="divide-y divide-slate-100 dark:divide-slate-800">
           {holidays.map((h, i) => (
-            <div key={i} className="py-3 flex items-center justify-between gap-2">
+            <div key={i} className="py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 sm:gap-3">
               <span className="font-semibold text-sm text-slate-800 dark:text-slate-200">{h.name[lang]}</span>
-              <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400">{h.date}</span>
+              <span className="self-start sm:self-auto text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400">{h.date}</span>
             </div>
           ))}
         </div>

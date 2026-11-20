@@ -239,11 +239,11 @@ export default function SearchBarModal({ lang, isOpen, onClose }: SearchBarModal
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center pt-16 px-4 bg-slate-900/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-150"
+      className="fixed inset-0 z-50 flex items-start justify-center pt-2.5 sm:pt-16 px-2.5 sm:px-4 bg-slate-900/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-150"
       onClick={handleClose}
     >
       <div
-        className="w-full max-w-3xl bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden flex flex-col max-h-[82vh]"
+        className="w-full max-w-3xl bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden flex flex-col max-h-[90dvh] sm:max-h-[82dvh]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Search Input Bar */}
@@ -332,12 +332,12 @@ export default function SearchBarModal({ lang, isOpen, onClose }: SearchBarModal
                     <div className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-950/50 text-slate-600 dark:text-slate-300 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors shrink-0 mt-0.5">
                       <IconComp className="w-5 h-5" />
                     </div>
-                    <div className="min-w-0">
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs font-semibold px-2 py-0.5 rounded-sm bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 group-hover:bg-emerald-200/50 dark:group-hover:bg-emerald-900/50">
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                        <span className="text-xs font-semibold px-2 py-0.5 rounded-sm bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 group-hover:bg-emerald-200/50 dark:group-hover:bg-emerald-900/50 shrink-0">
                           {item.categoryLabel}
                         </span>
-                        <h4 className="font-semibold text-slate-900 dark:text-slate-100 text-sm sm:text-base truncate group-hover:text-emerald-700 dark:group-hover:text-emerald-400">
+                        <h4 className="font-semibold text-slate-900 dark:text-slate-100 text-sm sm:text-base truncate min-w-0 group-hover:text-emerald-700 dark:group-hover:text-emerald-400">
                           {item.title}
                         </h4>
                       </div>

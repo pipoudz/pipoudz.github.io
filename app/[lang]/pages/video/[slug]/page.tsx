@@ -157,7 +157,7 @@ export default async function VideoDetailPage({
 
       {/* Rich Contextual Overview Paragraphs */}
       {vid.guideParagraphs && vid.guideParagraphs[validLang]?.length > 0 && (
-        <section className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-3">
+        <section className="p-4 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-3">
           <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <BookOpen className="w-5 h-5 text-emerald-600" />
             <span>{validLang === 'ar' ? 'شرح مفصل للخدمة والخطوات' : 'Présentation Détaillée du Tutoriel'}</span>
@@ -172,7 +172,7 @@ export default async function VideoDetailPage({
 
       {/* Steps Highlighted */}
       {vid.stepsHighlight.length > 0 && (
-        <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+        <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
           <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <ListChecks className="w-5 h-5 text-emerald-600" />
             <span>{validLang === 'ar' ? 'أهم النقاط والخطوات المشروحة في الفيديو' : 'Points Clés & Étapes Illustrées'}</span>
@@ -196,7 +196,7 @@ export default async function VideoDetailPage({
           href={`/${validLang}/${vid.relatedGuidePath.replace(/^\/+|\/+$/g, '')}/`}
           className="flex items-center justify-between gap-4 p-5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/60 hover:border-emerald-500 transition-colors group"
         >
-          <div className="space-y-1">
+          <div className="space-y-1 min-w-0">
             <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400 block">
               {validLang === 'ar' ? 'صفحة الخدمة والدليل الكامل' : 'Fiche Service & Dossier Associé'}
             </span>

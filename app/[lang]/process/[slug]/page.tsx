@@ -205,12 +205,12 @@ export default async function ProcedureDetailPage({
           {proc.steps.map((st) => (
             <div
               key={st.stepNumber}
-              className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xs flex items-start gap-4"
+              className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xs flex items-start gap-3 sm:gap-4 min-w-0"
             >
               <div className="w-9 h-9 rounded-xl bg-emerald-600 text-white font-black text-sm flex items-center justify-center shrink-0 mt-0.5">
                 {st.stepNumber}
               </div>
-              <div className="space-y-1">
+              <div className="space-y-1 min-w-0">
                 <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base">
                   {st.title[validLang]}
                 </h3>
@@ -231,7 +231,7 @@ export default async function ProcedureDetailPage({
         </h2>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[380px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">{dict.common.tableHeaders.item}</th>

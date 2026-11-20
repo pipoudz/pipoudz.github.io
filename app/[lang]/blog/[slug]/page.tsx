@@ -197,7 +197,7 @@ export default async function BlogArticlePage({
             {validLang === 'ar' ? 'جدول المقارنة التفصيلي' : 'Tableau comparatif détaillé'}
           </h2>
           <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-            <table className="w-full text-xs sm:text-sm text-start">
+            <table className="w-full min-w-[480px] sm:min-w-0 text-xs sm:text-sm text-start">
               <thead className="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
                 <tr>
                   {article.comparisonTable.headers.map((h, hIdx) => (
@@ -307,7 +307,7 @@ export default async function BlogArticlePage({
 
       {/* Other Articles */}
       <section className="pt-6 border-t border-slate-200 dark:border-slate-800 space-y-4">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100">
             {validLang === 'ar' ? 'أدلة ومقالات أخرى تهمك' : 'Autres Guides Pratiques Recommandés'}
           </h2>

@@ -56,13 +56,13 @@ export default function SonalgazBillGuide({ lang }: Props) {
 
   return (
     <div className="space-y-6">
-      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-6 space-y-5 shadow-sm">
+      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 space-y-5 shadow-sm">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5">
-            <div className="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 flex items-center justify-center">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 flex items-center justify-center shrink-0">
               <Zap className="w-5 h-5" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">
                 {lang === 'ar' ? 'الشرح التفاعلي لأقسام فاتورة سونلغاز' : 'Lecture Interactive de la Facture Sonelgaz'}
               </h2>
@@ -103,7 +103,7 @@ export default function SonalgazBillGuide({ lang }: Props) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+        <div className="grid grid-cols-1 min-[420px]:grid-cols-2 lg:grid-cols-4 gap-2">
           {tabs.map((t) => (
             <button
               key={t.id}
@@ -173,16 +173,16 @@ export default function SonalgazBillGuide({ lang }: Props) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex items-center justify-between">
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
-                <Gauge className="w-4 h-4 text-emerald-600" />
+                <Gauge className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>{lang === 'ar' ? 'كمية الاستهلاك (kWh أو m³)' : 'Volume Consommé (kWh ou m³)'}</span>
               </div>
-              <span className="text-xl font-black font-mono text-slate-900 dark:text-slate-100">
+              <span className="text-xl font-black font-mono text-slate-900 dark:text-slate-100 tabular-nums">
                 {diffUnits.toLocaleString('fr-DZ')}
               </span>
             </div>
-            <div className="p-4 rounded-xl bg-emerald-600 text-white flex items-center justify-between">
+            <div className="p-4 rounded-xl bg-emerald-600 text-white flex flex-wrap items-center justify-between gap-2">
               <span className="text-xs font-semibold">
                 {lang === 'ar' ? 'الوحدات الحرارية للغاز (Thermies)' : 'Équivalent Gaz (Thermies)'}
               </span>

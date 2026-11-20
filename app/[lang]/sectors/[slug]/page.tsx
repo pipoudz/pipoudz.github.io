@@ -131,11 +131,11 @@ export default async function SectorDetailPage({
       {/* Header Info */}
       <div className="space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 min-w-0">
             <span className="px-3 h-12 rounded-2xl bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 flex items-center justify-center font-black text-base shrink-0">
               {sector.acronym || 'DZ'}
             </span>
-            <div>
+            <div className="min-w-0">
               <span className="text-xs font-semibold text-emerald-700 dark:text-emerald-400">
                 {sector.ministry ? sector.ministry[validLang] : dict.categories[sector.category]}
               </span>
@@ -211,7 +211,7 @@ export default async function SectorDetailPage({
                 rel="noopener noreferrer"
                 className="group p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 hover:shadow-md transition-all flex flex-col justify-between gap-3"
               >
-                <div className="space-y-2">
+                <div className="space-y-2 min-w-0">
                   <div className="flex items-start justify-between gap-2">
                     <h3 className="font-bold text-slate-900 dark:text-slate-100 text-sm sm:text-base group-hover:text-emerald-600 transition-colors">
                       {srv.title[validLang]}
@@ -249,7 +249,7 @@ export default async function SectorDetailPage({
         </h2>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[440px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold w-1/3">

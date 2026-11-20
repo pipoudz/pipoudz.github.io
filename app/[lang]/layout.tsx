@@ -23,7 +23,7 @@ export default async function LangLayout({
   const organizationSchema = generateOrganizationSchema(validLang);
 
   return (
-    <div lang={validLang} dir={validLang === 'ar' ? 'rtl' : 'ltr'} className="flex flex-col min-h-screen">
+    <div lang={validLang} dir={validLang === 'ar' ? 'rtl' : 'ltr'} className="flex flex-col min-h-screen overflow-x-clip">
       <LanguageSync lang={validLang} />
       <script
         type="application/ld+json"
@@ -34,7 +34,7 @@ export default async function LangLayout({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       <Header lang={validLang} />
-      <main className="flex-1 w-full">{children}</main>
+      <main className="flex-1 w-full min-w-0">{children}</main>
       <Footer lang={validLang} />
     </div>
   );

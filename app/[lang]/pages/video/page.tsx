@@ -255,10 +255,10 @@ export default async function VideoIndexPage({
             </span>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 p-5 sm:p-6 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/50 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 p-4 sm:p-6 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/50 items-center">
             <Link
               href={`/${validLang}/pages/video/${featuredVideo.slug}/`}
-              className="lg:col-span-5 relative aspect-video rounded-xl overflow-hidden bg-slate-900 group shadow-md"
+              className="lg:col-span-5 min-w-0 relative aspect-video rounded-xl overflow-hidden bg-slate-900 group shadow-md"
             >
               <Image
                 src={featuredVideo.thumbnailUrl}
@@ -279,7 +279,7 @@ export default async function VideoIndexPage({
               )}
             </Link>
 
-            <div className="lg:col-span-7 space-y-3">
+            <div className="lg:col-span-7 min-w-0 space-y-3">
               <span className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
                 {featuredVideo.category[validLang]}
               </span>

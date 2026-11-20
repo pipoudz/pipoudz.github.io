@@ -289,7 +289,7 @@ export default async function AboutPage({
       </section>
 
       {/* Team & Statistics Link */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Users className="w-5 h-5 text-emerald-600" />
@@ -305,7 +305,7 @@ export default async function AboutPage({
         </div>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[440px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">{validLang === 'ar' ? 'الركيزة' : 'Pôle'}</th>
@@ -349,7 +349,7 @@ export default async function AboutPage({
       </section>
 
       {/* Editorial Standards */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
           <BookOpen className="w-5 h-5 text-emerald-600" />
           <span>

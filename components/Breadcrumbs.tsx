@@ -58,7 +58,7 @@ export default function Breadcrumbs({ lang, items }: BreadcrumbsProps) {
           {items.map((item, idx) => {
             const isLast = idx === items.length - 1;
             return (
-              <li key={idx} className="flex items-center gap-1.5">
+              <li key={idx} className="flex items-center gap-1.5 min-w-0">
                 <Separator className="w-3 h-3 text-slate-400 shrink-0" />
                 {item.href && !isLast ? (
                   <Link
@@ -68,7 +68,7 @@ export default function Breadcrumbs({ lang, items }: BreadcrumbsProps) {
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="font-semibold text-slate-900 dark:text-slate-100 line-clamp-1 max-w-[200px] sm:max-w-none">
+                  <span className="font-semibold text-slate-900 dark:text-slate-100 break-words">
                     {item.label}
                   </span>
                 )}

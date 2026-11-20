@@ -292,13 +292,13 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
   return (
     <div className="space-y-10">
       {/* 1. Point-to-Point & Train Number Search */}
-      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-6 shadow-xs space-y-5">
+      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-xs space-y-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 min-w-0">
             <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-400 flex items-center justify-center shrink-0">
               <Train className="w-5 h-5" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">
                 {isAr ? 'من محطة إلى محطة — البحث برقم القطار والمحطات' : 'De Gare à Gare — Recherche par Trajet ou N° de Train'}
               </h2>
@@ -322,7 +322,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
         </div>
 
         {/* Search & Swap Inputs (Departure + Swap + Arrival + Train Number) */}
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr_0.75fr] gap-3 items-end">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_0.75fr] gap-3 items-end">
           <div>
             <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
               {isAr ? 'محطة الانطلاق أو العبور:' : 'Gare de départ :'}
@@ -342,7 +342,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
           <button
             type="button"
             onClick={handleSwap}
-            className="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/50 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 self-center md:self-end transition-colors"
+            className="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/50 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 sm:col-span-2 lg:col-span-1 justify-self-center lg:self-end transition-colors"
             title={isAr ? 'عكس الوجهتين' : 'Inverser les gares'}
           >
             <ArrowLeftRight className="w-4 h-4" />
@@ -417,7 +417,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
 
       {/* Matching Routes List */}
       <div className="space-y-3">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100">
             {isAr ? `الرحلات المطابقة (${filteredTrips.length})` : `Trajets Disponibles (${filteredTrips.length})`}
           </h3>
@@ -452,7 +452,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
                       key={idx}
                       className="p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-emerald-200 dark:border-emerald-800 flex flex-wrap items-center justify-between gap-2 text-xs"
                     >
-                      <div className="font-semibold text-slate-800 dark:text-slate-200">
+                      <div className="font-semibold text-slate-800 dark:text-slate-200 min-w-0 break-words">
                         <span className="font-mono font-bold text-emerald-700">{conn.leg1.tripCode}</span>{' '}
                         {conn.leg1.departure[lang]} ({conn.leg1.departureTime}) →{' '}
                         <span className="font-bold underline">{conn.hub[lang]}</span> ({conn.leg1.arrivalTime})
@@ -469,7 +469,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
                 </div>
               </div>
             ) : (
-              <div className="p-8 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-center space-y-2">
+              <div className="p-5 sm:p-8 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-center space-y-2">
                 <p className="text-sm font-semibold text-slate-700 dark:text-slate-300">
                   {isAr ? 'لا توجد رحلة مطابقة لهذا البحث.' : 'Aucun trajet ne correspond à votre filtre.'}
                 </p>
@@ -575,9 +575,9 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
       </div>
 
       {/* 2. Choose Station + Nearest Station GPS + Interactive Rail Map + Departures/Arrivals */}
-      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-6 space-y-5">
+      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 space-y-5">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
-          <div className="space-y-1">
+          <div className="space-y-1 min-w-0">
             <div className="flex items-center gap-2">
               <Navigation className="w-5 h-5 text-emerald-600" />
               <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100">
@@ -653,14 +653,14 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
             </div>
           </div>
 
-          <div className="md:col-span-2 p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3">
+          <div className="md:col-span-2 p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3 min-w-0">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <span className="text-slate-700 dark:text-slate-300 text-xs font-bold">
+              <span className="text-slate-700 dark:text-slate-300 text-xs font-bold min-w-0 break-words">
                 {isAr
                   ? `الخطوط التي تتوقف في ${selectedStation.name.ar}:`
                   : `Lignes desservant ${selectedStation.name.fr} :`}
               </span>
-              <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-1.5">
                 <button
                   type="button"
                   onClick={() => setStationDirectionTab('departures')}
@@ -721,9 +721,9 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
 
         {/* Interactive Algeria Rail Network Map */}
         <div className="rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 p-4 space-y-2.5">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-              <Compass className="w-4 h-4 text-emerald-600" />
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 min-w-0">
+              <Compass className="w-4 h-4 text-emerald-600 shrink-0" />
               <span>{isAr ? 'خريطة السكك الحديدية التفاعلية (انقر على المحطة)' : 'Carte Interactive du Réseau SNTF (cliquez une gare)'}</span>
             </h3>
             <span className="text-[11px] font-semibold text-slate-500">
@@ -731,7 +731,7 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
             </span>
           </div>
 
-          <div className="w-full overflow-x-auto">
+          <div className="w-full overflow-x-auto min-w-0">
             <svg
               viewBox="0 0 700 300"
               className="w-full min-w-[540px] h-auto rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"
@@ -885,11 +885,11 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
       </div>
 
       {/* 4. All 15 Official SNTF Fare & Discount Cards */}
-      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-6 space-y-4">
+      <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-3">
-          <div className="flex items-center gap-2">
-            <TicketPercent className="w-5 h-5 text-emerald-600" />
-            <div>
+          <div className="flex items-start sm:items-center gap-2 min-w-0">
+            <TicketPercent className="w-5 h-5 text-emerald-600 shrink-0" />
+            <div className="min-w-0">
               <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100">
                 {isAr
                   ? `بطاقات السفر وعروض التخفيض الرسمية SNTF (${SNTF_TARIFF_CARDS.length} بطاقة)`
@@ -908,12 +908,12 @@ export default function SntfRailwayGuide({ lang, initialCorridor = 'all' }: Prop
             value={tariffFilter}
             onChange={(e) => setTariffFilter(e.target.value)}
             placeholder={isAr ? 'تصفية: وقار، الشباب، ساهلة...' : 'Filtrer : Waqar, Jeunes, Sahla...'}
-            className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs focus:outline-hidden focus:ring-2 focus:ring-emerald-500 sm:w-64"
+            className="w-full sm:w-64 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs focus:outline-hidden focus:ring-2 focus:ring-emerald-500"
           />
         </div>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[540px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">{isAr ? 'البطاقة أو العرض' : 'Carte / Tarif'}</th>

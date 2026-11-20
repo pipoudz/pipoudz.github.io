@@ -4,9 +4,19 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
   body {
-    overflow-x: hidden;
+    overflow-x: clip;
+  }
+  h1, h2 {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 

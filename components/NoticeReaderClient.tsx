@@ -73,7 +73,7 @@ export default function NoticeReaderClient({
         </div>
       </div>
 
-      <div className="p-5 sm:p-7 space-y-4 overflow-x-auto">
+      <div className="p-3.5 sm:p-7 space-y-4 min-w-0">
         <p className="text-[11px] text-slate-500 dark:text-slate-400">
           {isAr
             ? 'استخدم أزرار التكبير والتصغير أعلاه ثم مرر لقراءة تفاصيل البلاغ الرسمي.'
@@ -82,7 +82,7 @@ export default function NoticeReaderClient({
 
         <div
           style={{ fontSize: `${scale}rem` }}
-          className="p-5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3 transition-all"
+          className="p-3.5 sm:p-5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3 transition-all break-words"
         >
           <div className="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-200 dark:border-slate-800 text-xs text-slate-500">
             <span className="font-bold text-emerald-700 dark:text-emerald-400">{category}</span>

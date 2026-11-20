@@ -71,7 +71,7 @@ function ScientificCalculatorTool({ lang }: { lang: Language }) {
   const keys = ['7', '8', '9', '/', '4', '5', '6', '*', '1', '2', '3', '-', '0', '.', '(', ')', '+', '%', 'C', '='];
 
   return (
-    <div className="max-w-sm mx-auto bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm">
+    <div className="max-w-sm mx-auto bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 space-y-4 shadow-sm">
       <div className="flex items-center gap-2 text-xs font-bold text-slate-500">
         <Calculator className="w-4 h-4 text-emerald-600" />
         <span>{lang === 'ar' ? 'الحاسبة السريعة والعمليات الحسابية' : 'Calculatrice Rapide'}</span>
@@ -113,12 +113,12 @@ function PercentageTool({ lang }: { lang: Language }) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <h3 className="font-bold text-sm flex items-center gap-2">
-          <Percent className="w-4 h-4 text-emerald-600" />
+          <Percent className="w-4 h-4 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'حساب نسبة مئوية من مبلغ (مثل TVA 19%)' : 'Pourcentage d\'un montant (ex : TVA 19%)'}</span>
         </h3>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 min-[380px]:grid-cols-2 gap-3">
           <div>
             <label className="text-xs text-slate-500 block mb-1">{lang === 'ar' ? 'النسبة (%)' : 'Taux (%)'}</label>
             <input type="number" value={percent} onChange={(e) => setPercent(Number(e.target.value))} className="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -135,12 +135,12 @@ function PercentageTool({ lang }: { lang: Language }) {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
         <h3 className="font-bold text-sm flex items-center gap-2">
-          <Percent className="w-4 h-4 text-emerald-600" />
+          <Percent className="w-4 h-4 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'نسبة التغير بين قيمتين' : 'Variation en pourcentage'}</span>
         </h3>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 min-[380px]:grid-cols-2 gap-3">
           <div>
             <label className="text-xs text-slate-500 block mb-1">{lang === 'ar' ? 'القيمة القديمة' : 'Ancienne valeur'}</label>
             <input type="number" value={fromVal} onChange={(e) => setFromVal(Number(e.target.value))} className="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -176,30 +176,30 @@ function AverageTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-5">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
-        <div className="flex items-center justify-between">
-          <h3 className="font-bold text-sm flex items-center gap-2">
-            <GraduationCap className="w-5 h-5 text-emerald-600" />
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h3 className="font-bold text-sm flex items-center gap-2 min-w-0">
+            <GraduationCap className="w-5 h-5 text-emerald-600 shrink-0" />
             <span>{lang === 'ar' ? 'إدخال المواد والمعاملات (سلم /20)' : 'Matières, Coefficients et Notes (/20)'}</span>
           </h3>
           <button
             type="button"
             onClick={() => setModules([...modules, { name: lang === 'ar' ? 'مادة إضافية' : 'Nouvelle matière', coef: 2, note: 12 }])}
-            className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold inline-flex items-center gap-1"
+            className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold inline-flex items-center gap-1 shrink-0"
           >
             <Plus className="w-3.5 h-3.5" />
             <span>{lang === 'ar' ? 'إضافة مادة' : 'Ajouter'}</span>
           </button>
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-2.5">
           {modules.map((m, idx) => (
-            <div key={idx} className="grid grid-cols-12 gap-2 items-center">
+            <div key={idx} className="grid grid-cols-4 sm:grid-cols-12 gap-2 items-center">
               <input
                 type="text"
                 value={m.name}
                 onChange={(e) => setModules(modules.map((x, i) => (i === idx ? { ...x, name: e.target.value } : x)))}
-                className="col-span-6 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold"
+                className="col-span-4 sm:col-span-6 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold"
               />
               <input
                 type="number"
@@ -207,7 +207,7 @@ function AverageTool({ lang }: { lang: Language }) {
                 value={m.coef}
                 onChange={(e) => setModules(modules.map((x, i) => (i === idx ? { ...x, coef: Number(e.target.value) } : x)))}
                 title="Coefficient"
-                className="col-span-2 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold text-center"
+                className="col-span-1 sm:col-span-2 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold text-center"
               />
               <input
                 type="number"
@@ -217,7 +217,7 @@ function AverageTool({ lang }: { lang: Language }) {
                 value={m.note}
                 onChange={(e) => setModules(modules.map((x, i) => (i === idx ? { ...x, note: Number(e.target.value) } : x)))}
                 title="Note"
-                className="col-span-3 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold text-center"
+                className="col-span-2 sm:col-span-3 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold text-center"
               />
               <button
                 type="button"
@@ -231,10 +231,10 @@ function AverageTool({ lang }: { lang: Language }) {
         </div>
       </div>
 
-      <div className={`p-5 rounded-2xl text-white flex items-center justify-between ${avg >= 10 ? 'bg-emerald-600' : 'bg-amber-600'}`}>
+      <div className={`p-4 sm:p-5 rounded-2xl text-white flex flex-wrap items-center justify-between gap-3 ${avg >= 10 ? 'bg-emerald-600' : 'bg-amber-600'}`}>
         <div>
           <span className="text-xs opacity-90 block">{lang === 'ar' ? `مجموع المعاملات: ${totalCoef} · المجموع: ${totalPts.toFixed(2)}` : `Total Coeff : ${totalCoef} · Points : ${totalPts.toFixed(2)}`}</span>
-          <span className="text-3xl font-black font-mono">{avg.toFixed(2)} / 20</span>
+          <span className="text-2xl sm:text-3xl font-black font-mono tabular-nums">{avg.toFixed(2)} / 20</span>
         </div>
         <span className="text-sm font-bold">
           {avg >= 16
@@ -277,7 +277,7 @@ function UnitConverterTool({ lang }: { lang: Language }) {
           ];
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-5">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-5">
       <div className="flex flex-wrap gap-2">
         {(['area', 'length', 'weight'] as const).map((c) => (
           <button
@@ -344,13 +344,13 @@ function FlashcardsTool({ lang }: { lang: Language }) {
       <button
         type="button"
         onClick={() => setFlipped(!flipped)}
-        className="w-full min-h-48 p-8 rounded-2xl bg-emerald-600 text-white shadow-lg flex flex-col items-center justify-center text-center gap-3 transition-transform active:scale-99"
+        className="w-full min-h-48 p-5 sm:p-8 rounded-2xl bg-emerald-600 text-white shadow-lg flex flex-col items-center justify-center text-center gap-3 transition-transform active:scale-99"
       >
         <span className="text-xs uppercase opacity-80">{flipped ? (lang === 'ar' ? 'الإجابة' : 'Réponse') : (lang === 'ar' ? 'السؤال (اضغط للقلب)' : 'Question (Cliquer)')}</span>
-        <span className="text-2xl font-black">{flipped ? active.a : active.q}</span>
+        <span className="text-xl sm:text-2xl font-black break-words">{flipped ? active.a : active.q}</span>
       </button>
 
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-2">
         <button type="button" onClick={() => { setFlipped(false); setIdx((idx - 1 + cards.length) % cards.length); }} className="px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-bold">
           {lang === 'ar' ? 'السابق' : 'Précédent'}
         </button>
@@ -385,19 +385,19 @@ function ExamResearchPlannerTool({ lang, mode }: { lang: Language; mode: string 
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
-      <div className="flex gap-2">
-        <input type="text" value={newTask} onChange={(e) => setNewTask(e.target.value)} placeholder={lang === 'ar' ? 'أضف مهمة مراجعة أو فصل بحث...' : 'Ajouter une tâche...'} className="flex-1 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm" />
-        <button type="button" onClick={add} className="px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'إضافة' : 'Ajouter'}</button>
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="flex flex-col sm:flex-row gap-2">
+        <input type="text" value={newTask} onChange={(e) => setNewTask(e.target.value)} placeholder={lang === 'ar' ? 'أضف مهمة مراجعة أو فصل بحث...' : 'Ajouter une tâche...'} className="w-full sm:flex-1 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm" />
+        <button type="button" onClick={add} className="w-full sm:w-auto px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold shrink-0">{lang === 'ar' ? 'إضافة' : 'Ajouter'}</button>
       </div>
       <div className="divide-y divide-slate-100 dark:divide-slate-800">
         {tasks.map((t) => (
           <div key={t.id} className="py-2.5 flex items-center justify-between gap-2">
-            <label className="flex items-center gap-2.5 cursor-pointer text-sm">
-              <input type="checkbox" checked={t.done} onChange={() => setTasks(tasks.map((x) => (x.id === t.id ? { ...x, done: !x.done } : x)))} className="w-4 h-4 accent-emerald-600" />
-              <span className={t.done ? 'line-through text-slate-400' : ''}>{t.title}</span>
+            <label className="flex items-center gap-2.5 cursor-pointer text-sm min-w-0">
+              <input type="checkbox" checked={t.done} onChange={() => setTasks(tasks.map((x) => (x.id === t.id ? { ...x, done: !x.done } : x)))} className="w-4 h-4 accent-emerald-600 shrink-0" />
+              <span className={`break-words ${t.done ? 'line-through text-slate-400' : ''}`}>{t.title}</span>
             </label>
-            <button type="button" onClick={() => setTasks(tasks.filter((x) => x.id !== t.id))} className="text-red-500"><Trash2 className="w-4 h-4" /></button>
+            <button type="button" onClick={() => setTasks(tasks.filter((x) => x.id !== t.id))} className="text-red-500 shrink-0"><Trash2 className="w-4 h-4" /></button>
           </div>
         ))}
       </div>
@@ -414,14 +414,14 @@ function ApaGeneratorTool({ lang }: { lang: Language }) {
   const citation = `${author} (${year}). ${title}. ${publisher}.`;
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
         <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Author" className="px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-semibold" />
         <input type="text" value={year} onChange={(e) => setYear(e.target.value)} placeholder="Year" className="px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-semibold" />
         <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Title" className="sm:col-span-2 px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-semibold" />
         <input type="text" value={publisher} onChange={(e) => setPublisher(e.target.value)} placeholder="Publisher / Journal" className="sm:col-span-2 px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-semibold" />
       </div>
-      <div className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900 font-mono text-sm">
+      <div className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900 font-mono text-xs sm:text-sm break-words">
         <span className="block text-[11px] text-emerald-700 dark:text-emerald-400 font-bold mb-1">APA 7th Edition:</span>
         {citation}
       </div>
@@ -443,14 +443,14 @@ function CountdownTool({ lang }: { lang: Language }) {
   const diffDays = Math.ceil((new Date(target).getTime() - nowMs) / 86400000);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <input type="text" value={label} onChange={(e) => setLabel(e.target.value)} className="px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm font-bold" />
         <input type="date" value={target} onChange={(e) => setTarget(e.target.value)} className="px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm font-bold" />
       </div>
-      <div className="p-6 rounded-2xl bg-emerald-600 text-white text-center">
+      <div className="p-4 sm:p-6 rounded-2xl bg-emerald-600 text-white text-center">
         <span className="text-xs opacity-90 block">{label}</span>
-        <div className="text-4xl font-black font-mono mt-1">{Math.max(0, diffDays)} {lang === 'ar' ? 'يوم متبقي' : 'jours restants'}</div>
+        <div className="text-3xl sm:text-4xl font-black font-mono tabular-nums mt-1">{Math.max(0, diffDays)} {lang === 'ar' ? 'يوم متبقي' : 'jours restants'}</div>
       </div>
     </div>
   );
@@ -483,17 +483,17 @@ function NotesCalendarTool({ lang }: { lang: Language }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
-      <div className="flex flex-wrap gap-2">
-        <input type="date" value={date} onChange={(e) => setDate(e.target.value)} className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-bold" />
-        <input type="text" value={note} onChange={(e) => setNote(e.target.value)} placeholder={lang === 'ar' ? 'أضف ملاحظة أو تذكير...' : 'Nouvelle note...'} className="flex-1 min-w-48 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm" />
-        <button type="button" onClick={save} className="px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'حفظ' : 'Enregistrer'}</button>
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+      <div className="flex flex-col sm:flex-row gap-2">
+        <input type="date" value={date} onChange={(e) => setDate(e.target.value)} className="w-full sm:w-auto px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-bold" />
+        <input type="text" value={note} onChange={(e) => setNote(e.target.value)} placeholder={lang === 'ar' ? 'أضف ملاحظة أو تذكير...' : 'Nouvelle note...'} className="w-full sm:flex-1 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-sm" />
+        <button type="button" onClick={save} className="w-full sm:w-auto px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold shrink-0">{lang === 'ar' ? 'حفظ' : 'Enregistrer'}</button>
       </div>
       <div className="space-y-2">
         {entries.map((e, i) => (
-          <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs">
-            <span><strong className="font-mono text-emerald-600">{e.date}</strong> · {e.text}</span>
-            <button type="button" onClick={() => setEntries(entries.filter((_, idx) => idx !== i))} className="text-red-500"><Trash2 className="w-3.5 h-3.5" /></button>
+          <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <span className="min-w-0 break-words"><strong className="font-mono text-emerald-600">{e.date}</strong> · {e.text}</span>
+            <button type="button" onClick={() => setEntries(entries.filter((_, idx) => idx !== i))} className="text-red-500 shrink-0"><Trash2 className="w-3.5 h-3.5" /></button>
           </div>
         ))}
       </div>
@@ -511,13 +511,13 @@ function PointsRankingTool({ lang }: { lang: Language }) {
   const sorted = [...rows].sort((a, b) => b.score - a.score);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <h3 className="font-bold text-sm">{lang === 'ar' ? 'الترتيب التلقائي التنازلي حسب النقاط:' : 'Classement automatique par score :'}</h3>
       <div className="space-y-2">
         {sorted.map((r, i) => (
-          <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex items-center justify-between text-sm">
-            <span className="font-bold">#{i + 1} · {r.name}</span>
-            <span className="font-mono font-black text-emerald-600">{r.score}</span>
+          <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2 text-sm">
+            <span className="font-bold min-w-0 break-words">#{i + 1} · {r.name}</span>
+            <span className="font-mono font-black text-emerald-600 shrink-0">{r.score}</span>
           </div>
         ))}
       </div>
@@ -534,7 +534,7 @@ function StudyScheduleTool({ lang }: { lang: Language }) {
   const [slots, setSlots] = useState<string[]>(['الرياضيات', 'الفيزياء', 'العلوم', 'اللغات', 'مراجعة حرة', 'اختبار تجريبي']);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-3">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-3">
       <h3 className="font-bold text-sm">{lang === 'ar' ? 'جدول المراجعة الأسبوعي القابل للتعديل:' : 'Emploi du temps hebdomadaire :'}</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {days.map((d, i) => (
@@ -558,7 +558,7 @@ function Budget503020Tool({ lang }: { lang: Language }) {
   const [income, setIncome] = useState(80000);
   return (
     <div className="space-y-4">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800">
         <label className="block text-xs font-semibold text-slate-500 mb-2">{lang === 'ar' ? 'الدخل الشهري الصافي للأسرة (دج):' : 'Revenu mensuel net (DZD) :'}</label>
         <input type="number" step="1000" value={income} onChange={(e) => setIncome(Number(e.target.value))} className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xl font-mono font-black" />
       </div>
@@ -610,19 +610,19 @@ function BudgetManagerTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-5">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 flex flex-wrap gap-2 items-center">
-        <input type="text" value={label} onChange={(e) => setLabel(e.target.value)} placeholder={lang === 'ar' ? 'البند (مثال: تسوق / راتب)...' : 'Libellé...'} className="flex-1 min-w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold" />
-        <input type="number" value={amount} onChange={(e) => setAmount(Number(e.target.value))} className="w-32 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold" />
-        <select value={kind} onChange={(e) => setKind(e.target.value as 'in' | 'out')} className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-bold">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:flex sm:flex-wrap gap-2 sm:items-center">
+        <input type="text" value={label} onChange={(e) => setLabel(e.target.value)} placeholder={lang === 'ar' ? 'البند (مثال: تسوق / راتب)...' : 'Libellé...'} className="w-full sm:flex-1 sm:min-w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-semibold" />
+        <input type="number" value={amount} onChange={(e) => setAmount(Number(e.target.value))} className="w-full sm:w-32 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono font-bold" />
+        <select value={kind} onChange={(e) => setKind(e.target.value as 'in' | 'out')} className="w-full sm:w-auto px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-bold">
           <option value="out">{lang === 'ar' ? 'مصروف (-)' : 'Dépense (-)'}</option>
           <option value="in">{lang === 'ar' ? 'مدخول (+)' : 'Revenu (+)'}</option>
         </select>
-        <button type="button" onClick={add} className="px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'تسجيل' : 'Ajouter'}</button>
+        <button type="button" onClick={add} className="w-full sm:w-auto px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'تسجيل' : 'Ajouter'}</button>
       </div>
 
-      <div className="p-4 rounded-xl bg-emerald-600 text-white flex justify-between items-center text-sm font-mono">
+      <div className="p-4 rounded-xl bg-emerald-600 text-white flex flex-wrap justify-between items-center gap-2 text-sm font-mono">
         <span>{lang === 'ar' ? 'الرصيد الصافي:' : 'Solde Net :'}</span>
-        <span className="text-xl font-black">{(totalIn - totalOut).toLocaleString()} DZD</span>
+        <span className="text-xl font-black tabular-nums">{(totalIn - totalOut).toLocaleString()} DZD</span>
       </div>
     </div>
   );
@@ -636,7 +636,7 @@ function FarmPlannerTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-4">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs text-slate-500 mb-1">{lang === 'ar' ? 'المساحة الفلاحية (هكتار):' : 'Surface (Hectares) :'}</label>
           <input type="number" min={0.5} step="0.5" value={hectares} onChange={(e) => setHectares(Number(e.target.value))} className="w-full px-3 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
@@ -680,9 +680,9 @@ function AlgeriaMapsTool({ lang }: { lang: Language }) {
   );
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center gap-2 font-bold text-sm">
-        <MapPin className="w-5 h-5 text-emerald-600" />
+        <MapPin className="w-5 h-5 text-emerald-600 shrink-0" />
         <span>{lang === 'ar' ? 'دليل الولايات والرموز البريدية والمسافات عن الجزائر العاصمة' : 'Annuaire Wilayas, Codes & Distances depuis Alger'}</span>
       </div>
       <input
@@ -694,12 +694,12 @@ function AlgeriaMapsTool({ lang }: { lang: Language }) {
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
         {filtered.map((w) => (
-          <div key={w.code} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex items-center justify-between">
-            <div>
+          <div key={w.code} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
+            <div className="min-w-0">
               <span className="font-mono font-black text-emerald-600 me-2">{String(w.code).padStart(2, '0')}</span>
               <span className="font-bold text-slate-900 dark:text-slate-100">{w.name[lang]}</span>
             </div>
-            <span className="font-mono text-slate-500">{w.distFromAlgiers} km</span>
+            <span className="font-mono text-slate-500 shrink-0">{w.distFromAlgiers} km</span>
           </div>
         ))}
       </div>
@@ -721,7 +721,7 @@ function MealPlannerTool({ lang }: { lang: Language }) {
   ]);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center gap-2 font-bold text-sm">
         <Utensils className="w-5 h-5 text-emerald-600" />
         <span>{lang === 'ar' ? 'مخطط الوجبات الأسبوعي للأسرة الجزائرية' : 'Menu Hebdomadaire Familial'}</span>

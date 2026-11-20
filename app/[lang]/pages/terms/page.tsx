@@ -168,7 +168,7 @@ export default async function TermsPage({
       />
 
       {/* Allowed vs Prohibited Uses HTML Table */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
           <Scale className="w-4 h-4 text-emerald-600" />
           <span>
@@ -179,7 +179,7 @@ export default async function TermsPage({
         </h2>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[480px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">
@@ -275,7 +275,7 @@ export default async function TermsPage({
       </section>
 
       <div className="space-y-6 text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
-        <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
+        <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Scale className="w-4 h-4 text-emerald-600" />
             <span>
@@ -291,7 +291,7 @@ export default async function TermsPage({
           </p>
         </section>
 
-        <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
+        <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Calculator className="w-4 h-4 text-emerald-600" />
             <span>
@@ -307,7 +307,7 @@ export default async function TermsPage({
           </p>
         </section>
 
-        <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
+        <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Globe className="w-4 h-4 text-emerald-600" />
             <span>
@@ -323,7 +323,7 @@ export default async function TermsPage({
           </p>
         </section>
 
-        <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
+        <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2.5">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <ShieldAlert className="w-4 h-4 text-emerald-600" />
             <span>

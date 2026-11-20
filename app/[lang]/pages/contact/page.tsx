@@ -170,7 +170,7 @@ export default async function ContactPage({
       />
 
       {/* Safety Notice & Working Hours / Response SLA Table */}
-      <section className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 sm:p-8 space-y-5 text-sm sm:text-base leading-relaxed text-slate-700 dark:text-slate-300">
+      <section className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 sm:p-8 space-y-5 text-sm sm:text-base leading-relaxed text-slate-700 dark:text-slate-300">
         <h2 className="text-xl font-black text-slate-900 dark:text-slate-100">
           {validLang === 'ar'
             ? 'مواعيد التجاوب وقنوات الدعم'
@@ -178,7 +178,7 @@ export default async function ContactPage({
         </h2>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[440px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">{validLang === 'ar' ? 'المعيار' : 'Paramètre'}</th>
@@ -187,9 +187,11 @@ export default async function ContactPage({
             </thead>
             <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
               <tr>
-                <td className="p-3 font-semibold flex items-center gap-1.5">
-                  <Clock className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>{validLang === 'ar' ? 'أيام المتابعة والرد' : 'Jours de traitement'}</span>
+                <td className="p-3 font-semibold">
+                  <div className="flex items-center gap-1.5">
+                    <Clock className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>{validLang === 'ar' ? 'أيام المتابعة والرد' : 'Jours de traitement'}</span>
+                  </div>
                 </td>
                 <td className="p-3">
                   {validLang === 'ar'
@@ -198,9 +200,11 @@ export default async function ContactPage({
                 </td>
               </tr>
               <tr>
-                <td className="p-3 font-semibold flex items-center gap-1.5">
-                  <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>{validLang === 'ar' ? 'الموقع المرجعي' : 'Localisation de référence'}</span>
+                <td className="p-3 font-semibold">
+                  <div className="flex items-center gap-1.5">
+                    <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>{validLang === 'ar' ? 'الموقع المرجعي' : 'Localisation de référence'}</span>
+                  </div>
                 </td>
                 <td className="p-3">
                   {validLang === 'ar'
@@ -209,9 +213,11 @@ export default async function ContactPage({
                 </td>
               </tr>
               <tr>
-                <td className="p-3 font-semibold flex items-center gap-1.5">
-                  <ShieldAlert className="w-4 h-4 text-amber-500 shrink-0" />
-                  <span>{validLang === 'ar' ? 'تنبيه الأمان والخصوصية' : 'Consigne de sécurité'}</span>
+                <td className="p-3 font-semibold">
+                  <div className="flex items-center gap-1.5">
+                    <ShieldAlert className="w-4 h-4 text-amber-500 shrink-0" />
+                    <span>{validLang === 'ar' ? 'تنبيه الأمان والخصوصية' : 'Consigne de sécurité'}</span>
+                  </div>
                 </td>
                 <td className="p-3">
                   {validLang === 'ar'

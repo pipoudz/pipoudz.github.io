@@ -18,7 +18,7 @@ export default function ToolRichGuideSection({
   return (
     <div className="space-y-6 pt-2">
       {/* Educational Explanation */}
-      <section className="p-5 sm:p-7 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-7 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-2.5">
           <BookOpen className="w-5 h-5 text-emerald-600 shrink-0" />
           <span>
@@ -66,7 +66,7 @@ export default function ToolRichGuideSection({
             <span>{guide.comparisonTable.title[lang]}</span>
           </h3>
           <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-            <table className="w-full text-xs sm:text-sm text-start">
+            <table className="w-full min-w-[460px] sm:min-w-0 text-xs sm:text-sm text-start">
               <thead className="bg-slate-50 dark:bg-slate-800/70 border-b border-slate-200 dark:border-slate-800">
                 <tr>
                   {guide.comparisonTable.headers.map((header, idx) => (

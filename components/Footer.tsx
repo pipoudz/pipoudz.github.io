@@ -31,16 +31,18 @@ export default function Footer({ lang }: FooterProps) {
             <PhoneCall className="w-4 h-4 text-red-400" />
             <span>{dict.emergency.title}:</span>
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs sm:text-sm">
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center justify-center gap-2 sm:gap-4 w-full md:w-auto text-xs sm:text-sm">
             {emergencyNumbers.map((em, idx) => (
               <a
                 key={idx}
                 href={`tel:${em.number}`}
-                className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-900 hover:bg-slate-800 border border-slate-800 transition-colors text-slate-200"
+                className="flex items-center justify-between sm:justify-start gap-1.5 px-2.5 py-1.5 sm:py-1 rounded-md bg-slate-900 hover:bg-slate-800 border border-slate-800 transition-colors text-slate-200 min-w-0"
               >
-                <em.icon className={`w-3.5 h-3.5 ${em.color}`} />
-                <span className="text-slate-400">{em.name}:</span>
-                <span className="font-bold font-mono text-white">{em.number}</span>
+                <span className="flex items-center gap-1.5 min-w-0">
+                  <em.icon className={`w-3.5 h-3.5 shrink-0 ${em.color}`} />
+                  <span className="text-slate-400 truncate">{em.name}:</span>
+                </span>
+                <span className="font-bold font-mono text-white shrink-0">{em.number}</span>
               </a>
             ))}
           </div>
@@ -49,9 +51,9 @@ export default function Footer({ lang }: FooterProps) {
 
       {/* Main Footer Links */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-2">
+          <div className="sm:col-span-2 lg:col-span-2 min-w-0">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-linear-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-emerald-900/50">
                 DZ
@@ -74,7 +76,7 @@ export default function Footer({ lang }: FooterProps) {
           </div>
 
           {/* Quick Sectors */}
-          <div>
+          <div className="min-w-0">
             <h4 className="font-semibold text-white text-sm mb-3 uppercase tracking-wider text-emerald-400">
               {dict.nav.sectors}
             </h4>
@@ -113,7 +115,7 @@ export default function Footer({ lang }: FooterProps) {
           </div>
 
           {/* Key Tools */}
-          <div>
+          <div className="min-w-0">
             <h4 className="font-semibold text-white text-sm mb-3 uppercase tracking-wider text-emerald-400">
               {dict.nav.tools}
             </h4>
@@ -152,7 +154,7 @@ export default function Footer({ lang }: FooterProps) {
           </div>
 
           {/* Navigation & Legal */}
-          <div>
+          <div className="min-w-0">
             <h4 className="font-semibold text-white text-sm mb-3 uppercase tracking-wider text-emerald-400">
               {lang === 'ar' ? 'معلومات وبنود' : 'Informations'}
             </h4>

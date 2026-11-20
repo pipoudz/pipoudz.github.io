@@ -29,7 +29,7 @@ export default function QuickSummaryBox({
   return (
     <section
       aria-label={dict.quickSummary.title}
-      className="my-6 p-5 sm:p-6 rounded-2xl bg-linear-to-br from-emerald-500/10 via-emerald-500/5 to-transparent border-2 border-emerald-500/30 dark:border-emerald-500/20 shadow-md relative overflow-hidden"
+      className="my-6 p-4 sm:p-6 rounded-2xl bg-linear-to-br from-emerald-500/10 via-emerald-500/5 to-transparent border-2 border-emerald-500/30 dark:border-emerald-500/20 shadow-md relative overflow-hidden"
     >
       {/* Structural GEO Header */}
       <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-2.5 border-b border-emerald-500/20">
@@ -46,56 +46,56 @@ export default function QuickSummaryBox({
       {/* Grid of Key Facts for AI Engines and Quick Reading */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
         {/* Target Audience */}
-        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs min-w-0">
           <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-xs font-medium mb-1">
-            <Users className="w-3.5 h-3.5 text-emerald-600" />
+            <Users className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <span>{dict.quickSummary.targetAudience}</span>
           </div>
-          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug">
+          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug break-words">
             {targetAudience}
           </p>
         </div>
 
         {/* Processing Time */}
-        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs min-w-0">
           <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-xs font-medium mb-1">
-            <Clock className="w-3.5 h-3.5 text-emerald-600" />
+            <Clock className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <span>{dict.quickSummary.processingTime}</span>
           </div>
-          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug">
+          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug break-words">
             {processingTime}
           </p>
         </div>
 
         {/* Fees */}
-        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs min-w-0">
           <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-xs font-medium mb-1">
-            <Coins className="w-3.5 h-3.5 text-emerald-600" />
+            <Coins className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <span>{dict.quickSummary.fees}</span>
           </div>
-          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug">
+          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug break-words">
             {fees}
           </p>
         </div>
 
         {/* Channel */}
-        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs min-w-0">
           <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-xs font-medium mb-1">
-            <Monitor className="w-3.5 h-3.5 text-emerald-600" />
+            <Monitor className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <span>{dict.quickSummary.channel}</span>
           </div>
-          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug">
+          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug break-words">
             {channel}
           </p>
         </div>
 
         {/* Key Requirement */}
-        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs sm:col-span-2">
+        <div className="p-3 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-2xs sm:col-span-2 min-w-0">
           <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-xs font-medium mb-1">
-            <FileCheck className="w-3.5 h-3.5 text-emerald-600" />
+            <FileCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <span>{dict.quickSummary.keyRequirement}</span>
           </div>
-          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug">
+          <p className="font-semibold text-slate-900 dark:text-slate-100 leading-snug break-words">
             {keyRequirement}
           </p>
         </div>
@@ -111,7 +111,7 @@ export default function QuickSummaryBox({
             href={officialUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm shadow-sm transition-all hover:gap-2.5"
+            className="w-full sm:w-auto justify-center inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm shadow-sm transition-all hover:gap-2.5"
           >
             <span>{dict.quickSummary.officialPortal}</span>
             <ExternalLink className="w-4 h-4" />

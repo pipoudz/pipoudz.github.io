@@ -282,9 +282,9 @@ export default async function StatisticsPage({
               href={m.href}
               className="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 transition-all space-y-2"
             >
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold text-slate-500">{m.title}</span>
-                <IconComp className="w-4 h-4 text-emerald-600" />
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-semibold text-slate-500 min-w-0">{m.title}</span>
+                <IconComp className="w-4 h-4 text-emerald-600 shrink-0" />
               </div>
               <div className="text-3xl font-black font-mono text-slate-900 dark:text-slate-100 group-hover:text-emerald-600 transition-colors">
                 {m.value}
@@ -304,11 +304,11 @@ export default async function StatisticsPage({
           return (
             <div
               key={i}
-              className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2"
+              className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2"
             >
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold text-slate-500">{st.title}</span>
-                <IconComp className="w-5 h-5 text-emerald-600" />
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-semibold text-slate-500 min-w-0">{st.title}</span>
+                <IconComp className="w-5 h-5 text-emerald-600 shrink-0" />
               </div>
               <div className="text-3xl font-black font-mono text-slate-900 dark:text-slate-100">
                 {st.value}
@@ -322,7 +322,7 @@ export default async function StatisticsPage({
       </div>
 
       {/* Distribution of Services by Sector HTML Table */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
         <div className="space-y-1">
           <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Layers className="w-5 h-5 text-emerald-600" />
@@ -340,7 +340,7 @@ export default async function StatisticsPage({
         </div>
 
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[540px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">

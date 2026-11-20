@@ -24,18 +24,18 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
   return (
     <div className="space-y-6">
       {/* Inputs Form */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
-          <Zap className="w-5 h-5 text-amber-500" />
+          <Zap className="w-5 h-5 text-amber-500 shrink-0" />
           <span>{lang === 'ar' ? 'بيانات مؤشرات العداد والاستهلاك الفصلي' : 'Consommation Trimestrielle Électricité & Gaz'}</span>
         </h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           {/* Electricity Input */}
           <div className="p-4 rounded-xl bg-amber-50/40 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/30">
-            <div className="flex items-center justify-between mb-2">
-              <label className="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-                <Zap className="w-4 h-4 text-amber-500" />
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 min-w-0">
+                <Zap className="w-4 h-4 text-amber-500 shrink-0" />
                 <span>{lang === 'ar' ? 'استهلاك الكهرباء (كيلوواط ساعي - kWh):' : 'Consommation Électricité (kWh) :'}</span>
               </label>
               <span className="text-xs font-mono font-semibold text-amber-700 dark:text-amber-400">
@@ -69,9 +69,9 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
 
           {/* Gas Input */}
           <div className="p-4 rounded-xl bg-blue-50/40 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900/30">
-            <div className="flex items-center justify-between mb-2">
-              <label className="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-                <Flame className="w-4 h-4 text-blue-500" />
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 min-w-0">
+                <Flame className="w-4 h-4 text-blue-500 shrink-0" />
                 <span>{lang === 'ar' ? 'استهلاك الغاز (حريرة - Thermies):' : 'Consommation Gaz (Thermies) :'}</span>
               </label>
               <span className="text-xs font-mono font-semibold text-blue-700 dark:text-blue-400">
@@ -106,12 +106,12 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
       </div>
 
       {/* Total Amount Due Banner */}
-      <div className="p-6 rounded-2xl bg-linear-to-r from-amber-600 via-amber-700 to-amber-900 text-white shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div>
+      <div className="p-4 sm:p-6 rounded-2xl bg-linear-to-r from-amber-600 via-amber-700 to-amber-900 text-white shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="min-w-0">
           <span className="text-xs font-bold uppercase tracking-wider block opacity-90 mb-1">
             {lang === 'ar' ? 'المبلغ الإجمالي المستحق للدفع (SONELGAZ)' : 'Montant Total TTC de la Facture Sonelgaz'}
           </span>
-          <div className="text-3xl sm:text-4xl font-black font-mono">
+          <div className="text-2xl sm:text-4xl font-black font-mono tabular-nums">
             {bill.grandTotal.toLocaleString('fr-DZ', { minimumFractionDigits: 2 })} <span className="text-sm font-normal">DZD</span>
           </div>
           <span className="text-xs opacity-85 mt-1 block">
@@ -120,7 +120,7 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
         </div>
         <button
           onClick={handlePrint}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-slate-900 hover:bg-slate-100 font-bold text-xs sm:text-sm shadow-md transition-colors"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-slate-900 hover:bg-slate-100 font-bold text-xs sm:text-sm shadow-md transition-colors shrink-0"
         >
           <Printer className="w-4 h-4 text-amber-600" />
           <span>{dict.common.print}</span>
@@ -128,14 +128,14 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
       </div>
 
       {/* Tranches Detail Table */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
         <h3 className="font-bold text-slate-900 dark:text-slate-100 text-base mb-4 flex items-center gap-2">
-          <FileText className="w-5 h-5 text-emerald-600" />
+          <FileText className="w-5 h-5 text-emerald-600 shrink-0" />
           <span>{lang === 'ar' ? 'تفصيل الأشطر والتعريفة الرسمية المطبقة' : 'Décomposition Officielle par Tranche'}</span>
         </h3>
 
         <div className="overflow-x-auto">
-          <table className="w-full text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">
+          <table className="w-full min-w-[540px] sm:min-w-0 text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">
             <thead>
               <tr className="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300">
                 <th className="p-3 border border-slate-200 dark:border-slate-700 text-start">{lang === 'ar' ? 'الطاقة / الشطر' : 'Énergie / Tranche'}</th>
@@ -149,9 +149,11 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
               {/* Electricity Tranches */}
               {bill.elecTranches.map((t) => (
                 <tr key={`elec-${t.tranche}`} className={t.kwh === 0 ? 'opacity-40' : ''}>
-                  <td className="p-2.5 border border-slate-200 dark:border-slate-800 font-sans font-medium flex items-center gap-1.5">
-                    <Zap className="w-3.5 h-3.5 text-amber-500" />
-                    <span>{lang === 'ar' ? `كهرباء - الشطر ${t.tranche}` : `Électricité - Tranche ${t.tranche}`}</span>
+                  <td className="p-2.5 border border-slate-200 dark:border-slate-800 font-sans font-medium">
+                    <div className="flex items-center gap-1.5">
+                      <Zap className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                      <span>{lang === 'ar' ? `كهرباء - الشطر ${t.tranche}` : `Électricité - Tranche ${t.tranche}`}</span>
+                    </div>
                   </td>
                   <td className="p-2.5 border border-slate-200 dark:border-slate-800 text-center">{t.kwh} kWh</td>
                   <td className="p-2.5 border border-slate-200 dark:border-slate-800 text-center">{t.rate.toFixed(4)}</td>
@@ -162,9 +164,11 @@ export default function ElectricityCalculatorTool({ lang }: ElectricityCalculato
               {/* Gas Tranches */}
               {bill.gasTranches.map((t) => (
                 <tr key={`gas-${t.tranche}`} className={t.therms === 0 ? 'opacity-40' : ''}>
-                  <td className="p-2.5 border border-slate-200 dark:border-slate-800 font-sans font-medium flex items-center gap-1.5">
-                    <Flame className="w-3.5 h-3.5 text-blue-500" />
-                    <span>{lang === 'ar' ? `غاز - الشطر ${t.tranche}` : `Gaz - Tranche ${t.tranche}`}</span>
+                  <td className="p-2.5 border border-slate-200 dark:border-slate-800 font-sans font-medium">
+                    <div className="flex items-center gap-1.5">
+                      <Flame className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                      <span>{lang === 'ar' ? `غاز - الشطر ${t.tranche}` : `Gaz - Tranche ${t.tranche}`}</span>
+                    </div>
                   </td>
                   <td className="p-2.5 border border-slate-200 dark:border-slate-800 text-center">{t.therms} Th</td>
                   <td className="p-2.5 border border-slate-200 dark:border-slate-800 text-center">{t.rate.toFixed(4)}</td>

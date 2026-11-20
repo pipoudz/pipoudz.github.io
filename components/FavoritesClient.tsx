@@ -132,7 +132,7 @@ export default function FavoritesClient({
   return (
     <div className="space-y-8">
       {/* Saved Favorites Dashboard */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-5 shadow-xs">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-5 shadow-xs">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <Star className="w-5 h-5 text-amber-500 fill-amber-500" />
@@ -214,7 +214,7 @@ export default function FavoritesClient({
                 key={item.id}
                 className="p-4 rounded-xl bg-slate-50 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 flex flex-col justify-between gap-3"
               >
-                <div className="space-y-1.5">
+                <div className="space-y-1.5 min-w-0">
                   <div className="flex items-center justify-between gap-2 text-[11px] font-bold text-emerald-700 dark:text-emerald-400">
                     <span className="inline-flex items-center gap-1.5">
                       {getTypeIcon(item.type)}
@@ -252,7 +252,7 @@ export default function FavoritesClient({
       </section>
 
       {/* Quick Picker to Add Sectors, Tools & SNTF Lines */}
-      <section className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-5 shadow-xs">
+      <section className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-5 shadow-xs">
         <div className="space-y-1">
           <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-slate-100">
             {isAr ? 'إضافة قطاعات وأدوات وجداول قطارات إلى مفضلاتي' : 'Ajouter des services, outils et trains à vos favoris'}
@@ -290,7 +290,7 @@ export default function FavoritesClient({
             ))}
           </div>
 
-          <div className="relative flex-1 max-w-xs">
+          <div className="relative w-full sm:flex-1 sm:max-w-xs">
             <Search className="w-4 h-4 text-slate-400 absolute top-1/2 -translate-y-1/2 start-3 pointer-events-none" />
             <input
               type="text"

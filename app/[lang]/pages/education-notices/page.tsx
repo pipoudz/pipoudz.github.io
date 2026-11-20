@@ -235,7 +235,7 @@ export default async function NoticesIndexPage({
             : 'Tableau Chronologique des Communiqués Scolaires'}
         </h2>
         <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[540px] sm:min-w-0 text-xs sm:text-sm text-start">
             <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
               <tr>
                 <th className="p-3 text-start font-bold">{validLang === 'ar' ? 'التاريخ' : 'Date'}</th>

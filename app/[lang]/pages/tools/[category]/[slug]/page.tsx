@@ -214,7 +214,7 @@ export default async function ToolDetailPage({
           <span>{validLang === 'ar' ? 'بطاقة خصائص الأداة' : 'Fiche Technique de l’Outil'}</span>
         </h2>
         <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table className="w-full text-xs sm:text-sm text-start">
+          <table className="w-full min-w-[360px] sm:min-w-0 text-xs sm:text-sm text-start">
             <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
               <tr>
                 <th className="p-3 text-start font-bold bg-slate-50 dark:bg-slate-900 w-1/3">

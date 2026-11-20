@@ -87,7 +87,7 @@ function AdminAssistantTool({ lang }: { lang: Language }) {
   const feeText = typeof cur.fee === 'string' ? cur.fee : cur.fee[lang];
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-5">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-5">
       <div className="flex flex-wrap gap-2">
         {(Object.keys(guide) as Array<keyof typeof guide>).map((k) => (
           <button
@@ -103,9 +103,9 @@ function AdminAssistantTool({ lang }: { lang: Language }) {
         ))}
       </div>
 
-      <div className="p-5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3">
+      <div className="p-4 sm:p-5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <h3 className="font-bold text-base text-slate-900 dark:text-slate-100">{cur.title[lang]}</h3>
+          <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 min-w-0 break-words">{cur.title[lang]}</h3>
           <span className="font-mono text-xs font-bold text-emerald-700 dark:text-emerald-400">{feeText}</span>
         </div>
         <ul className="space-y-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
@@ -151,9 +151,9 @@ function ArabicDictionaryTool({ lang }: { lang: Language }) {
   );
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center gap-2 font-bold text-sm">
-        <BookOpen className="w-5 h-5 text-emerald-600" />
+        <BookOpen className="w-5 h-5 text-emerald-600 shrink-0" />
         <span>{lang === 'ar' ? 'المعجم الإداري والقانوني الموحد (عربي - فرنسي)' : 'Glossaire Administratif Algérien (Arabe / Français)'}</span>
       </div>
       <input
@@ -166,7 +166,7 @@ function ArabicDictionaryTool({ lang }: { lang: Language }) {
       <div className="divide-y divide-slate-100 dark:divide-slate-800">
         {filtered.map((t, i) => (
           <div key={i} className="py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div>
+            <div className="min-w-0 break-words">
               <div className="font-bold text-sm text-slate-900 dark:text-slate-100">{t.ar} · <span className="text-emerald-700 dark:text-emerald-400">{t.fr}</span></div>
               <p className="text-xs text-slate-500 mt-0.5">{t.note[lang]}</p>
             </div>
@@ -188,7 +188,7 @@ function CvBuilderTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nom" className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
         <input type="text" value={jobTitle} onChange={(e) => setJobTitle(e.target.value)} placeholder="Titre" className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
         <input type="text" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Téléphone" className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950" />
@@ -197,14 +197,14 @@ function CvBuilderTool({ lang }: { lang: Language }) {
         <input type="text" value={edu} onChange={(e) => setEdu(e.target.value)} className="sm:col-span-2 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950" />
       </div>
 
-      <div className="bg-white text-slate-900 rounded-2xl p-8 border border-slate-300 shadow-sm max-w-2xl mx-auto space-y-4">
-        <div className="border-b-2 border-emerald-600 pb-4 flex justify-between items-start gap-4">
-          <div>
-            <h2 className="text-2xl font-black">{name}</h2>
+      <div className="bg-white text-slate-900 rounded-2xl p-5 sm:p-8 border border-slate-300 shadow-sm max-w-2xl mx-auto space-y-4">
+        <div className="border-b-2 border-emerald-600 pb-4 flex flex-wrap justify-between items-start gap-3">
+          <div className="min-w-0">
+            <h2 className="text-xl sm:text-2xl font-black break-words">{name}</h2>
             <p className="text-emerald-700 font-bold text-sm">{jobTitle}</p>
-            <p className="text-xs text-slate-500 mt-1 font-mono">{phone} · {email}</p>
+            <p className="text-xs text-slate-500 mt-1 font-mono break-all">{phone} · {email}</p>
           </div>
-          <button type="button" onClick={() => window.print()} className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold inline-flex items-center gap-1 print:hidden">
+          <button type="button" onClick={() => window.print()} className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold inline-flex items-center gap-1 print:hidden shrink-0">
             <Printer className="w-3.5 h-3.5" />
             <span>{lang === 'ar' ? 'طباعة PDF' : 'Imprimer'}</span>
           </button>
@@ -234,16 +234,16 @@ function InvoiceGeneratorTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-5">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 space-y-3 print:hidden">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 space-y-3 print:hidden">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
           <input type="text" value={client} onChange={(e) => setClient(e.target.value)} placeholder="Client" className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-bold" />
           <input type="text" value={nif} onChange={(e) => setNif(e.target.value)} placeholder="NIF" className="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 font-mono font-bold" />
         </div>
         {items.map((it, idx) => (
-          <div key={idx} className="grid grid-cols-12 gap-2 text-xs">
-            <input type="text" value={it.desc} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, desc: e.target.value } : x)))} className="col-span-6 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950" />
-            <input type="number" min={1} value={it.qty} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, qty: Number(e.target.value) } : x)))} className="col-span-2 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-center font-mono" />
-            <input type="number" value={it.price} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, price: Number(e.target.value) } : x)))} className="col-span-3 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-center font-mono" />
+          <div key={idx} className="grid grid-cols-3 sm:grid-cols-12 gap-2 text-xs">
+            <input type="text" value={it.desc} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, desc: e.target.value } : x)))} className="col-span-3 sm:col-span-6 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950" />
+            <input type="number" min={1} value={it.qty} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, qty: Number(e.target.value) } : x)))} className="col-span-1 sm:col-span-2 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-center font-mono" />
+            <input type="number" value={it.price} onChange={(e) => setItems(items.map((x, i) => (i === idx ? { ...x, price: Number(e.target.value) } : x)))} className="col-span-1 sm:col-span-3 px-2 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-center font-mono" />
             <button type="button" onClick={() => setItems(items.filter((_, i) => i !== idx))} className="col-span-1 text-red-500 flex justify-center items-center"><Trash2 className="w-4 h-4" /></button>
           </div>
         ))}
@@ -253,39 +253,41 @@ function InvoiceGeneratorTool({ lang }: { lang: Language }) {
         </button>
       </div>
 
-      <div className="bg-white text-slate-900 rounded-2xl p-6 sm:p-8 border border-slate-300 shadow-sm max-w-2xl mx-auto space-y-4">
-        <div className="flex justify-between items-start border-b pb-4">
-          <div>
-            <h2 className="text-2xl font-black text-emerald-800">FACTURE / فاتورة</h2>
+      <div className="bg-white text-slate-900 rounded-2xl p-4 sm:p-8 border border-slate-300 shadow-sm max-w-2xl mx-auto space-y-4">
+        <div className="flex flex-wrap justify-between items-start gap-3 border-b pb-4">
+          <div className="min-w-0">
+            <h2 className="text-xl sm:text-2xl font-black text-emerald-800">FACTURE / فاتورة</h2>
             <p className="text-xs text-slate-500 font-mono">N° {new Date().getFullYear()}-001</p>
           </div>
-          <button type="button" onClick={() => window.print()} className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold flex items-center gap-1.5 print:hidden">
+          <button type="button" onClick={() => window.print()} className="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-bold flex items-center gap-1.5 print:hidden shrink-0">
             <Printer className="w-3.5 h-3.5" />
             <span>{lang === 'ar' ? 'طباعة' : 'Imprimer'}</span>
           </button>
         </div>
-        <div className="text-xs space-y-1">
+        <div className="text-xs space-y-1 break-words">
           <p><span className="font-bold">Client / العميل:</span> {client}</p>
           <p><span className="font-bold">NIF / الرقم الجبائي:</span> <span className="font-mono">{nif}</span></p>
         </div>
-        <table className="w-full text-xs border border-slate-300">
-          <thead className="bg-slate-100">
-            <tr>
-              <th className="p-2 text-start border">{lang === 'ar' ? 'البيان' : 'Désignation'}</th>
-              <th className="p-2 text-center border">{lang === 'ar' ? 'الكمية' : 'Qté'}</th>
-              <th className="p-2 text-end border">HT (DZD)</th>
-            </tr>
-          </thead>
-          <tbody>
-            {items.map((it, i) => (
-              <tr key={i}>
-                <td className="p-2 border">{it.desc}</td>
-                <td className="p-2 text-center border font-mono">{it.qty}</td>
-                <td className="p-2 text-end border font-mono">{(it.qty * it.price).toLocaleString('fr-DZ')}</td>
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[420px] sm:min-w-0 text-xs border border-slate-300">
+            <thead className="bg-slate-100">
+              <tr>
+                <th className="p-2 text-start border">{lang === 'ar' ? 'البيان' : 'Désignation'}</th>
+                <th className="p-2 text-center border">{lang === 'ar' ? 'الكمية' : 'Qté'}</th>
+                <th className="p-2 text-end border">HT (DZD)</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {items.map((it, i) => (
+                <tr key={i}>
+                  <td className="p-2 border">{it.desc}</td>
+                  <td className="p-2 text-center border font-mono">{it.qty}</td>
+                  <td className="p-2 text-end border font-mono">{(it.qty * it.price).toLocaleString('fr-DZ')}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <div className="text-end text-xs space-y-1 font-mono pt-2">
           <p>Total HT: {totalHt.toLocaleString('fr-DZ')} DZD</p>
           <p>TVA (19%): {tva.toLocaleString('fr-DZ')} DZD</p>
@@ -327,24 +329,24 @@ function InventoryManagerTool({ lang }: { lang: Language }) {
 
   return (
     <div className="space-y-4">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 flex flex-wrap gap-2">
-        <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder={lang === 'ar' ? 'اسم المنتج...' : 'Nom article...'} className="flex-1 min-w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs" />
-        <input type="number" min={0} value={qty} onChange={(e) => setQty(Number(e.target.value))} className="w-20 px-2 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono" />
-        <input type="number" min={0} value={price} onChange={(e) => setPrice(Number(e.target.value))} className="w-28 px-2 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono" />
-        <button type="button" onClick={add} className="px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'إضافة' : 'Ajouter'}</button>
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 grid grid-cols-2 sm:flex sm:flex-wrap gap-2">
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder={lang === 'ar' ? 'اسم المنتج...' : 'Nom article...'} className="col-span-2 sm:flex-1 sm:min-w-40 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs" />
+        <input type="number" min={0} value={qty} onChange={(e) => setQty(Number(e.target.value))} className="w-full sm:w-20 px-2 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono" />
+        <input type="number" min={0} value={price} onChange={(e) => setPrice(Number(e.target.value))} className="w-full sm:w-28 px-2 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs font-mono" />
+        <button type="button" onClick={add} className="col-span-2 sm:w-auto px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">{lang === 'ar' ? 'إضافة' : 'Ajouter'}</button>
       </div>
 
-      <div className="p-4 rounded-xl bg-emerald-600 text-white flex justify-between items-center text-sm font-mono">
-        <span className="flex items-center gap-2"><Package className="w-4 h-4" />{lang === 'ar' ? 'قيمة المخزون الإجمالية:' : 'Valeur Totale du Stock :'}</span>
-        <span className="text-xl font-black">{totalValue.toLocaleString('fr-DZ')} DZD</span>
+      <div className="p-4 rounded-xl bg-emerald-600 text-white flex flex-wrap justify-between items-center gap-2 text-sm font-mono">
+        <span className="flex items-center gap-2"><Package className="w-4 h-4 shrink-0" />{lang === 'ar' ? 'قيمة المخزون الإجمالية:' : 'Valeur Totale du Stock :'}</span>
+        <span className="text-xl font-black tabular-nums">{totalValue.toLocaleString('fr-DZ')} DZD</span>
       </div>
 
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200 dark:border-slate-800 divide-y divide-slate-100 dark:divide-slate-800 text-xs">
         {items.map((it) => (
-          <div key={it.id} className="py-2.5 flex items-center justify-between">
-            <span className="font-bold">{it.name} <span className="text-slate-400 font-mono">× {it.qty}</span></span>
-            <div className="flex items-center gap-3">
-              <span className="font-mono font-bold text-emerald-600">{(it.qty * it.price).toLocaleString('fr-DZ')} DZD</span>
+          <div key={it.id} className="py-2.5 flex flex-wrap items-center justify-between gap-2">
+            <span className="font-bold min-w-0 break-words">{it.name} <span className="text-slate-400 font-mono">× {it.qty}</span></span>
+            <div className="flex items-center gap-3 shrink-0">
+              <span className="font-mono font-bold text-emerald-600 tabular-nums">{(it.qty * it.price).toLocaleString('fr-DZ')} DZD</span>
               <button type="button" onClick={() => setItems(items.filter((x) => x.id !== it.id))} className="text-red-500"><Trash2 className="w-3.5 h-3.5" /></button>
             </div>
           </div>
@@ -388,9 +390,9 @@ function PdfToolsOffline({ lang }: { lang: Language }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center gap-2 font-bold text-sm">
-        <FilePlus2 className="w-5 h-5 text-emerald-600" />
+        <FilePlus2 className="w-5 h-5 text-emerald-600 shrink-0" />
         <span>{lang === 'ar' ? 'دمج ملفات PDF محليا دون رفعها للإنترنت (pdf-lib)' : 'Fusionner plusieurs fichiers PDF localement (100% privé)'}</span>
       </div>
       <input
@@ -403,7 +405,7 @@ function PdfToolsOffline({ lang }: { lang: Language }) {
       {files.length > 0 && (
         <ul className="text-xs text-slate-500 space-y-1">
           {files.map((f, i) => (
-            <li key={i} className="font-mono">{i + 1}. {f.name} ({Math.round(f.size / 1024)} KB)</li>
+            <li key={i} className="font-mono break-all">{i + 1}. {f.name} ({Math.round(f.size / 1024)} KB)</li>
           ))}
         </ul>
       )}
@@ -438,7 +440,7 @@ function QrGeneratorOffline({ lang }: { lang: Language }) {
   }, [text]);
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4 max-w-lg mx-auto text-center">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4 max-w-lg mx-auto text-center">
       <div className="flex items-center justify-center gap-2 font-bold text-sm">
         <QrCode className="w-5 h-5 text-emerald-600" />
         <span>{lang === 'ar' ? 'توليد رمز QR محليا دون إنترنت' : 'Générateur QR Code Hors-Ligne'}</span>
@@ -509,7 +511,7 @@ function ImageCompressorOffline({ lang }: { lang: Language }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center gap-2 font-bold text-sm">
         <ImageIcon className="w-5 h-5 text-emerald-600" />
         <span>{lang === 'ar' ? 'ضغط وتصغير حجم الصور والوثائق محليا' : 'Compresseur d\'Images pour Formulaires (Hors-Ligne)'}</span>
@@ -567,7 +569,7 @@ function TextToolsClean({ lang }: { lang: Language }) {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 space-y-4">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 space-y-4">
       <div className="flex items-center justify-between flex-wrap gap-2">
         <div className="flex items-center gap-2 font-bold text-sm">
           <Type className="w-5 h-5 text-emerald-600" />

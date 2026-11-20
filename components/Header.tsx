@@ -61,21 +61,21 @@ export default function Header({ lang }: HeaderProps) {
         {/* National Top Banner Accent */}
         <div className="h-1 w-full bg-linear-to-r from-emerald-600 via-white to-red-600" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 gap-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 gap-2 sm:gap-4">
             {/* Logo & National Badge */}
             <Link
               href={`/${lang}/`}
-              className="flex items-center gap-3 group shrink-0 focus:outline-hidden"
+              className="flex items-center gap-2.5 sm:gap-3 group min-w-0 focus:outline-hidden"
             >
-              <div className="w-10 h-10 rounded-xl bg-linear-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-emerald-600/20 group-hover:scale-105 transition-transform">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white font-bold text-base sm:text-lg shadow-md shadow-emerald-600/20 group-hover:scale-105 transition-transform shrink-0">
                 DZ
               </div>
-              <div className="flex flex-col">
-                <span className="text-base sm:text-lg font-black tracking-tight text-slate-900 dark:text-slate-100 leading-tight">
+              <div className="flex flex-col min-w-0">
+                <span className="text-sm sm:text-lg font-black tracking-tight text-slate-900 dark:text-slate-100 leading-tight truncate">
                   {lang === 'ar' ? 'بوابة الرقمنة الجزائرية' : 'Portail DZ Services'}
                 </span>
-                <span className="text-[11px] font-medium text-emerald-700 dark:text-emerald-400">
+                <span className="hidden min-[380px]:block text-[11px] font-medium text-emerald-700 dark:text-emerald-400 truncate">
                   {lang === 'ar' ? 'الدليل الوطني الموحد' : 'Services Publics Officiels'}
                 </span>
               </div>
@@ -99,12 +99,12 @@ export default function Header({ lang }: HeaderProps) {
             </div>
 
             {/* Actions: Lang Switcher, Theme Toggle, Mobile Menu Button */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
               {/* Mobile Search Button */}
               <button
                 type="button"
                 onClick={() => setIsSearchOpen(true)}
-                className="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-900"
+                className="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-900 touch-manipulation"
                 aria-label="Search"
               >
                 <Search className="w-5 h-5 text-emerald-600" />
@@ -114,22 +114,22 @@ export default function Header({ lang }: HeaderProps) {
               <button
                 type="button"
                 onClick={handleLanguageSwitch}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 hover:bg-emerald-50 dark:hover:bg-slate-800 hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors text-xs sm:text-sm font-semibold shadow-2xs"
+                className="flex items-center gap-1.5 px-2 sm:px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 hover:bg-emerald-50 dark:hover:bg-slate-800 hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors text-xs sm:text-sm font-semibold shadow-2xs touch-manipulation"
                 title={dict.common.switchToOther}
               >
-                <Globe className="w-4 h-4 text-emerald-600" />
+                <Globe className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>{dict.common.switchLanguage}</span>
               </button>
 
-              {/* Favorites Shortcut Button */}
+              {/* Favorites Shortcut Button (Desktop/Tablet; mobile access is inside the drawer) */}
               <Link
                 href={`/${lang}/pages/favorites/`}
                 prefetch={false}
-                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-800 hover:text-amber-600 dark:hover:text-amber-400 transition-colors text-xs font-semibold shadow-2xs"
+                className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-800 hover:text-amber-600 dark:hover:text-amber-400 transition-colors text-xs font-semibold shadow-2xs"
                 title={lang === 'ar' ? 'مفضلاتي المحفوظة' : 'Mes Favoris'}
               >
                 <Star className="w-4 h-4 text-amber-500" />
-                <span className="hidden sm:inline">{lang === 'ar' ? 'مفضلاتي' : 'Favoris'}</span>
+                <span>{lang === 'ar' ? 'مفضلاتي' : 'Favoris'}</span>
               </Link>
 
               {/* Theme Toggle */}
@@ -139,8 +139,9 @@ export default function Header({ lang }: HeaderProps) {
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-2 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-hidden"
+                className="lg:hidden p-2 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-hidden touch-manipulation"
                 aria-label="Toggle Navigation"
+                aria-expanded={isMobileMenuOpen}
               >
                 {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
@@ -148,7 +149,7 @@ export default function Header({ lang }: HeaderProps) {
           </div>
 
           {/* Desktop Navigation Row */}
-          <nav className="hidden lg:flex items-center gap-1 pb-2 pt-1 overflow-x-auto text-xs font-medium border-t border-slate-100 dark:border-slate-900/60 scrollbar-none">
+          <nav className="hidden lg:flex flex-wrap items-center gap-x-1 gap-y-1 pb-2 pt-1 text-xs font-medium border-t border-slate-100 dark:border-slate-900/60">
             {navLinks.map((link) => {
               const isActive = pathname?.startsWith(link.href);
               const IconComp = link.icon;
@@ -173,8 +174,8 @@ export default function Header({ lang }: HeaderProps) {
 
         {/* Mobile Navigation Drawer */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 pt-3 pb-6 animate-in slide-in-from-top-4 duration-150">
-            <div className="grid grid-cols-2 gap-2">
+          <div className="lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 pt-3 pb-6 max-h-[calc(100dvh-4.25rem)] overflow-y-auto overscroll-contain animate-in slide-in-from-top-4 duration-150">
+            <div className="grid grid-cols-1 min-[360px]:grid-cols-2 gap-2">
               {navLinks.map((link) => {
                 const IconComp = link.icon;
                 const isActive = pathname?.startsWith(link.href);
@@ -184,7 +185,7 @@ export default function Header({ lang }: HeaderProps) {
                     href={link.href}
                     prefetch={false}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center gap-2 p-2.5 rounded-xl text-xs sm:text-sm font-medium transition-colors ${
+                    className={`flex items-center gap-2 p-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-medium transition-colors ${
                       isActive
                         ? 'bg-emerald-600 text-white shadow-xs'
                         : 'bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-slate-800'

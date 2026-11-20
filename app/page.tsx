@@ -33,7 +33,7 @@ export default function RootLandingPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50 dark:bg-slate-950 p-4">
-      <div className="max-w-md w-full bg-white dark:bg-slate-900 rounded-3xl p-8 border border-slate-200 dark:border-slate-800 shadow-xl text-center space-y-6">
+      <div className="max-w-md w-full bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-xl text-center space-y-6">
         <div className="w-16 h-16 rounded-2xl bg-linear-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white font-black text-2xl mx-auto shadow-lg shadow-emerald-700/25">
           DZ
         </div>
@@ -51,7 +51,7 @@ export default function RootLandingPage() {
           اختر لغة التصفح المفضلة للمتابعة • Choisissez votre langue de navigation :
         </p>
 
-        <div className="grid grid-cols-2 gap-3 pt-2">
+        <div className="grid grid-cols-1 min-[340px]:grid-cols-2 gap-3 pt-2">
           <Link
             href="/ar/"
             onClick={() => saveLang('ar')}

@@ -122,11 +122,11 @@ export default async function InsuranceDetailPage({
       {/* Header */}
       <div className="space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 min-w-0">
             <span className="px-3 h-14 rounded-2xl bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-black text-base sm:text-lg flex items-center justify-center shrink-0">
               {ins.acronym}
             </span>
-            <div>
+            <div className="min-w-0">
               <span className="text-xs font-bold text-emerald-700 dark:text-emerald-400">
                 {getTypeLabel(ins.type)}
               </span>
@@ -217,7 +217,7 @@ export default async function InsuranceDetailPage({
                 className="group p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 hover:shadow-md transition-all flex flex-col justify-between gap-2"
               >
                 <div className="flex items-start justify-between gap-2.5">
-                  <div className="flex items-start gap-2.5">
+                  <div className="flex items-start gap-2.5 min-w-0">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                     <span className="text-xs sm:text-sm font-semibold text-slate-800 dark:text-slate-200 group-hover:text-emerald-600 transition-colors">
                       {prd[validLang]}
@@ -252,7 +252,7 @@ export default async function InsuranceDetailPage({
             </span>
           </h2>
           <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-            <table className="w-full text-xs sm:text-sm text-start">
+            <table className="w-full min-w-[440px] sm:min-w-0 text-xs sm:text-sm text-start">
               <thead className="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300">
                 <tr>
                   <th className="p-3 text-start font-bold w-1/3">{dict.common.tableHeaders.requirement}</th>

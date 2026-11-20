@@ -159,7 +159,7 @@ export default async function HomePage({
             <Link
               prefetch={false}
               href={`/${validLang}/sectors/`}
-              className="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base shadow-lg shadow-emerald-700/25 transition-all flex items-center gap-2 hover:scale-[1.02]"
+              className="w-full sm:w-auto justify-center px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base shadow-lg shadow-emerald-700/25 transition-all flex items-center gap-2 hover:scale-[1.02]"
             >
               <span>{dict.hero.ctaExplore}</span>
               <NextArrow className="w-4 h-4" />
@@ -168,7 +168,7 @@ export default async function HomePage({
             <Link
               prefetch={false}
               href={`/${validLang}/pages/tools/`}
-              className="px-6 py-3.5 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 font-bold text-sm sm:text-base shadow-xs transition-all flex items-center gap-2"
+              className="w-full sm:w-auto justify-center px-6 py-3.5 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 font-bold text-sm sm:text-base shadow-xs transition-all flex items-center gap-2"
             >
               <Wrench className="w-4 h-4 text-emerald-600" />
               <span>{dict.hero.ctaTools}</span>
@@ -177,7 +177,7 @@ export default async function HomePage({
             <Link
               prefetch={false}
               href={`/${validLang}/sectors/sntf-schedule/`}
-              className="px-5 py-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 hover:bg-emerald-100 dark:hover:bg-emerald-950 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 font-bold text-sm sm:text-base transition-all flex items-center gap-2"
+              className="w-full sm:w-auto justify-center px-5 py-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 hover:bg-emerald-100 dark:hover:bg-emerald-950 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 font-bold text-sm sm:text-base transition-all flex items-center gap-2"
             >
               <Train className="w-4 h-4 text-emerald-600" />
               <span>{dict.nav.sntf}</span>
@@ -185,7 +185,7 @@ export default async function HomePage({
           </div>
 
           {/* Quick Statistics Banner */}
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto text-start">
+          <div className="mt-12 grid grid-cols-1 min-[360px]:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto text-start">
             {[
               {
                 label: dict.hero.statsServices,
@@ -266,7 +266,7 @@ export default async function HomePage({
 
         {/* Newly Added & Directory Overview Table */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-          <div className="lg:col-span-7 p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
+          <div className="lg:col-span-7 min-w-0 p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div>
                 <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-slate-100">
@@ -326,8 +326,8 @@ export default async function HomePage({
           </div>
 
           {/* Clean HTML Summary Table for GEO */}
-          <div className="lg:col-span-5 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-            <table className="w-full text-xs text-start">
+          <div className="lg:col-span-5 min-w-0 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+            <table className="w-full min-w-[340px] sm:min-w-0 text-xs text-start">
               <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
                 <tr>
                   <th className="p-3 text-start font-bold">{validLang === 'ar' ? 'قسم البوابة' : 'Rubrique'}</th>
@@ -428,11 +428,11 @@ export default async function HomePage({
           <Link
               prefetch={false}
             href={`/${validLang}/sectors/bank/`}
-            className="group p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 shadow-xs transition-all flex items-center justify-between gap-4"
+            className="group p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 shadow-xs transition-all flex items-center justify-between gap-4"
           >
-            <div className="space-y-1.5">
+            <div className="space-y-1.5 min-w-0">
               <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase">
-                <Landmark className="w-4 h-4" />
+                <Landmark className="w-4 h-4 shrink-0" />
                 <span>{banksList.length} {validLang === 'ar' ? 'بنوك ومؤسسات مالية' : 'Banques Agréées'}</span>
               </div>
               <h3 className="text-lg sm:text-xl font-black text-slate-900 dark:text-slate-100 group-hover:text-emerald-600 transition-colors">
@@ -450,9 +450,9 @@ export default async function HomePage({
           <Link
               prefetch={false}
             href={`/${validLang}/sectors/assurance/`}
-            className="group p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 shadow-xs transition-all flex items-center justify-between gap-4"
+            className="group p-4 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 shadow-xs transition-all flex items-center justify-between gap-4"
           >
-            <div className="space-y-1.5">
+            <div className="space-y-1.5 min-w-0">
               <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase">
                 <Shield className="w-4 h-4" />
                 <span>{insuranceList.length} {validLang === 'ar' ? 'شركات تأمين معتمدة' : 'Assureurs Agréés'}</span>
@@ -473,7 +473,7 @@ export default async function HomePage({
 
       {/* Section 2: Featured Administrative Procedures */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="p-6 sm:p-8 rounded-3xl bg-linear-to-br from-slate-900 via-slate-900 to-slate-950 text-white shadow-xl">
+        <div className="p-4 sm:p-8 rounded-3xl bg-linear-to-br from-slate-900 via-slate-900 to-slate-950 text-white shadow-xl">
           <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 mb-8">
             <div>
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider block mb-1">
@@ -505,7 +505,7 @@ export default async function HomePage({
                 className="group p-5 rounded-2xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 hover:border-emerald-500/50 transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400 mb-2">
                     <span className="font-semibold text-emerald-400">{proc.responsibleEntity[validLang]}</span>
                     <span>{proc.estimatedDuration[validLang]}</span>
                   </div>
@@ -583,7 +583,7 @@ export default async function HomePage({
 
       {/* Section 4: SNTF Train Schedule Highlight */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="p-6 sm:p-8 rounded-3xl bg-linear-to-r from-emerald-800 to-teal-900 text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div className="p-4 sm:p-8 rounded-3xl bg-linear-to-r from-emerald-800 to-teal-900 text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center lg:text-start max-w-xl">
             <div className="inline-flex items-center gap-2 text-xs font-bold text-emerald-200 uppercase tracking-wider">
               <Train className="w-4 h-4" />
@@ -709,7 +709,7 @@ export default async function HomePage({
               className="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 hover:shadow-lg transition-all flex flex-col justify-between gap-3"
             >
               <div className="space-y-2">
-                <div className="flex items-center justify-between text-[11px] font-bold">
+                <div className="flex flex-wrap items-center justify-between gap-2 text-[11px] font-bold">
                   <span className="text-emerald-700 dark:text-emerald-400">{article.category[validLang]}</span>
                   <span className="text-slate-400">
                     {article.readTimeMinutes} {validLang === 'ar' ? 'دقائق' : 'min'}
@@ -735,9 +735,9 @@ export default async function HomePage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Video Tutorials Box */}
-          <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div className="min-w-0 bg-white dark:bg-slate-900 rounded-3xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
             <div>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
                 <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm">
                   <Video className="w-4 h-4" />
                   <span>{dict.sections.videoGuides}</span>
@@ -771,9 +771,9 @@ export default async function HomePage({
           </div>
 
           {/* Education Notices Box */}
-          <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div className="min-w-0 bg-white dark:bg-slate-900 rounded-3xl p-4 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
             <div>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
                 <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm">
                   <Bell className="w-4 h-4" />
                   <span>{dict.sections.educationAlerts}</span>
@@ -791,7 +791,7 @@ export default async function HomePage({
                     href={`/${validLang}/pages/education-notices/${n.slug}/`}
                     className="group block p-3 rounded-xl border border-slate-100 dark:border-slate-800 hover:border-emerald-500/40 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all"
                   >
-                    <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
+                    <div className="flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-400 mb-1">
                       <span className="font-semibold text-emerald-600">{n.category[validLang]}</span>
                       <span>{n.date}</span>
                     </div>
