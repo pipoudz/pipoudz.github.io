@@ -23,6 +23,17 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: 'البوابة الجزائرية للخدمات الرقمية | Portail des Services Numériques Algériens',
   description: 'دليل شامل وموحد للخدمات الرقمية، القطاعات الحكومية، البنوك، التأمينات، الإجراءات الإدارية، ومواعيد قطارات الجزائر SNTF.',
+  applicationName: 'البوابة الجزائرية للخدمات الرقمية',
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/assets/images/icon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   metadataBase: new URL(
     (process.env.APP_URL && !process.env.APP_URL.includes('ais-dev-'))
       ? process.env.APP_URL
@@ -50,13 +61,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'البوابة الجزائرية للخدمات الرقمية | Portail Numérique Algérien',
     description: 'دليل شامل وموحد للخدمات الرقمية، القطاعات الحكومية، البنوك، التأمينات، والإجراءات الإدارية في الجزائر.',
+    url: 'https://pipoudz.github.io/',
+    siteName: 'البوابة الجزائرية للخدمات الرقمية',
+    locale: 'ar_DZ',
     type: 'website',
     images: [
       {
         url: '/assets/images/dz-portal-og.jpg',
         width: 1200,
         height: 630,
-        alt: 'Portail Algérien des Services Numériques',
+        alt: 'البوابة الجزائرية للخدمات الرقمية',
       },
     ],
   },

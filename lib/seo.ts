@@ -97,9 +97,15 @@ export function generateWebsiteSchema(lang: Language) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
     name: lang === 'ar' ? 'البوابة الجزائرية للخدمات الرقمية' : 'Portail Algérien des Services Numériques',
-    url: `${SITE_URL}/${lang}/`,
-    inLanguage: lang,
+    alternateName: [
+      'بوابة الرقمنة الجزائرية',
+      'Portail DZ Services',
+      'Portail des Services Numériques Algériens',
+    ],
+    url: `${SITE_URL}/`,
+    inLanguage: ['ar', 'fr'],
     potentialAction: {
       '@type': 'SearchAction',
       target: `${SITE_URL}/${lang}/?q={search_term_string}`,
